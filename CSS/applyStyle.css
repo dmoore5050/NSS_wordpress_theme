@@ -1,0 +1,78 @@
+.spaceThis {
+	margin-bottom:5px;
+}
+
+#firstHalf
+{
+width: 480px;
+float: left;
+}
+
+.border {
+border-bottom: 8px solid #DEDEDE;
+}
+
+.attnHeader {
+background: #F2F2F2;
+border-bottom: 1px solid #D0D0D0;
+border-top: 1px solid #D0D0D0;
+margin-bottom:40px;
+text-align:center;
+}
+
+.firstColor {
+	color: #7898A4;	
+}
+.attnPara {
+	font-style:italic;
+	color: #1A334C;
+}
+
+.centerText {
+	text-align:center;
+}
+
+.applyBtn {
+	margin-bottom:15px;
+	padding: 15px;
+	width: 180px;
+}
+
+.applyBtn a {
+	color:white;
+	text-decoration:none;
+}
+
+.applyBorder {
+	border-bottom:2px solid #52b3c5;
+	margin-bottom:20px;
+}
+
+.shrink
+{
+font-size: 18px;
+}
+
+.listStyle {
+line-height: 2;
+}
+
+#interested
+{
+  margin-bottom: 50px;
+}
+
+.third
+{
+width: 300px;
+padding: 10px;
+float: left;
+margin-bottom:40px;
+}
+
+.twoThird
+{
+width: 620px;
+padding: 10px;
+float: left;
+}

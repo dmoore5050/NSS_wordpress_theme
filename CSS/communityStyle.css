@@ -1,0 +1,138 @@
+
+.clearfix:after {
+content: "."; 
+visibility: hidden; 
+display: block; 
+height: 0; 
+clear: both;	
+}
+
+#backgroundWrapper {
+margin-top: -35px;	
+padding-bottom:100px;
+}
+
+#communityWrapper {
+width:960px;
+margin:0 auto;
+}
+
+.communityBorder {
+border-bottom:4px solid #d0d0d0;
+}
+
+.headlineFix {
+margin-bottom:-20px;	
+}
+
+.sectionWrap {
+margin-top:90px;
+}
+
+#partners {
+	width:960px;
+	margin:0 auto;
+}
+
+#staff {
+	margin-top:45px;
+}
+.header {
+	width:232px;
+	float:left;
+}
+
+.infoSpace {
+	margin-bottom:50px;
+}
+
+.infoMargin {
+	margin-top: -20px;
+}
+
+.imgPop {
+	float:left;
+	margin-right:10px;
+	height:200px;
+}
+
+.modalBio {
+	margin-left: -30px;
+}
+
+.peopleTitle {
+	margin-top:5px;
+}
+
+.peopleInfo {
+	text-decoration:none;
+}
+
+.hrWidth {
+	width:690px;
+	float:right;
+	margin-top:50px;
+}
+
+.instructStaffList, .mentorList {
+	margin-left:-40px;
+}
+
+.instructStaff, .mentor, .peopleInfo {
+	list-style: none;
+	display: inline;
+}
+
+.spacing {
+	margin-bottom:20px;
+}
+
+.pictInfo {
+	margin-top:-15px;
+}
+
+.pictInfo h3 {
+	margin-left:30px;
+}
+
+.pictBox {
+	width:200px;
+	height:240px;
+	float:left;
+	margin-left:32px;
+	margin-top:12px;
+	margin-bottom: 140px;
+}
+
+.linkSpacing {
+	margin-top:10px;
+}
+
+
+.borderBox {
+	padding:10px;
+	background:white;
+}
+.pictBox2 {
+	width:198px;
+	float:left;
+	margin-left:40px;
+	padding-bottom: 30px;
+}
+
+.pictures2 {
+	width:990px;
+	float:left;
+	margin-top: 34px;
+	margin-left: -15px;
+}
+.format_text {
+	float:left;
+	font-size:15px;
+	margin-top: 10px;
+}
+.format_text_lower {
+	float:left;
+	font-size:15px;
+	margin-top: 5px;
+}

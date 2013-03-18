@@ -1,0 +1,88 @@
+.blogPosts
+{
+width: 610px;
+margin: 15px;
+float: left;
+border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#blogTitle {
+text-decoration:none;
+color: #666;
+}
+
+#blogTitle a:hover {
+color:;
+}
+
+.asideBorder {
+	border-bottom:2px solid #d0d0d0;
+	height:25px;
+	margin-bottom:20px;
+}
+
+aside
+{
+float: right;
+width: 200px;
+padding: 15px;
+margin-bottom: 100px;
+border: thin solid #d0d0d0;
+margin: 15px;
+}
+
+.blogs {
+	margin-bottom:8px;
+}
+
+.classes {
+	padding-bottom: 10px;
+}
+
+#loop
+{
+	width: 70%;
+	margin-bottom: 85px;
+	padding-bottom: 58px;
+}
+
+.blogBorder {
+	border-bottom:2px solid #d0d0d0;
+}
+
+.fontImpact {
+	font-size:40px;
+}
+
+.meta  p 
+{
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 10px;
+font-weight: 100;
+}
+
+li 
+{
+	list-style-type:none;
+	float: none;
+}
+
+.cat-item
+{
+	font-size: 11px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.shadow 
+{
+	-moz-box-shadow: 0px 5px 5px rgba(68,68,68,0.1);
+	-webkit-box-shadow: 0px 5px 5px rgba(68,68,68,0.1);
+}
+
+.contentWrap
+{
+	margin-top: 45px;
+	margin-bottom: 45px;
+}

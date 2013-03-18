@@ -1,0 +1,52 @@
+NSS Wordpress Theme Install Notes:
+
+This theme was not packaged for zip file delivery. There will be some work to do.
+
+1. Add files to your server.
+
+2. Select and install theme through the appearance admin panel
+
+3. Setup of Pages for your navigation bar
+	Home (no parent, default template)
+	About (no parent, about template)
+	Program (no parent, program page template)
+	Community (no parent, community page template)
+	Contact (no parent, contact page template)
+	Blog (no parent, blog page template)
+	Apply (no parent, apply now template)
+	404 (no parent, 404 template)
+	
+4. Create people posts for theme. Images for people can be found at images/people 
+	This information was NOT hardcoded. These are custom post types that will have to be
+	populated 
+	- Categories: You will need to add these categories to make sure that people images are sorted properly
+	Instructors/Staff (slug = instructor-staff)
+ 	About (slug = about)
+ 	Classes  (slug = classes)
+ 	Course Content (slug = course-content)
+ 	Mentors (slug = mentors)
+ 	News (slug = news)
+ 	Student (slug = student)
+	**make sure the slug matches the text above
+	
+5. Add two posts for the Classes category on the home page. Right now this is the only visible location
+	for these posts unless you want to use the single blog post template for a more detailed view. The two buttons 
+	are currently linked two the Apply Now page.
+	
+6. Settings
+	Permalinks - select the post name option to make sure that urls are clean
+	Plugins - Install all plugins in the folder (make sure you do this in the wp-content/plugins folder) 
+	
+7. Static page information will need to be updated in the html markup. Those pages are About, Program, Apply and Contact.
+	Additional static info incldues: The home page slider and what we do, heading categories for community page above the images.
+
+8. You can specify which person to show in the who we are section in the markup. Ex. I want the 4th persons picture to show then 
+	I modify: &offset=1 to &offset=3 for the 4th post.
+
+NOTE: If something breaks, we can fix it!  
+
+Outstanding Items :
+	Copy for static areas
+	Image work for carousel and slider
+	plugin cleanup
+	
