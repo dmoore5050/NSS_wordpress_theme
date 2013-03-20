@@ -36,9 +36,9 @@ Template Name: Community Page
 
 				<div class="clearfix">
 
-					<ul class='instructStaffList'>
+					<ul class='communityList'>
 
-						<?php $wp_query = new WP_Query("post_type=person&post_status=publish&posts_per_page=-1&cat=-9");?>
+					<?php $wp_query = new WP_Query("post_type=person&tag=mentor,Instructor/Staff&post_status=publish&posts_per_page=-1&cat=-9");?>
 
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
@@ -110,11 +110,11 @@ Template Name: Community Page
 
 				</div>
 
-			<section id="partners">
-
-				<div>
+			<div class="infoSpace">
 
 					<div class="communityBorder">
+
+						<a name="SponsorJump"></a>
 
 						<h3 class="homesub">Partner Companies</h3>
 
@@ -124,67 +124,39 @@ Template Name: Community Page
 
 				</div>
 
-				<div class="pictures2 clearfix">
+				<div class="clearfix">
 
-					<div class="pictBox2">
+					<ul class='communityList'>
 
-						<img class="imgBorder"src="<?php echo get_template_directory_uri(); ?>/images/sponsor_csia.png">
+						<?php $wp_query = new WP_Query("post_type=person&tag=Sponsor&post_status=publish&posts_per_page=-1&cat=-9");?>
 
-							<div class="pictInfo2">
+						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-								<hr/>
+							<li class='sponsor'>
 
-							</div>
+								<div class='pictBox'>
 
-					</div>
+									<div class="pictInfo clearfix">
 
-					<div class="pictBox2">
+										<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
 
-						<img class="imgBorder"src="<?php echo get_template_directory_uri(); ?>/images/sponsor_ci.png">
+										<hr/>
 
-							<div class="pictInfo2">
+								</div>
 
-								<hr/>
+							</li>
 
-							</div>
+						<?php endwhile; ?>
 
-					</div>
+						<?php else : ?>
 
-					<div class="pictBox2">
+							<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
 
-						<img class="imgBorder"src="<?php echo get_template_directory_uri(); ?>/images/sponsor_ch.png">
+						<?php endif; ?>
 
-							<div class="pictInfo2">
+						<?php wp_reset_query();?>
 
-								<hr/>
-
-							</div>
-
-					</div>
-
-					<div class="pictBox2">
-
-						<img class="imgBorder"src="<?php echo get_template_directory_uri(); ?>/images/sponsor_ft.png">
-
-							<div class="pictInfo2">
-
-								<hr/>
-
-							</div>
-
-					</div>
-
-					<div class="pictBox2">
-
-						<img class="imgBorder"src="<?php echo get_template_directory_uri(); ?>/images/sponsor_e.png">
-
-							<div class="pictInfo2">
-
-								<hr/>
-
-							</div>
-
-					</div>
+					</ul>
 
 				</div>
 
