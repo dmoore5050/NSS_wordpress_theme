@@ -48,6 +48,7 @@ margin-top:90px;
 
 .infoMargin {
 	margin-top: -20px;
+	display: block;
 }
 
 .imgPop {
@@ -74,11 +75,11 @@ margin-top:90px;
 	margin-top:50px;
 }
 
-.instructStaffList, .mentorList {
+.communityList {
 	margin-left:-40px;
 }
 
-.instructStaff, .mentor, .peopleInfo {
+.instructStaff, .mentor, .student, .peopleInfo {
 	list-style: none;
 	display: inline;
 }
@@ -133,6 +134,7 @@ margin-top:90px;
 }
 .format_text_lower {
 	float:left;
+	clear: left;
 	font-size:15px;
 	margin-top: 5px;
 }
