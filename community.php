@@ -26,7 +26,7 @@ Template Name: Community Page
 
 						<a name="instructorsStaffJump"></a>
 
-						<h3 class="homesub">Mentors, Instructors & Staff</h3>
+						<h3 class="homesub">Mentors, Instructors, & Staff</h3>
 
 					</div>
 
@@ -36,13 +36,101 @@ Template Name: Community Page
 
 				<div class="clearfix">
 
-					<ul class='instructStaffList'>
+					
+					<ul class='communityList'>
 
-						<?php $wp_query = new WP_Query("post_type=person&post_status=publish&posts_per_page=-1&cat=-9");?>
+						<?php $wp_query = new WP_Query("post_type=person&tag=Instructor/Staff, Mentor&post_status=publish&posts_per_page=-1&cat=-9");?>
+
 
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
 							<li class='instructStaff'>
+
+								<div class='pictBox'>
+
+									<div class="pictInfo clearfix">
+
+										<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
+
+										<hr/>
+
+										<div class="imgPop">
+
+											<h3><?php the_title();?></h3>
+
+										<div>
+
+											<div class="infoPlace" style="margin-top:-40px;">
+
+											<a href="#<?php the_ID();?>" data-reveal-id="<?php the_ID();?>" data-animation="fade" data-animationspeed="300">
+
+											 <img src="<?php bloginfo('template_directory'); ?>/images/add.png" width="22px"/></a>
+
+												<div id="<?php the_ID();?>" class = "reveal-modal" style="overflow-y: scroll;" >
+
+													<h3 class="modalBio"><?php the_subtitle(); ?></h3>
+
+													<?php the_content ();?>
+
+												</div>
+
+											</div>
+
+											<ul class="peopleInfo">
+
+												<li class = "infoItem"><p class="tags"> <?php $posttags = get_the_tags(); if ($posttags) { foreach($posttags as $tag) {echo $tag->name . '';	}} ?> </p></li>
+
+												<li class="infoItem infoMargin"><a class="format_text" href="http://<?php $personalLink = get_post_meta( get_the_ID(), 'personalLink', true);echo $personalLink;?>" class = "class"> <?php echo $personalLink;?> </a></li>
+
+												<li class="infoItem infoMargin"><a class="format_text_lower" href="http://<?php $twitterLink= get_post_meta( get_the_ID(), 'twitterLink', true );echo $twitterLink;?>"> <?php $twitterID= get_post_meta( get_the_ID(), 'Twitter', true ); echo $twitterID;?></a></li>
+
+
+
+											</ul>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</li>
+
+						<?php endwhile; ?>
+
+						<?php else : ?>
+
+							<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
+
+						<?php endif; ?>
+
+						<?php wp_reset_query();?>
+
+					</ul>
+
+				</div>
+				<div class="infoSpace">
+
+					<div class="communityBorder">
+
+						<a name="alumniJump"></a>
+
+						<h3 class="homesub">Alumni</h3>
+
+					</div>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa. qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+
+				</div>
+
+				<div class="clearfix">
+					<ul class='communityList'>
+
+						<?php $wp_query = new WP_Query("post_type=person&tag=alumni&post_status=publish&posts_per_page=-1&cat=-9");?>
+
+						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+
+							<li class='student'>
 
 								<div class='pictBox'>
 
@@ -109,6 +197,7 @@ Template Name: Community Page
 					</ul>
 
 				</div>
+
 
 			<section id="partners">
 

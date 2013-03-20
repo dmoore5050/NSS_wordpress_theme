@@ -100,7 +100,7 @@ $(document).ready(function() {
 			<a class="meetLink" href="<?php echo esc_url( get_permalink( get_page_by_title( 'community' ) ) ); ?>">Meet All of Our Team</a>
 			</div>
 			<div class="peopleLoop clearfix">
-				<?php $wp_query = new WP_Query("post_type=person&post_status=publish&category_name=mentors&posts_per_page=1");?>
+				<?php $wp_query = new WP_Query("post_type=person&post_status=publish&category_name=featured&posts_per_page=1");?>
 				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 						<div class="weBox" class="clearfix">
 							<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
