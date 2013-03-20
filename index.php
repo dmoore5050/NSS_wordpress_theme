@@ -72,11 +72,21 @@ $(document).ready(function() {
 <div id="actionCall">
 	<div class="containAction">
 		<div id="actionPlace">
-			<p>Deadline to apply for 2013 Winter Bootcamp is December 1st</p>
-		</div>
-		<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button id="applyBtn" class="button orange">Apply Now</button></a>
+			<p>We will begin accepting applications for Summer 2013 on April 1</p>
+		</div>	
+		<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'program' ) ) ); ?>"><button id="applyBtn" class="button orange">Learn More</button></a> 
 	</div>
 </div>
+
+<!-- <div id="actionCall">
+	<div class="containAction">
+		<div id="actionPlace">
+			<p>The application deadline for Summer 2013 is June 1</p>
+		</div>
+		<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button id="applyBtn" class="button orange">Apply Now</button></a> 
+	</div>
+</div> -->
+
 <div class="containInfo clearfix">
 	<div class="weDoFloat" class="clearfix">
 		<section class="weDo">
@@ -100,7 +110,7 @@ $(document).ready(function() {
 			<a class="meetLink" href="<?php echo esc_url( get_permalink( get_page_by_title( 'community' ) ) ); ?>">Meet All of Our Team</a>
 			</div>
 			<div class="peopleLoop clearfix">
-				<?php $wp_query = new WP_Query("post_type=person&post_status=publish&category_name=featured&posts_per_page=1");?>
+				<?php $wp_query = new WP_Query("post_type=person&post_status=publish&category_name=featured&posts_per_page=3");?>
 				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 						<div class="weBox" class="clearfix">
 							<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
@@ -109,36 +119,6 @@ $(document).ready(function() {
 							<p><?php the_subtitle(); ?></p>
 							<p><?php $posttags = get_the_tags(); if ($posttags) { foreach($posttags as $tag) {echo $tag->name . '';	}} ?></p>
 						</div>
-				<?php endwhile; ?>
-				<?php else : ?>
-					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
-				<?php endif; ?>
-				<?php wp_reset_query();?>
-
-				<?php $wp_query = new WP_Query("post_type=person&post_status=publish&category_name=featured&posts_per_page=1&offset=1");?>
-				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-					<div class="weBox" class="clearfix">
-						<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
-						<hr/>
-						<h4 class="clickBox homesub"><?php the_title(); ?></h4>
-						<p><?php the_subtitle(); ?></p>
-						<p><?php $posttags = get_the_tags(); if ($posttags) { foreach($posttags as $tag) {echo $tag->name . '';	}} ?></p>
-					</div>
-				<?php endwhile; ?>
-				<?php else : ?>
-					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
-				<?php endif; ?>
-				<?php wp_reset_query();?>
-
-				<?php $wp_query = new WP_Query("post_type=person&post_status=publish&category_name=featured&posts_per_page=1&offset=2");?>
-				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-					<div class="weBox" class="clearfix">
-						<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
-						<hr/>
-						<h4 class="clickBox homesub"><?php the_title(); ?></h4>
-						<p><?php the_subtitle(); ?></p>
-						<p><?php $posttags = get_the_tags(); if ($posttags) { foreach($posttags as $tag) {echo $tag->name . '';	}} ?></p>
-					</div>
 				<?php endwhile; ?>
 				<?php else : ?>
 					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>

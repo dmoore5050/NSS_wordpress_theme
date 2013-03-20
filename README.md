@@ -9,7 +9,9 @@
 
 - Get twitter/website info and profile images for mentors, alumni, and sponsors to be added to site. **IN PROGRESS - D & B**
 
-- Send John a finalized list of companies/mentors/alumni that need permissions and/or logos. **DUSTIN -** (mentors & alumni) **BROGAN -** (companies/logos) 
+- **COMPLETE** Send John a finalized list of companies/mentors/alumni that need permissions and/or logos. **DUSTIN -** (mentors & alumni) **BROGAN -** (companies/logos) 
+
+- **COMPLETE** Update front page banner.
 
 - Get permissions from new mentors, alumni, and sponsors to add them to the site. - **JOHN**
 
@@ -23,11 +25,14 @@ Programs page changes:
 
 #Phase 4
 
-- Simplify loops on index page - should need 2 loops, not 6.
+- **COMPLETE** Simplify loops on index page - mentors should need 1 loops, not 3.
 
 #Phase 5
 
 - Add crowdsourced donations plug in. 
  1. specs (plug in to use, donor levels, subscription parameters) need to be fleshed out with John.
 
+- Add donate blurb to Community page
+
 - Add donor list functionality to community page.
+
