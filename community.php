@@ -218,7 +218,7 @@ Template Name: Community Page
 
 							<li class='sponsor'>
 
-								<div class='pictBox'>
+								<div class='sponsorBox'>
 
 									<div class="pictInfo clearfix">
 
