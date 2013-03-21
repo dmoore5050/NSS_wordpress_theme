@@ -38,6 +38,33 @@ add_action( 'init', 'wpt_person_posttype');
 
 add_action( 'init', 'wpt_classes_posttype');
 
+function wpt_announcement_posttype() {
+    register_post_type( 'announcement',
+        array(
+            'labels' => array(
+                'name' => __( 'Announcement' ),
+                'singular_name' => __( 'Announcements' ),
+                'add_new' => __( 'Add New Announcement' ),
+                'add_new_item' => __( 'Add New Announcement' ),
+                'edit_item' => __( 'Edit Announcement' ),
+                'new_item' => __( 'Add New Announcement' ),
+                'view_item' => __( 'View Announcement' ),
+                'search_items' => __( 'Search Announcements' ),
+                'not_found' => __( 'No announcements found' ),
+                'not_found_in_trash' => __( 'No announcements found in trash' )
+            ),
+            'public' => true,
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+            'capability_type' => 'post',
+            'rewrite' => array("slug" => "announcements"), // Permalinks format
+            'menu_position' => 6,
+            'taxonomies' => array( 'post_tag', 'category'),
+            'can_export' => true,
+                    )
+    );
+}
+add_action( 'init', 'wpt_announcement_posttype');
+
 
 function kia_subtitle($title){
 if(function_exists('the_subtitle')) the_subtitle();

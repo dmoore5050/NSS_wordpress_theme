@@ -28,8 +28,18 @@ Template Name: Apply Now Page
 </div>
 	<div class="attnHeader">
 		<div class="contentWrap">
-		<h3 class="attnPara">We are now accepting applications for the January 2013 Web Development Bootcamp! Apply now - we process and accept applications as we receive them.  Don't miss the opportunity to start your career as a software developer.</h3>
-	<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Start Application</button></a>
+			<?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
+			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+				<h3 class="attnPara"><?php the_subtitle(); ?>! </h3>
+			<?php endwhile; ?>
+			<?php else : ?>
+					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>			
+			<?php endif; ?>
+			<?php wp_reset_query();?>
+
+		<h3 class="subAttnPara">Don't miss this opportunity to start your career as a software developer.</h3>
+		
+	<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
 	</div>
 </div>
 <div class="contentWrap">
@@ -81,7 +91,7 @@ Template Name: Apply Now Page
 <div style="clear: both;"></div>
 </div><!--contentWrap-->
 		<div class="contentWrap centerText">
-			<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Start Application</button></a>
+			<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
 		</div>
 <div style="clear: both; padding-bottom: 120px;"></div>
 </div><!--contentWrap-->

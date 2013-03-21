@@ -23,7 +23,14 @@ text-align:center;
 .firstColor {
 	color: #7898A4;	
 }
+
 .attnPara {
+	font-style:italic;
+	color: #1A334C;
+}
+
+.subAttnPara {
+	margin-top: -12px;
 	font-style:italic;
 	color: #1A334C;
 }

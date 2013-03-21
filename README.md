@@ -17,6 +17,8 @@
 
 #Phase 3
 
+**COMPLETE** Allow front page and apply page application announcment banners to be updated from dashboard.
+
 Programs page changes:
 
 - Add landing page for programs, directing user to one of two pages: 
