@@ -36,8 +36,6 @@ function wpt_person_posttype() {
 }
 add_action( 'init', 'wpt_person_posttype');
 
-add_action( 'init', 'wpt_classes_posttype');
-
 function wpt_announcement_posttype() {
     register_post_type( 'announcement',
         array(
@@ -65,8 +63,9 @@ function wpt_announcement_posttype() {
 }
 add_action( 'init', 'wpt_announcement_posttype');
 
-function wpt_partner_posttype() {
-    register_post_type( 'partner',
+
+function wpt_partners_posttype() {
+    register_post_type( 'partners',
         array(
             'labels' => array(
                 'name' => __( 'Partners' ),
@@ -81,7 +80,7 @@ function wpt_partner_posttype() {
                 'not_found_in_trash' => __( 'No partners found in trash' )
             ),
             'public' => true,
-            'supports' => array( 'title', 'editor', 'comments' ),
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
             'capability_type' => 'post',
             'rewrite' => array("slug" => "partners"), // Permalinks format
             'menu_position' => 6,
@@ -90,8 +89,10 @@ function wpt_partner_posttype() {
                     )
     );
 }
-add_action( 'init', 'wpt_partner_posttype');
 
+add_action( 'init', 'wpt_partners_posttype');
+
+add_action( 'init', 'wpt_classes_posttype');
 
 function kia_subtitle($title){
 if(function_exists('the_subtitle')) the_subtitle();
