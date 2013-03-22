@@ -198,7 +198,7 @@ Template Name: Community Page
 
 					<div class="communityBorder">
 
-						<a name="SponsorJump"></a>
+						<a name="partnerJump"></a>
 
 						<h3 class="homesub">Partner Companies</h3>
 
@@ -212,13 +212,13 @@ Template Name: Community Page
 
 					<ul class='communityList'>
 
-						<?php $wp_query = new WP_Query("post_type=person&tag=Sponsor&post_status=publish&posts_per_page=-1&cat=-9");?>
+						<?php $wp_query = new WP_Query("post_type=partner&post_status=publish&posts_per_page=-1&cat=-9");?>
 
 						<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 
-							<li class='sponsor'>
+							<li class='partner'>
 
-								<div class='sponsorBox'>
+								<div class='partnerBox'>
 
 									<div class="pictInfo clearfix">
 

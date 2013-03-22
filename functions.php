@@ -65,6 +65,33 @@ function wpt_announcement_posttype() {
 }
 add_action( 'init', 'wpt_announcement_posttype');
 
+function wpt_partners_posttype() {
+    register_post_type( 'partners',
+        array(
+            'labels' => array(
+                'name' => __( 'Partners' ),
+                'singular_name' => __( 'Partner' ),
+                'add_new' => __( 'Add New Partner' ),
+                'add_new_item' => __( 'Add New Partner' ),
+                'edit_item' => __( 'Edit Partner' ),
+                'new_item' => __( 'Add New Partner' ),
+                'view_item' => __( 'View Partners' ),
+                'search_items' => __( 'Search Partners' ),
+                'not_found' => __( 'No partners found' ),
+                'not_found_in_trash' => __( 'No partners found in trash' )
+            ),
+            'public' => true,
+            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+            'capability_type' => 'post',
+            'rewrite' => array("slug" => "partners"), // Permalinks format
+            'menu_position' => 6,
+            'taxonomies' => array( 'post_tag', 'category'),
+            'can_export' => true,
+                    )
+    );
+}
+add_action( 'init', 'wpt_partners_posttype');
+
 
 function kia_subtitle($title){
 if(function_exists('the_subtitle')) the_subtitle();
