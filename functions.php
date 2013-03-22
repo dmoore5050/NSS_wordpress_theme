@@ -42,8 +42,8 @@ function wpt_announcement_posttype() {
     register_post_type( 'announcement',
         array(
             'labels' => array(
-                'name' => __( 'Announcement' ),
-                'singular_name' => __( 'Announcements' ),
+                'name' => __( 'Announcements' ),
+                'singular_name' => __( 'Announcement' ),
                 'add_new' => __( 'Add New Announcement' ),
                 'add_new_item' => __( 'Add New Announcement' ),
                 'edit_item' => __( 'Edit Announcement' ),
@@ -54,7 +54,7 @@ function wpt_announcement_posttype() {
                 'not_found_in_trash' => __( 'No announcements found in trash' )
             ),
             'public' => true,
-            'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt', 'comments' ),
+            'supports' => array( 'title', 'editor', 'comments' ),
             'capability_type' => 'post',
             'rewrite' => array("slug" => "announcements"), // Permalinks format
             'menu_position' => 6,
@@ -64,6 +64,33 @@ function wpt_announcement_posttype() {
     );
 }
 add_action( 'init', 'wpt_announcement_posttype');
+
+function wpt_partner_posttype() {
+    register_post_type( 'partner',
+        array(
+            'labels' => array(
+                'name' => __( 'Partners' ),
+                'singular_name' => __( 'Partner' ),
+                'add_new' => __( 'Add New Partner' ),
+                'add_new_item' => __( 'Add New Partner' ),
+                'edit_item' => __( 'Edit Partner' ),
+                'new_item' => __( 'Add New Partner' ),
+                'view_item' => __( 'View Partner' ),
+                'search_items' => __( 'Search Partners' ),
+                'not_found' => __( 'No partners found' ),
+                'not_found_in_trash' => __( 'No partners found in trash' )
+            ),
+            'public' => true,
+            'supports' => array( 'title', 'editor', 'comments' ),
+            'capability_type' => 'post',
+            'rewrite' => array("slug" => "partners"), // Permalinks format
+            'menu_position' => 6,
+            'taxonomies' => array( 'post_tag', 'category'),
+            'can_export' => true,
+                    )
+    );
+}
+add_action( 'init', 'wpt_partner_posttype');
 
 
 function kia_subtitle($title){
