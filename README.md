@@ -4,7 +4,11 @@
 
 #COMPLETED
 
+- Added Alumni section to mentors page
+
 - Redesign community page to use "Add person" functionality to easily add new mentors and alumni from dashboard, differentiated by tags. 
+
+- Refactor sponsors section to allow addition of new sponsors via dashboard.
 
 - Send John a finalized list of companies/mentors/alumni that need permissions and/or logos. **DUSTIN -** (mentors & alumni) **BROGAN -** (companies/logos) 
 
