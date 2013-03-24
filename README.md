@@ -14,6 +14,7 @@
 
 - Minor bug and styling fixes.
 
+- Added landing page for programs, directing user to either Bootcamp page a coming soon page for the Evening Classes
 
 #Phase 2
 
@@ -25,13 +26,12 @@
 
 Programs page changes:
 
-- Add landing page for programs, directing user to one of two pages: 
- 1. **COMPLETE** - Bootcamp - use current programs page as Bootcamp-specific page. 
- 2. **WAITING ON CONTENT FROM JOHN** - Evenings - use Bootcamp page as template. 
+ **WAITING ON CONTENT FROM JOHN** - Evenings - use Bootcamp page as template. 
 
 #Phase 4
 
 - Add crowdsourced donations plug in. 
+
  1. specs (plug in to use, donor levels, subscription parameters) need to be fleshed out with John.
 
 - Add donate blurb to Community page
