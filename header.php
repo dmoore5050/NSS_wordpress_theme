@@ -37,6 +37,10 @@
 		margin-left:4px;
 		}
 	}
+	.sub-menu li
+	{
+	background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
+	}
 </style>
 <?php wp_head(); ?>
 </head>

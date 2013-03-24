@@ -70,7 +70,7 @@ $(document).ready(function() {
 			</div>
 		</div>
 		<h1 class="comingSoonBanner">Coming late 2013</h1>
-		<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'evening' ) ) ); ?>"><button class="button orange applyBtn btnPlace2">Learn More</button></a>
+		<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'evenings' ) ) ); ?>"><button class="button orange applyBtn btnPlace2">Learn More</button></a>
 	</section>
 
 </div>
