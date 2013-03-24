@@ -12,6 +12,8 @@
 
 - Simplify loops on index page - mentors should need 1 loops, not 3.
 
+- Minor bug and styling fixes.
+
 
 #Phase 2
 

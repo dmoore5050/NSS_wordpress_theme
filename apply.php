@@ -39,7 +39,7 @@ Template Name: Apply Now Page
 
 		<h3 class="subAttnPara">Don't miss this opportunity to start your career as a software developer.</h3>
 		
-	<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
+		<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
 	</div>
 </div>
 <div class="contentWrap">

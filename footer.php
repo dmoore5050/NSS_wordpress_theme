@@ -17,7 +17,7 @@
 				</nav>
 			</div>
 			<div id="footer_text">
-				<h5>COPYRIGHT &copy; 2012 NASHVILLE SOFTWARE SCHOOL. ALL RIGHTS RESERVED. | HANDCRAFTED BY OUR STUDENTS IN NASHVILLE, TN.</h5>
+				<h5>COPYRIGHT &copy; 2013 NASHVILLE SOFTWARE SCHOOL. ALL RIGHTS RESERVED. | HANDCRAFTED BY OUR STUDENTS IN NASHVILLE, TN.</h5>
 			</div>
 <div style="clear: both;"></div>
 		</div>

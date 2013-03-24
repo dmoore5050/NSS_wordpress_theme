@@ -1,8 +1,12 @@
-<?php register_nav_menus(
-    array(
-        'top_nav'           => 'Top Nav: Nav in Header',
-        'bottom_nav'        => 'Bottom Nav: Nav in Footer' )
-    );
+<?php 
+
+function register_my_menus() {
+  register_nav_menus(
+    array( 'top_nav' => __( 'Header Nav' ), 'bottom_nav' => __( 'Footer Nav') 
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 
 add_theme_support( 'post-thumbnails' );
 

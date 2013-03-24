@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Program Description Page
+Template Name: Bootcamp
 */
 ?>
 <?php get_header(); ?>
@@ -50,7 +50,7 @@ $(document).ready(function() {
 		<p>Intensive as in full-time, hands-on, writing lots of code, working with other students on projects, being immersed in new and challenging material, fast-moving and rigorous.  That kind of intensive.  Also intellectually stimulating, horizon broadening, energizing and fun.  And by the end, you will be prepared for an entry-level software developer position.</p>
 	</section>
 	<section class='half'>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/group.png" alt="first_class" width="460px;" height="230px;"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/group.png" alt="first_class" width="460px;" height="230px;"/>
 	</section>
 <div style='clear: both;'></div>
 </div>

@@ -152,26 +152,51 @@ float: left;
 }
 
 #headNav ul li {
-	float:left;
+float:left;
+}
+
+
+#menu-item-21 {
+	max-width: 80px!important;
+}
+
+#menu-item-21:hover ul li {
+	display: block;
+}
+
+#menu-item-504, #menu-item-506 {
+	margin-top: 5px;
+	display: none;
+	background: white;
+	border-radius: 4px;
+}
+
+#menu-item-504 a, #menu-item-506 a {
+	color: black!important;
+}
+
+#menu-item-504 a:hover, #menu-item-506 a:hover {
+	color: #7898a4!important;
 }
 
 #header_right
 {
-width: 560px;
-float: right;
+	width: 580px;
+	float: right;
 }
 
 #header_logo img
 {
-height: 40px;
-float:left;
+	height: 40px;
+	float:left;
 }
 
 .socialLinks {
+	position: absolute;
 	width:180px;
 	float:left;
-	margin-top:-60px;
-	margin-left: 970px;
+	margin-top: 12px;
+ 	margin-left: 964px;
 }
 .socialLinks img {
 	height: 20px;

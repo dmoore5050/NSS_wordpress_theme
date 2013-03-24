@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Program Description Page
+Template Name: Evening
 */
 ?>
 <?php get_header(); ?>

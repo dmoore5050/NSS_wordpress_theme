@@ -34,7 +34,7 @@
 	        margin-top:-15px;
 	    }
 	   #menu-item-20 {
-		margin-left:5px;
+		margin-left:4px;
 		}
 	}
 </style>
@@ -50,9 +50,8 @@
 				</div>
 				<div id="header_right">
 					<nav id="headNav" class="clearfix">
-						<ul class="clearfix">
-							<?php wp_nav_menu(array('theme_location'  => 'top_nav'));?>
-						</ul>
+							
+							<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location'  => 'top_nav', 'menu_class' => 'nav-menu' ) ); ?>
 					</nav>
 				</div>
 
@@ -67,6 +66,6 @@
 						<a class="icon" href="http://www.nashvillesoftwareschool.com/rss"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/rss.png" alt="rss"/></a>
 					</div>
 				</div>
-
+			</div>
 		</header>
 <div style="clear: both; padding-top: 55px;"></div>
