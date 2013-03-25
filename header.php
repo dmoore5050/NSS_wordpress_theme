@@ -11,13 +11,13 @@
 	<!--jquery-->
 	 <script language="javascript">
 		if (navigator.appName == "Microsoft Internet Explorer") {
-								window.alert("Unfortunately, you are using Internet Explorer, which we do not currently support.");
-								setTimeout(function(){
-									document.write("Thank you for visiting Nashville Software School. This site is best viewed in Safari, Firefox or Google Chrome.")
-								},1000)
-						} else { 
-						}
-		</script>
+			window.alert("Unfortunately, you are using Internet Explorer, which we do not currently support.");
+			setTimeout(function(){
+				document.write("Thank you for visiting Nashville Software School. This site is best viewed in Safari, Firefox or Google Chrome.")
+			},1000)
+		} else { 
+		}
+	</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/JS/jquery.reveal.js"></script>
 	<!--bootstraps -->
@@ -44,32 +44,31 @@
 </style>
 <?php wp_head(); ?>
 </head>
-	<body>
-		<header class="backgroundImg">
-			<div id="header_wrapper">
-				<div id="header_left">
-					<div id="header_logo">
-						<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'home' ) ) ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="NSS" /></a>
-					</div>
-				</div>
-				<div id="header_right">
-					<nav id="headNav" class="clearfix">
-							
-							<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location'  => 'top_nav', 'menu_class' => 'nav-menu' ) ); ?>
-					</nav>
-				</div>
-
-				<div class="socialLinks">
-					<div id="social1">
-						<a class="icon" href="http://www.twitter.com/nashsoftware"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/twitter_bird.png" alt="twitter"/></a>
-					</div>
-					<div id="social2">
-						<a class="icon" href="http://www.facebook.com/NashvilleSoftwareSchool"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="facebook"/></a>
-					</div>
-					<div id="social3">
-						<a class="icon" href="http://www.nashvillesoftwareschool.com/rss"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/rss.png" alt="rss"/></a>
-					</div>
+<body>
+	<header class="backgroundImg">
+		<div id="header_wrapper">
+			<div id="header_left">
+				<div id="header_logo">
+					<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'home' ) ) ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="NSS" /></a>
 				</div>
 			</div>
-		</header>
-<div style="clear: both; padding-top: 55px;"></div>
+			<div id="header_right">
+				<nav id="headNav" class="clearfix">						
+						<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location'  => 'top_nav', 'menu_class' => 'nav-menu' ) ); ?>
+				</nav>
+			</div>
+
+			<div class="socialLinks">
+				<div id="social1">
+					<a class="icon" href="http://www.twitter.com/nashsoftware"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/twitter_bird.png" alt="twitter"/></a>
+				</div>
+				<div id="social2">
+					<a class="icon" href="http://www.facebook.com/NashvilleSoftwareSchool"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="facebook"/></a>
+				</div>
+				<div id="social3">
+					<a class="icon" href="http://www.nashvillesoftwareschool.com/rss"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/rss.png" alt="rss"/></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div style="clear: both; padding-top: 55px;"></div>

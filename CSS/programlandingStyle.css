@@ -1,0 +1,72 @@
+.headImage {
+	width: 430px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.headImageBorder {
+	display: inline-block;
+	padding: 8px;
+	border: 1px solid #D0D0D0;
+	background: #f2f2f2;
+	margin-left: 0!important;
+	margin-bottom: 25px;
+}
+
+.firstHalf {
+	padding-left: 10px;
+	padding-right: 35px;
+	border-right: 2px solid #52b3c5;
+
+}
+
+.lastHalf {
+	padding-left: 45px;
+}
+
+.firstHalf, .lastHalf {
+	margin-top: 30px;
+	width: 430px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.firstHalf p {
+	width: 415px;
+	text-align: justify;
+	margin-left: 4px;
+}
+
+.programLandingTitle {
+	width: 418px;
+	color: #1a334c;
+	font-size: 35px;
+	line-height: .85em;
+	letter-spacing: -2px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	margin-bottom: 17px;
+	text-align: center;
+	border-bottom: 2px solid orange;
+}
+
+.comingSoonBanner {
+	font-family: 'Gochi Hand', cursive;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+.img {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.btnPlace {
+	margin: 10px 0px 30px 164px;
+	padding: 15px;
+}
+
+

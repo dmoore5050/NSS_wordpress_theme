@@ -1,0 +1,39 @@
+
+
+#chalkboard {
+  position: relative;
+  width: 100%;
+  height: 325px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+#bottomBorder {
+  border-color: orange;
+}
+
+.programSpace {
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+#comingSoonBanner {
+	margin-top: 130px;
+	font-size: 5em;
+	font-family: 'Gochi Hand', cursive;
+	color: white;
+}
+
+.comingSoonTitle {
+	color: #1a334c;
+	font-size: 35px;
+	line-height: .85em;
+	letter-spacing: -2px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	margin-bottom: 17px;
+	text-align: center;
+	border-bottom: 2px solid orange;
+}
+

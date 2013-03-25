@@ -4,30 +4,25 @@ Template Name: Bootcamp
 */
 ?>
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/programStyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/programsStyle.css">
 <style>
-.darkBack, .dark
-{
-background-image: url('<?php echo get_template_directory_uri(); ?>/images/first_aid_kit.png');
-border-top: 2px solid rgb(208, 208, 208);
-border-bottom: 1px solid #D0D0D0;
-}
-.dark
-{
-background-image: url('<?php echo get_template_directory_uri(); ?>/images/first_aid_kit.png');
-border-bottom: 1px solid #d0d0d0;
-border-top: 1px solid #D0D0D0;
-}
-.light
-{
-padding: 25px 0px 20px 0px;
-}
-@-moz-document url-prefix() {
-   .titleSize {
-        margin-top:0px;
-    }
-}
+	.darkBack, .dark {
+		background-image: url('<?php echo get_template_directory_uri(); ?>/images/first_aid_kit.png');
+		border-top: 2px solid rgb(208, 208, 208);
+		border-bottom: 1px solid #D0D0D0;
+	}
+	.dark {
+		background-image: url('<?php echo get_template_directory_uri(); ?>/images/first_aid_kit.png');
+		border-bottom: 1px solid #d0d0d0;
+		border-top: 1px solid #D0D0D0;
+	}
+	@-moz-document url-prefix() {
+	  .titleSize {
+      margin-top:0px;
+	  }
+	}
 </style>
+
 <script>
 function equalHeight(group) {
    tallest = 0;
@@ -43,6 +38,7 @@ $(document).ready(function() {
    equalHeight($(".elements"));
 });
 </script>
+
 <div class='contentWrap'>
 	<section class='half'>
 		<h3 class="smallHeadline">WEB DEVELOPER BOOTCAMP:</h3>
@@ -72,8 +68,8 @@ $(document).ready(function() {
 </div>
 <div class='contentWrap clearfix'>
 	<div class='light clearfix'>
-		<h3 id="modules" class="emphasisTitle">Web Developer Bootcamp</h3>
-		<h3 id="modules" class="emphasisTitle">Two hands-on courses, Six months, Full-time</h3>
+		<h3 class="emphasisTitle modules">Web Developer Bootcamp</h3>
+		<h3 class="emphasisTitle modules">Two hands-on courses, Six months, Full-time</h3>
 	</div>
 	<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button class="button orange applyBtn btnPlace">Apply Now</button></a>
 	<div>
@@ -85,14 +81,15 @@ $(document).ready(function() {
 		<p>This course focuses on the core front-end or client-side technologies used to develop modern websites and web applications.  On completion of this module students will be able to implement a full dynamic website, to leverage a content management system to deliver and manage that website and to demonstrate their aptitude for programming.  This course also sets the stage for going more deeply into programming of more complex applications, mobile apps, etc. in future training courses.</p>
 		<p>You'll learn the fundamentals of how to build websites correctly and be well on the path to becoming a qualified front-end developer.</p>
 		<div style="margin-top: 60px;">
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/html5.png" alt="html5"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/css3.png" alt="css"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/js.png" alt="js"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/node.png" alt="node"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/ajax.png" alt="ajax"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/coffee.png" alt="coffee"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/jquery.png" alt="jquery"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/wp.png" alt="wordpress"/></div>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/html5.png" alt="html5"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/css3.png" alt="css"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/js.png" alt="js"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/node.png" alt="node"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/ajax.png" alt="ajax"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/coffee.png" alt="coffee"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/jquery.png" alt="jquery"/>
+			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/wp.png" alt="wordpress"/>
+		</div>
 
 		<h4 class="homesub">What You'll Learn</h4>
 		<p><ul class="listStyle">
@@ -111,12 +108,12 @@ $(document).ready(function() {
 		</div>
 		<h4 class="homesub">Software Development Foundations</h4>
 		<p>This course focuses on core technologies used to develop the back-end, or server-side, of modern web and mobile applications.  You'll learn to concepts such as object-oriented programming, test-driven development, agile methods, pair programming and source code version control.  You will apply one of the most popular, modern web application development frameworks while designing, building and delivering web application. The combination of this course and Web Development Foundations gives the student exposure to "full stack" development of web applications - from controlling the styling of the browser front-end of the application through dynamic front-end logic connected to the business logic and database on the back-end or server side of the application.</p>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/ruby.png" alt="ruby"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/rails.png" alt="rails"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/cucs.png" alt="cucumber"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/git.png" alt="github"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/rspec.png" alt="rspec"/>
-		<img id="img" class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/sinatra.png" alt="sinatra"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/ruby.png" alt="ruby"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/rails.png" alt="rails"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/cucs.png" alt="cucumber"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/git.png" alt="github"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/rspec.png" alt="rspec"/>
+		<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/sinatra.png" alt="sinatra"/>
 		<h4 class="homesub">What You'll Learn</h4>
 		<p><ul class="listStyle">
 			<li>The Ruby language and Rails framework - a great combination for building modern, database-oriented web applications</li>
