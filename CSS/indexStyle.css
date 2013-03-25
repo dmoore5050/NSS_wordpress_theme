@@ -1,9 +1,9 @@
 .clearfix:after {
-content: ".";
-visibility: hidden;
-display: block;
-height: 0;
-clear: both;
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 .containInfo {
@@ -15,12 +15,12 @@ clear: both;
 }
 
 .weDo, .studentBox {
-width:240px;
+	width:240px;
 }
 
 .weDoFloat {
-width:200px;
-float:left;
+	width:200px;
+	float:left;
 }
 
 .spacing {
@@ -29,7 +29,7 @@ float:left;
 
 .linkStyle {
 	font-style:italic;
-      z-index:99999;
+  z-index:99999;
 }
 
 .meetLink {
@@ -69,7 +69,7 @@ float:left;
 }
 
 .doSpace {
-margin-top:10px;
+	margin-top:10px;
 }
 
 .weBox {
@@ -89,7 +89,7 @@ margin-top:10px;
 }
 
 #weAre {
-padding-bottom:20px;
+	padding-bottom:20px;
 }
 
 .lowerWidth {
@@ -215,7 +215,7 @@ blockquote {
 }
 
 .newsLink {
-padding-bottom:10px;
+	padding-bottom:10px;
 }
 
 
@@ -279,7 +279,7 @@ padding-bottom:10px;
 
 .border {
 	border-bottom: 8px solid #DEDEDE;
- }
+}
 
 .fullsize {
 	float: right;
@@ -330,6 +330,7 @@ padding-bottom:10px;
   padding:0;
   width:100%;
 }
+
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -395,11 +396,13 @@ padding-bottom:10px;
 .carousel .active {
   left: 0;
 }
+
 .margin {
   width:960px;
   margin:0 auto;
   padding-top:80px;
 }
+
 .carousel .next,
 .carousel .prev {
   position: relative;
@@ -530,14 +533,12 @@ padding-bottom:10px;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     vertical-align: middle;
 }
+
 .btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
     background-color: #E6E6E6;
     color: #333333;
 }
-.btn:active, .btn.active {
-}
-.btn:first-child {
-}
+
 .btn:hover {
     -moz-transition: background-position 0.1s linear 0s;
     background-color: #E6E6E6;
@@ -545,16 +546,19 @@ padding-bottom:10px;
     color: #333333;
     text-decoration: none;
 }
+
 .btn:focus {
     outline: thin dotted #333333;
     outline-offset: -2px;
 }
+
 .btn.active, .btn:active {
     background-color: #E6E6E6;
     background-image: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
     outline: 0 none;
 }
+
 .btn.disabled, .btn[disabled] {
     background-color: #E6E6E6;
     background-image: none;
@@ -562,21 +566,26 @@ padding-bottom:10px;
     cursor: default;
     opacity: 0.65;
 }
+
 .btn-large {
     border-radius: 5px 5px 5px 5px;
     font-size: 16px;
     line-height: normal;
     padding: 9px 14px;
 }
+
 .btn-large [class^="icon-"] {
     margin-top: 2px;
 }
+
 .btn-primary.active, .btn-warning.active, .btn-danger.active, .btn-success.active, .btn-info.active, .btn-inverse.active {
     color: rgba(255, 255, 255, 0.75);
 }
+
 .btn {
     border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
 }
+
 .btn-primary {
     background-color: #006DCC;
     background-image: -moz-linear-gradient(center top , #0088CC, #0044CC);
@@ -585,12 +594,12 @@ padding-bottom:10px;
     color: #FFFFFF;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
+
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
     background-color: #0044CC;
     color: #FFFFFF;
 }
-.btn-primary:active, .btn-primary.active {
-}
+
 .btn-warning {
     background-color: rgba(250,167,50,.5);
     background-image: -moz-linear-gradient(center top , #FBB450, #F89406);
@@ -618,9 +627,8 @@ padding-bottom:10px;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     vertical-align: middle;
 }
+
 .btn-warning:hover, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
     background-color: #F89406;
     color: #FFFFFF;
-}
-.btn-warning:active, .btn-warning.active {
 }

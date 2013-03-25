@@ -1,7 +1,6 @@
 #Updating the NSS website
 ####Dustin Moore & Brogan Sykes
 
-
 #COMPLETED
 
 - Added Alumni section to mentors page
@@ -18,11 +17,13 @@
 
 - Minor bug and styling fixes.
 
-- Added landing page for programs, directing user to either Bootcamp page a coming soon page for the Evening Classes
+- Added landing page for programs, directing user to either Bootcamp page, or a coming soon page for the Evening Classes
+
+- Added and styled dropdown menu for programs
+
+- Get twitter/website info and profile images for mentors, alumni, and sponsors to be added to site. 
 
 #Phase 2
-
-- Get twitter/website info and profile images for mentors, alumni, and sponsors to be added to site. **IN PROGRESS - D & B**
 
 - Get permissions from new mentors, alumni, and sponsors to add them to the site. - **JOHN**
 
@@ -30,12 +31,11 @@
 
 Programs page changes:
 
- **WAITING ON CONTENT FROM JOHN** - Evenings - use Bootcamp page as template. 
+ **WAITING ON CONTENT FROM JOHN** - Enter content into Evenings template - use Bootcamp page as template. 
 
 #Phase 4
 
 - Add crowdsourced donations plug in. 
-
  1. specs (plug in to use, donor levels, subscription parameters) need to be fleshed out with John.
 
 - Add donate blurb to Community page
