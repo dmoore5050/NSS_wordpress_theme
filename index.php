@@ -123,7 +123,7 @@ $(document).ready(function() {
 	<div class="lowerWidth clearfix">
 		<div class="studentBox" class="clearfix">
 			<section>
-				<?php $wp_query = new WP_Query("post_status=publish&category_name=student&tag_name=active&posts_per_page=1");?>
+				<?php $wp_query = new WP_Query("post_status=publish&category_name=student&tag=active&posts_per_page=1");?>
 				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 					<div class="student">
 						<div class="studentBorder">
