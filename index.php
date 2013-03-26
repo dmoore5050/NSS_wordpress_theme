@@ -120,14 +120,15 @@ $(document).ready(function() {
 			<?php wp_reset_query();?>
 		</div>
 	</section>
+
 	<div class="lowerWidth clearfix">
-		<div class="studentBox" class="clearfix">
+		<div class="studentBox clearfix">
 			<section>
 				<?php $wp_query = new WP_Query("post_status=publish&category_name=student&tag=active&posts_per_page=1");?>
 				<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-					<div class="student">
+					<div>
 						<div class="studentBorder">
-							<h2 class="smallHeadline studentTitle">Featured Student</h2>
+							<h2 class="smallHeadline lowerTitle">Featured Student</h2>
 						</div>
 						<h5 class="className"><?php the_title();?></h5>
 						<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
@@ -141,14 +142,15 @@ $(document).ready(function() {
 				<?php wp_reset_query();?>
 			</section>
 		</div>
-		<div class="news">
+
+		<div class="news clearfix">
 			<section>
 				<div class="newsHead clearfix">
-					<div class="indexBorder">
-						<h2 class="smallHeadline">News</h2>
+					<div class="lowerIndexBorder">
+						<h2 class="smallHeadline lowerTitle">News</h2>
 					</div>
 				</div>
-				<h3 class="homesub titleFix">See what's going on in our world</h3>
+				<h3 class="homesub">See what's going on in our world</h3>
 				<div class="newsLoop clearfix">
 					<?php $wp_query = new WP_Query("posts_per_page=3&category_name=featured&posts_per_page=3");?>
 					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>

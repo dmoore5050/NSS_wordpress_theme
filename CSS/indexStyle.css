@@ -7,53 +7,53 @@
 }
 
 .containInfo {
-	padding-top:30px ;
+	padding-top: 30px ;
 	padding-bottom: 50px;
-	width:960px;
-	margin:0 auto;
-	height:100%;
+	width: 960px;
+	margin: 0 auto;
+	height: 100%;
 }
 
 .weDo, .studentBox {
-	width:240px;
+	width: 240px;
 }
 
 .weDoFloat {
-	width:200px;
-	float:left;
+	width: 200px;
+	float: left;
 }
 
 .spacing {
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
 
 .linkStyle {
-	font-style:italic;
-  z-index:99999;
+	font-style: italic;
+  z-index: 99999;
 }
 
 .meetLink {
 	float: right;
 	margin-top: -25px;
-	font-style:italic;
+	font-style: italic;
 }
 
 .icon1 {
-	width:30px;
-	float:left;
+	width: 30px;
+	float: left;
 
 }
 
 .name1 {
-	width:100px;
-	float:left;
+	width: 100px;
+	float: left;
 
 }
 
 .peopleLocate {
-	float:left;
-	margin-left:80px;
-	width:680px;
+	float: left;
+	margin-left: 80px;
+	width: 680px;
 	margin-top: -40px;
 }
 
@@ -62,39 +62,39 @@
 }
 
 .peopleLoop {
-	float:right;
-	width:759px;
-	margin-top:10px;
-	padding:0;
+	float: right;
+	width: 759px;
+	margin-top: 10px;
+	padding: 0;
 }
 
 .doSpace {
-	margin-top:10px;
+	margin-top: 10px;
 }
 
 .weBox {
 	float: right;
 	margin-left: 40px;
-	width:200px;
+	width: 200px;
 }
 
 .weBox p {
-	margin-top:-10px;
+	margin-top: -10px;
 }
 
 .clickBox {
 	padding: 10px 0 10px 8px;
 	margin-top: -1px;
-	margin-left:-10px;
+	margin-left: -10px;
 }
 
 #weAre {
-	padding-bottom:20px;
+	padding-bottom: 20px;
 }
 
 .lowerWidth {
 	width: 960px;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 .className {
@@ -102,17 +102,12 @@
 	margin-bottom: 20px;
 }
 
-.studentTitle {
-	margin-bottom:5px;
+.lowerTitle {
+	margin-bottom: 5px;
 }
 
 .studentBox {
-	margin-top: -46px;
-	float:left;
-}
-
-.student {
-	margin-top: 75px;
+	float: left;
 }
 
 .studentBorder {
@@ -120,70 +115,61 @@
 }
 
 .student img {
-	margin-top:3px;
+	margin-top: 3px;
 	margin-left: 20px;
 }
 
 .studentName {
-	float:right;
-	padding-top:40px;
-	font-size:18px;
+	float: right;
+	padding-top: 40px;
+	font-size: 18px;
 }
 
 blockquote {
-	padding:5px;
-	margin:0 auto;
-	font-size:20px;
+	padding: 5px;
+	margin: 0 auto;
+	font-size: 20px;
 	color: #666666;
 }
 
 .dateBox {
-	float:right;
+	float: right;
 	margin-top: -10px;
 }
 
 .monthBox {
-	background:#303d42;
-	width:40px;
+	background: #303d42;
+	width: 40px;
 	color: white;
-	padding:4px;
-	text-align:center;
+	padding: 4px;
+	text-align: center;
 }
 
 .dayBox {
-	background:#fec013;
-	width:40px;
-	padding:4px;
-	text-align:center;
-	margin-top:-15px;
-	margin-bottom:5px;
+	background: #fec013;
+	width: 40px;
+	padding: 4px;
+	text-align: center;
+	margin-top: -15px;
+	margin-bottom: 5px;
 }
 
 .news {
-	width: 790px;
-	margin-top: -504px;
-	margin-left: 165px;
-	float:right;
+	width: 680px;
+	margin-left: 40px;
+	float: left;
 }
 
 .newsHead {
 	margin-bottom: 10px;
-	float: right;
-	margin-top: -34px;
 }
 
 .commentSpace {
 	margin-top: -10px;
 }
 
-.titleFix {
-	margin-top: 90px;
-	margin-left: 110px;
-}
-
 .newsLoop{
-	width: 720px;
-	float:right;
+	width: 700px;
 }
 
 .newsTitle {
@@ -191,9 +177,13 @@ blockquote {
 }
 
 .newsBox {
-	width:200px;
-	float:left;
-	margin-left:40px;
+	width: 200px;
+	float: left;
+	margin-right: 40px;
+}
+
+.newsBox:last-child {
+	margin-right: 0;
 }
 
 .newsBody a {
@@ -202,58 +192,61 @@ blockquote {
 
 .newsBody a:hover {
 	color: #7898a4;
-	text-decoration:underline;
+	text-decoration: underline;
 }
 
 .indexBorder {
-	float:right;
-	width:680px;
+	float: right;
+	width: 680px;
 	border-bottom: 4px solid #D0D0D0;
 	margin-top: 1px;
-	height:35px;
+	height: 35px;
 	margin-bottom: 20px;
 }
 
-.newsLink {
-	padding-bottom:10px;
+.lowerIndexBorder {
+	border-bottom: 4px solid #D0D0D0;
 }
 
+.newsLink {
+	padding-bottom: 10px;
+}
 
 .imgBorder {
-	padding:8px;
+	padding: 8px;
 	border: 1px solid #D0D0D0;
-	background:#f2f2f2;
+	background: #f2f2f2;
 }
 
 .post-categories  {
-	margin-top:5px;
+	margin-top: 5px;
 }
 
 .post-categories li {
-	list-style-type:none;
-	margin-left:-40px;
+	list-style-type: none;
+	margin-left: -40px;
 }
 
 #actionCall {
-	height:45px;
-	background:#f2f2f2;
-	border-bottom:1px solid #d0d0d0;
-	border-top:1px solid #d0d0d0;
+	height: 45px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #d0d0d0;
+	border-top: 1px solid #d0d0d0;
 }
 
 .containAction {
-	width:960px;
-	margin:0 auto;
-	font-style:italic;
-	margin-top:-4px;
+	width: 960px;
+	margin: 0 auto;
+	font-style: italic;
+	margin-top: -4px;
 }
 
 #actionPlace {
-	width:600px;
-	text-align:right;
-	float:left;
-	margin-right:35px;
-	margin-top:0px;
+	width: 600px;
+	text-align: right;
+	float: left;
+	margin-right: 35px;
+	margin-top: 0px;
 }
 
 #actionPlace p {
@@ -261,20 +254,20 @@ blockquote {
 }
 
 #applyBtn {
-	float:left;
-	margin-top:10px;
+	float: left;
+	margin-top: 10px;
 }
 
 #applyBtn a {
-	color:white !important;
-	text-decoration:none;
+	color: white!important;
+	text-decoration: none;
 }
 
 .headingBorder {
 	margin-bottom: 10px;
-	padding-bottom:2px;
+	padding-bottom: 2px;
 	border-bottom: 4px solid #D0D0D0;
-	height:20px;
+	height: 20px;
 }
 
 .border {
@@ -284,7 +277,7 @@ blockquote {
 .fullsize {
 	float: right;
 	margin-top: -50px;
-	margin-right:-180px;
+	margin-right: -180px;
 }
 
 /*START CAROUSEL*/
@@ -304,33 +297,33 @@ blockquote {
 	line-height: 1em;
 	letter-spacing: 1px;
 	font-weight: bold;
-	color:#FEC013;
-	padding:0;
+	color: #FEC013;
+	padding: 0;
 	font-family: 'Gochi Hand', cursive;
 }
 
 .carouselText {
 	color: #d0d0d0;
-	font-size:16px;
+	font-size: 16px;
 }
 
 .carouselarrows {
-	width:1260px;
+	width: 1260px;
 }
 
 .carousel {
   position: relative;
   line-height: 1;
   margin-top: 20px;
-  height:300px;
-  width:100%;
+  height: 300px;
+  width: 100%;
 }
 
 .first, .second {
-  height:300px;
-  margin:10px;
-  padding:0;
-  width:100%;
+  height: 300px;
+  margin: 10px;
+  padding: 0;
+  width: 100%;
 }
 
 .carousel-inner {
@@ -343,7 +336,7 @@ blockquote {
 }
 
 #myCarousel a {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .carousel .item {
@@ -360,11 +353,11 @@ blockquote {
 }
 
 .carousel.carousel-fade .item {
-  opacity:0;
+  opacity: 0;
 }
 
 .carousel.carousel-fade .active.item {
-  opacity:1;
+  opacity: 1;
 }
 
 .carousel.carousel-fade .active.left,
@@ -385,8 +378,8 @@ blockquote {
 }
 
 #taglineInfo, .carousel-caption {
-	width:470px;
-	margin-top:-55px;
+	width: 470px;
+	margin-top: -55px;
 }
 
 .carousel .active,
@@ -400,9 +393,9 @@ blockquote {
 }
 
 .margin {
-  width:960px;
-  margin:0 auto;
-  padding-top:80px;
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 80px;
 }
 
 .carousel .next,
@@ -444,7 +437,7 @@ blockquote {
   font-weight: 100;
   line-height: 25px;
   text-align: center;
-  padding-top:2px;
+  padding-top: 2px;
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
@@ -468,24 +461,24 @@ blockquote {
 
 
 .carouselImg {
-	width:420px;
-	float:right;
-	margin-top:-20px;
+	width: 420px;
+	float: right;
+	margin-top: -20px;
 }
 
 .newsBody {
-	margin-top:21px;
-	width:200px;
+	margin-top: 15px;
+	width: 200px;
 }
 
 /*START CONTENT*/
 
 .newsBorder {
-	float:right;
-	width:680px;
+	float: right;
+	width: 680px;
 	border-bottom: 4px solid #D0D0D0;
 	margin-top: 42px;
-	height:35px;
+	height: 35px;
 	margin-bottom: 20px;
 }
 
@@ -497,18 +490,18 @@ blockquote {
 }
 
 .floatMeta {
-	float:left;
+	float: left;
 	padding: 0 20px 0 0;
 	margin-top: -4px;
 }
 
 .metaImg {
-	padding-top:15px;
+	padding-top: 15px;
 }
 
 .metaImg hr {
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 }
 
 /*START BUTTONS*/
