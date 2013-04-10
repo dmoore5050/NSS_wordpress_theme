@@ -181,6 +181,10 @@ blockquote {
 	border-color: #d0d0d0;
 }
 
+.titleBox {
+	height: 40px;
+}
+
 .newsBox {
 	width: 45.7%;;
 	float: left;

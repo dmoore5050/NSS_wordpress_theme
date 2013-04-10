@@ -160,21 +160,22 @@ $(document).ready(function() {
 					<div class="newsBox">
 						<article>
 							<div class="newsBody">
-								<a class="newsBlog" href="<?php the_permalink() ?>">
-									<h5 class="postTitle">
-										<?php
-										$thetitle = $post->post_title; /* or you can use get_the_title() */
-										$getlength = strlen($thetitle);
-										$thelength = 70;
-										echo substr($thetitle, 0, $thelength);
-										if ($getlength > $thelength) echo "...";
-										?>
-									</h5>
-								</a>
-
+								<div class="titleBox">
+									<a class="newsBlog" href="<?php the_permalink() ?>">
+										<h5 class="postTitle">
+											<?php
+											$thetitle = $post->post_title; /* or you can use get_the_title() */
+											$getlength = strlen($thetitle);
+											$thelength = 70;
+											echo substr($thetitle, 0, $thelength);
+											if ($getlength > $thelength) echo "...";
+											?>
+										</h5>
+									</a>
+							  </div>
 								<div class="metaImg">
 									<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
-<!-- 									<hr> -->
+
 									<div class="post1Meta clearfix">
 										<div class="floatMeta">
 											<p class="monthBox"><?php the_time('M');?></p>
