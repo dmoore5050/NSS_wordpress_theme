@@ -32,8 +32,8 @@ $(document).ready(function() {
 	<div class="carousel-inner backgroundImgChalk">
 		<div class="active item first">
 			<div class="margin">
-    	  		<img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel1.png" alt="slide1">
-		    	<div id="taglineInfo">
+  	  	<img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel1.png" alt="slide1">
+	    	<div id="taglineInfo">
 					<h3 class="smallHeadlineCarousel1 smallDiff">Learn How To</h3>
 					<h2 class="emphasisTitleCarousel1">Build Web Applications</h2>
 					<p class="carouselText">Six-month intensive training program that qualifies you for a junior developer job.</p>
@@ -62,7 +62,7 @@ $(document).ready(function() {
   		</div>
  	</div>
 	<a class="carousel-control left arrowBackground" href="#myCarousel" data-slide="prev">‹</a>
-  	<a class="carousel-control right arrowBackground" href="#myCarousel" data-slide="next">›</a>
+  <a class="carousel-control right arrowBackground" href="#myCarousel" data-slide="next">›</a>
 </div>
 
 <div id="actionCall">
@@ -85,7 +85,7 @@ $(document).ready(function() {
 	<div class="weDoFloat" class="clearfix">
 		<section class="weDo">
 			<div class="headingBorder">
-				<h2 class="smallHeadline">what we do</h2>
+				<h2 class="smallHeadline">What We Do</h2>
 			</div>
 			<h3 class="homesub">Home-growing Tech Talent</h3>
 			<p class="doSpace">Are you looking for a way to begin a career as a software developer?  Want to build mobile apps or web sites?  Nashville Software School will help you prepare for a job as a entry-level or junior software developer - even if you have no prior technical training or experience.</p>
@@ -151,18 +151,21 @@ $(document).ready(function() {
 					</div>
 				</div>
 				<h3 class="homesub">See what's going on in our world</h3>
+				<hr id="bottomPostRule">
 				<div class="newsLoop clearfix">
-					<?php $wp_query = new WP_Query("posts_per_page=3&category_name=featured&posts_per_page=3");?>
-					<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+					<?php $wp_query = new WP_Query("category_name=featured&posts_per_page=4"); 
+					$ids = array();
+					if(have_posts()) : while(have_posts()) : the_post(); 
+					$ids[] = get_the_ID(); ?>
 					<div class="newsBox">
 						<article>
 							<div class="newsBody">
 								<a class="newsBlog" href="<?php the_permalink() ?>">
-									<h5>
+									<h5 class="postTitle">
 										<?php
 										$thetitle = $post->post_title; /* or you can use get_the_title() */
 										$getlength = strlen($thetitle);
-										$thelength = 21;
+										$thelength = 70;
 										echo substr($thetitle, 0, $thelength);
 										if ($getlength > $thelength) echo "...";
 										?>
@@ -171,7 +174,7 @@ $(document).ready(function() {
 
 								<div class="metaImg">
 									<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
-									<hr/>
+<!-- 									<hr> -->
 									<div class="post1Meta clearfix">
 										<div class="floatMeta">
 											<p class="monthBox"><?php the_time('M');?></p>
@@ -182,7 +185,7 @@ $(document).ready(function() {
 									</div>
 								</div>
 								<p><?php the_excerpt(); ?></p>
-								<a href="<?php the_permalink();?>">Read More</a>
+								<a class="linkStyle" href="<?php the_permalink();?>">Read More</a>
 							</div>
 						</article>
 					</div>
