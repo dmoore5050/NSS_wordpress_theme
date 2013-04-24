@@ -58,7 +58,7 @@
 }
 
 .textLocate {
-	margin-top: 43px;
+	margin-top: 29px;
 }
 
 .peopleLoop {
@@ -98,8 +98,8 @@
 }
 
 .className {
-	padding-top: 10px;
-	margin-bottom: 20px;
+	padding-top: 13px;
+	margin-bottom: 13px;
 }
 
 .lowerTitle {
@@ -350,7 +350,7 @@ blockquote {
 }
 
 #myCarousel a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .carousel .item {

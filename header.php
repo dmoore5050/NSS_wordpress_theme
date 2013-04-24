@@ -15,7 +15,7 @@
 			setTimeout(function(){
 				document.write("Thank you for visiting Nashville Software School. This site is best viewed in Safari, Firefox or Google Chrome.")
 			},1000)
-		} else { 
+		} else {
 		}
 	</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -37,6 +37,10 @@
 		margin-left:4px;
 		}
 	}
+	ul .sub_menu
+	{
+		padding: 0!important;
+	}
 	.sub-menu li
 	{
 	background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
@@ -47,15 +51,17 @@
 <body>
 	<header class="backgroundImg">
 		<div id="header_wrapper">
-			
+
 			<div id="header_left">
 				<div id="header_logo">
-					<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'home' ) ) ); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="NSS" /></a>
+					<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'home' ) ) ); ?>">
+						<img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="NSS" />
+					</a>
 				</div>
 			</div>
 
 			<div id="header_right">
-				<nav id="headNav" class="clearfix">						
+				<nav id="headNav" class="clearfix">
 						<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'theme_location'  => 'top_nav', 'menu_class' => 'nav-menu' ) ); ?>
 				</nav>
 			</div>

@@ -1,7 +1,7 @@
 <div style="clear: both;"></div>
 	<footer>
-		<div>
-		</div>
+<!-- 		<div>
+		</div> -->
 		<div id="footer_wrapper" class="clearfix">
 			<div id="footer_left">
 				<div id="footer_logo">
@@ -11,7 +11,7 @@
 			<div id="footer_right">
 				<nav id="footNav">
 					<ul>
-						<?php wp_nav_menu(  
+						<?php wp_nav_menu(
     						array('theme_location'  => 'bottom_nav'));?>
 					</ul>
 				</nav>
@@ -19,9 +19,9 @@
 			<div id="footer_text">
 				<h5>COPYRIGHT &copy; 2013 NASHVILLE SOFTWARE SCHOOL. ALL RIGHTS RESERVED. | HANDCRAFTED BY OUR STUDENTS IN NASHVILLE, TN.</h5>
 			</div>
-<div style="clear: both;"></div>
-		</div>
-	</footer>
+			<div style="clear: both;"></div>
+			</div>
+		</footer>
 		<?php wp_footer(); ?>
-</body>
+	</body>
 </html>
