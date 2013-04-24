@@ -10,14 +10,14 @@ Template Name: Blog Page
 		<div class="asideBorder">
 			<h2 class="smallHeadline">Recent Posts</h2>
 		</div>
-		<?php wp_get_archives( array ( 'cat' => '-9', 'type' => 'postbypost', 'limit' => '10', 'format' => 'custom', 'before' => '<li class="classes">', 'after' => '</li>' ) ); ?>
+		<?php wp_get_archives( array ( 'cat' => '-9', 'type' => 'postbypost', 'limit' => '10', 'format' => 'custom', 'before' => '<li class="archives_list">', 'after' => '</li>' ) ); ?>
 	</aside><!--blogAside-->
 	<div id='loop'>
 		<?php $wp_query = new WP_Query("posts_per_page=10,  &cat=-9");?>
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<div class="blogBorder">
 				<h3 class='homesub fontImpact'>
-					<a id="blogTitle" href="<?php echo get_permalink (); ?>"><?php the_title();?></a>
+					<a class="blogTitle" href="<?php echo get_permalink (); ?>"><?php the_title();?></a>
 				</h3>
 			</div>
 			<section class='meta'>
@@ -25,7 +25,7 @@ Template Name: Blog Page
 			</section>
 			<br />
 			<?php the_excerpt(); ?>
-			<a href="<?php the_permalink();?>">Read More</a>
+			<a class="more_link" href="<?php the_permalink();?>">Read More</a>
 		<?php endwhile; ?>
 		<?php else : ?>
 			<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
