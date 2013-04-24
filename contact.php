@@ -16,16 +16,6 @@ Template Name: Contact Page
 	<div class="contactWrap clearfix">
 		<div id="col1">
 			<div class="contactBorder">
-				<h3 class="smallHeadline">CONTACT US</h3>
-			</div>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-			<?php endwhile; else: ?>
-				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-			<?php endif; ?>
-		</div>
-		<div id="col2">
-			<div class="contactBorder2">
 				<h3 class="smallHeadline">OUR LOCATION</h3>
 				<address>
 					<p>Nashville Business Incubation Center (NBIC)<br/>
@@ -33,6 +23,16 @@ Template Name: Contact Page
 					Nashville, TN</p>
 				</address>
 			</div>
+		</div>
+		<div id="col2">
+			<div class="contactBorder">
+				<h3 class="smallHeadline">CONTACT US</h3>
+			</div>
+			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<?php the_content(); ?>
+			<?php endwhile; else: ?>
+				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+			<?php endif; ?>
 		</div>
 	</div>
 </div>

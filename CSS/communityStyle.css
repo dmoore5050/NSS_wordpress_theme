@@ -1,14 +1,14 @@
 
 .clearfix:after {
-content: "."; 
-visibility: hidden; 
-display: block; 
-height: 0; 
-clear: both;	
+content: ".";
+visibility: hidden;
+display: block;
+height: 0;
+clear: both;
 }
 
 #backgroundWrapper {
-margin-top: -35px;	
+margin-top: -35px;
 padding-bottom:100px;
 }
 
@@ -22,7 +22,11 @@ border-bottom:4px solid #d0d0d0;
 }
 
 .headlineFix {
-margin-bottom:-20px;	
+margin-bottom:-20px;
+}
+
+.tags {
+	font-weight: bold;
 }
 
 .sectionWrap {
@@ -49,6 +53,10 @@ margin-top:90px;
 .infoMargin {
 	margin-top: -20px;
 	display: block;
+}
+
+.infoMargin a {
+	text-decoration: none;
 }
 
 .imgPop {

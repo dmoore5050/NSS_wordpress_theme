@@ -131,7 +131,7 @@ Template Name: Community Page
 							<h3 class="homesub">Partner Companies</h3>
 						</div>
 						<p>Our Partner Companies support NSS and our students in multiple fashions. Most importantly, many of our partner companies support the program by hiring our graduates for entry-level software developer jobs. Our partner companies also provide financial support for the school through donations to our general operating fund, through sponsorship commitments that pre-fund students expenses, through donations of equipment and other resources, and through scholarships for economically disadvantages students. Many of our partner companies also encourage their technical staff to support the school through mentoring.</p>
-					</div> 
+					</div>
 					<div class="clearfix">
 						<ul class='communityList'>
 							<?php $wp_query = new WP_Query("post_type=partner&post_status=publish&posts_per_page=-1&cat=-9");?>
@@ -142,7 +142,7 @@ Template Name: Community Page
 										<div class="pictInfo clearfix">
 											<?php the_post_thumbnail('author-thumbnail', array('class' => 'imgBorder')); ?>
 											<hr/>
-										</div>	
+										</div>
 									</div>
 								</li>
 

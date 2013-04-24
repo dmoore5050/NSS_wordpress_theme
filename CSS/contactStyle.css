@@ -1,46 +1,43 @@
-#col1
-{
-width: 600px;
-float: right;
-color: gray;
-padding-left: 5px;
-padding-right: 5px;
+#col1 {
+  float: left;
+  width: 310px;
+}
+
+address {
+  padding-top: 5px;
 }
 
 #col2 {
-	float:left;
-	width:310px;
-	margin-top:35px;
+  width: 600px;
+  float: right;
+  color: gray;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .contentWrap {
-	min-height: 100%;
+  min-height: 100%;
 }
 
 .contactWrap {
-	margin-top:20px;
-	margin-bottom:40px;
-	overflow:auto;
-	padding-bottom: 150px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  overflow: auto;
+  padding-bottom: 150px;
 }
 
 .contactBorder {
-	border-bottom:4px solid #d0d0d0;
-	height:25px;
-}
-
-.contactBorder2 {
-	border-bottom:4px solid #d0d0d0;
-	height:25px;
+  border-bottom: 4px solid #d0d0d0;
+  height: 25px;
 }
 
 .buttonSpace {
-	margin:-34px 30px 5px 20px;
+  margin:-34px 30px 5px 20px;
 }
 
 .radFloat {
-	float:left;
-	margin-left:40px;
+  float:left;
+  margin-left:40px;
 }
 
 form {
@@ -65,27 +62,26 @@ form {
 }
 
 .span3 {
-    width: 100%;
-    padding: 5px 0px;
-    margin: 10px 0px;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 10px 0px;
 }
 
 .span4 {
-	height:50px;
-	width: 100%;
-    padding: 5px 0px;
-    margin: 10px 0px;	
+  height:50px;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 10px 0px;
 }
 
-#map
-{
-width: 300px;
-float: right;
-margin-left: 45px;
+#map {
+  width: 300px;
+  float: right;
+  margin-left: 45px;
 }
 
 #contactclick {
-	float:right;
-	margin-top:5px;
-	margin-right:-2px;
+  float:right;
+  margin-top:5px;
+  margin-right:-2px;
 }
