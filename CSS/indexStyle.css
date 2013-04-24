@@ -29,13 +29,15 @@
 
 .linkStyle {
 	font-style: italic;
-  	z-index: 99999;
+  	text-decoration: none;
 }
 
 .meetLink {
 	float: right;
-	margin-top: -25px;
+	margin-top: -30px;
+	margin-right: 10px;
 	font-style: italic;
+	text-decoration: none;
 }
 
 .icon1 {
