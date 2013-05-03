@@ -25,25 +25,19 @@
 
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/reveal.css" type="text/css" media="screen" />
 <style>
-	.backgroundImg
-	{
-	background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
+	.backgroundImg {
+		background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
 	}
 	@-moz-document url-prefix() {
-	   nav {
-	        margin-top:-15px;
-	    }
 	   #menu-item-20 {
 		margin-left:4px;
 		}
 	}
-	ul .sub_menu
-	{
+	.sub_menu {
 		padding: 0!important;
 	}
-	.sub-menu li
-	{
-	background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
+	.sub-menu li {
+		background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
 	}
 </style>
 <?php wp_head(); ?>

@@ -30,15 +30,16 @@ Template Name: Apply Now Page
 		<div class="contentWrap">
 			<?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-				<h3 class="attnPara"><?php the_subtitle(); ?>! </h3>
+				<h3 class="attnPara"><?php the_subtitle(); ?> </h3>
+				<h3 class="subAttnPara"> <?php echo get_the_content(); ?> </h3>
 			<?php endwhile; ?>
 			<?php else : ?>
-					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>			
+					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
 			<?php endif; ?>
 			<?php wp_reset_query();?>
 
-		<h3 class="subAttnPara">Don't miss this opportunity to start your career as a software developer.</h3>
-		
+		<h3 class="subAttnPara">don't miss this opportunity to start your career as a software developer!</h3>
+
 		<a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
 	</div>
 </div>
@@ -49,8 +50,8 @@ Template Name: Apply Now Page
 	</div>
 	<div class='third'>
 		<h5 class="smallHeadline">Schedule</h5>
-		<p>Class Starts: January 7th, 2013</p>
-		<p>Class Ends: March 29th, 2013</p>
+		<p>Class Starts: September 9th, 2013</p>
+		<p>Class Ends: November 27th, 2013</p>
 		<p>Meets: Monday-Friday 8:30am-4:00pm</p>
 		<h5 class="smallHeadline">Location:</h5>
 		<p>To Be Determined</p>
@@ -74,8 +75,8 @@ Template Name: Apply Now Page
 	<hr/>
 	<div class='third'>
 		<h5 class="smallHeadline">Schedule</h5>
-		<p>Class Starts: April 8th, 2013 </p>
-		<p>Class Ends: june 28th, 2013</p>
+		<p>Class Starts: TBD</p>
+		<p>Class Ends: TBD</p>
 		<p>Meets: Monday-Friday 8:30am-4:00pm</p>
 		<h5 class="smallHeadline">Location:</h5>
 		<p>To Be Determined</p>
