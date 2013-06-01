@@ -16,7 +16,7 @@ html, body {
 }
 
 h1, h2, h3, h4, p, a, h4, h5, h3, ul, label {
-	font-family: 'HelveticaNeue', Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: 'HelveticaNeue', Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 	color: #666666;
 }
@@ -56,11 +56,11 @@ body {
 }
 
 .clearfix:after {
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;	
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 .imgBorder {
@@ -105,14 +105,14 @@ body {
 	line-height: 1em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: bold;	
+	font-weight: bold;
 	color: #7898a4;
 	padding: 0;
 }
 
 .smallDiff {
 	margin-bottom: 10px;
-	font-family: ‘Merriweather’, Georgia, serif;	
+	font-family: ‘Merriweather’, Georgia, serif;
 }
 
 .contentWrap {
@@ -161,12 +161,12 @@ header {
 }
 .socialLinks img {
 	height: 20px;
-	width: 20px;	
+	width: 20px;
 }
 
 #social2 {
 	float: right;
-	width: 50px;	
+	width: 50px;
 }
 
 #social3 {
@@ -309,18 +309,17 @@ nav a {
 	display: block;
 }
 
-#menu-item-21 ul li {
-	margin-top: -5px;
+#menu-item-21 li:first-child {
+	border-bottom: solid 1px rgb(60,60,60);
+	margin-top: -25px;
 	margin-left: 5px;
 }
 
-.sub-menu li:first-child {
-	border-bottom: solid 1px rgb(60,60,60);
-}
-
-.sub-menu li:last-child {
+#menu-item-21 li:last-child {
 	border-radius: 0 0 2px 2px;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+	margin-top: -5px;
+	margin-left: 5px;
 }
 
 .sub-menu li {
@@ -408,7 +407,7 @@ li.current_page_item a {
 	color: white;
 }
 
-#footNav ul li { 
+#footNav ul li {
 	float: left;
 }
 
@@ -431,23 +430,23 @@ li.current_page_item a {
 	font: 14px/100% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-	-webkit-border-radius: .5em; 
+	-webkit-border-radius: .5em;
 	-moz-border-radius: .5em;
 	border-radius: .5em;
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
-	
+
 .button:hover {
 	text-decoration: none;
 }
-	
+
 .button:active {
 	position: relative;
 	top: 1px;
 }
-	
+
 .orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
@@ -467,8 +466,8 @@ li.current_page_item a {
 	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
-}	
+}
 .applyBtn a {
 	color: white!important;
-	text-decoration: none;	
+	text-decoration: none;
 }

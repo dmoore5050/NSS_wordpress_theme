@@ -29,12 +29,13 @@
 		background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
 	}
 	@-moz-document url-prefix() {
-	   #menu-item-20 {
-		margin-left:4px;
+      #menu-item-20 {
+    margin-left: 4px;
+    }
+
+		  #menu-item-21 li:first-child {
+			margin-top: -5px!important;
 		}
-	}
-	.sub_menu {
-		padding: 0!important;
 	}
 	.sub-menu li {
 		background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');
