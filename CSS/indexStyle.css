@@ -247,26 +247,20 @@ blockquote {
 }
 
 .containAction {
-	width: 960px;
+	width: 600px;
 	margin: 0 auto;
 	font-style: italic;
 	margin-top: -4px;
+  text-align: center;
 }
 
-#actionPlace {
-	width: 600px;
-	text-align: right;
-	float: left;
-	margin-right: 35px;
-	margin-top: 0px;
-}
-
-#actionPlace p {
+.containAction p {
 	font-size: 17px;
+  display: inline-block;
 }
 
 #applyBtn {
-	float: left;
+  margin-left: 15px;
 	margin-top: 10px;
 }
 

@@ -66,18 +66,16 @@ $(document).ready(function() {
 </div>
 
 <div id="actionCall">
-	<div class="containAction">	
-		<div id="actionPlace">
-			<?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
-			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-				<p><?php the_subtitle(); ?></p>
-			<?php endwhile; ?>
-			<?php else : ?>
-					<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>		
-			<?php endif; ?>
-			<?php wp_reset_query();?>
-		</div>	
-		<a href="http://tfaforms.com/244179"><button id="applyBtn" class="button orange">Apply Now</button></a> 
+	<div class="containAction">
+		<?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
+		<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+			<p><?php the_subtitle(); ?></p>
+		<?php endwhile; ?>
+		<?php else : ?>
+				<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
+		<?php endif; ?>
+		<?php wp_reset_query();?>
+		<a href=""><button id="applyBtn" class="button orange">Apply Soon</button></a>
 	</div>
 </div>
 
@@ -153,9 +151,9 @@ $(document).ready(function() {
 				<h3 class="homesub">See what's going on in our world</h3>
 				<hr id="bottomPostRule">
 				<div class="newsLoop clearfix">
-					<?php $wp_query = new WP_Query("category_name=featured&posts_per_page=4"); 
+					<?php $wp_query = new WP_Query("category_name=featured&posts_per_page=4");
 					$ids = array();
-					if(have_posts()) : while(have_posts()) : the_post(); 
+					if(have_posts()) : while(have_posts()) : the_post();
 					$ids[] = get_the_ID(); ?>
 					<div class="newsBox">
 						<article>
