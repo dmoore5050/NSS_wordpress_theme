@@ -36,7 +36,11 @@
 	width: 620px;
 	padding: 0px 10px 20px 10px;
 	float: left;
-	margin-top: 40px;
+	margin-top: 20px;
+}
+
+.twoThird p:first-of-type {
+	margin-top: 0;
 }
 
 .marginPtag {
