@@ -1,0 +1,153 @@
+
+.half
+{
+width: 430px;
+margin-top: 40px;
+float: left;
+margin-right:40px;
+margin-bottom:10px;
+}
+
+.programSpace {
+	font-size: 50px;
+	margin-top: -10px;
+}
+
+.firstHalf
+{
+margin-right:40px;
+}
+
+
+.firstHalf, .lastHalf
+{
+width:460px;
+float: left;
+margin-bottom:20px;
+}
+
+.third
+{
+width: 300px;
+padding: 10px;
+float: left;
+}
+
+.last-third
+{
+width: 200px;
+margin-top: 30px;
+padding: 10px;
+float: left;
+}
+
+.mid-third
+{
+width: 400px;
+padding: 10px;
+float: left;
+}
+
+.twoThird
+{
+width: 620px;
+padding: 0px 10px 20px 10px;
+float: left;
+margin-top: 40px;
+}
+
+.marginPtag {
+	margin-top:-1px;
+}
+.white
+{
+color: white;
+}
+
+#img
+{
+margin-top:20px;
+margin-left: 10px;
+}
+
+#contentWrap2 {
+    width:960px;
+	margin:0 auto;
+}
+
+.firstThird
+{
+width: 289px;
+padding: 10px 15px 10px 15px;
+float: left;
+margin-right: 1px;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.midThird
+{
+width: 288px;
+padding: 10px 15px 10px 15px;
+float: left;
+margin-right: 1px;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.lastThird
+{
+width: 289px;
+padding: 10px 15px 10px 15px;
+float: left;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.darkThird
+{
+width: 300px;
+padding: 10px;
+float: left;
+}
+
+.light {
+	text-align:center;
+}
+
+.listStyle {
+	line-height:2;
+}
+
+#modules {
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+.btnPlace {
+	width: 150px;
+	margin:-20px 0px 30px 405px;
+	padding: 10x;
+}
+
+.btnPlace2 {
+	margin:0px 0px 30px 370px;
+	padding: 15px;
+}
+
+.lightWrap
+{
+width: 960px;
+margin: 20px auto;
+}
+
+.moduleBorder {
+border-bottom:2px solid #52b3c5;
+height:20px;
+}
+
+.center
+{
+text-align: center;
+padding-bottom:10px;
+border-bottom:2px solid #52b3c5;
+}
+
+
