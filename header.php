@@ -9,15 +9,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
 	<script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
 	<!--jquery-->
-	 <script language="javascript">
-		if (navigator.appName == "Microsoft Internet Explorer") {
-			window.alert("Unfortunately, you are using Internet Explorer, which we do not currently support.");
-			setTimeout(function(){
-				document.write("Thank you for visiting Nashville Software School. This site is best viewed in Safari, Firefox or Google Chrome.")
-			},1000)
-		} else {
-		}
-	</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/JS/jquery.reveal.js"></script>
 	<!--bootstraps -->
