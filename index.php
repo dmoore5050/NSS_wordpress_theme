@@ -13,12 +13,9 @@
 	background-image: url('<?php echo get_template_directory_uri(); ?>/images/white_carbonfiber.png');
 }
 @-moz-document url-prefix() {
-   .carousel-control {
-        padding-top: 15px;
-    }
-	.newsHead {
-		margin-top: -33px;
-	}
+  .carousel-control {
+    padding-top: 15px;
+  }
 }
 </style>
  <script>
