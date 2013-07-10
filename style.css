@@ -1,5 +1,9 @@
 /*START GLOBAL SETTINGS*/
 
+a, img {
+  border:none;
+}
+
 @font-face {
   font-family: 'chunkfiveregular';
   src: url('chunk-webfont.eot');

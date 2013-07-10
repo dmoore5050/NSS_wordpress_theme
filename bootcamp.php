@@ -80,7 +80,7 @@ $(document).ready(function() {
 		<h4 class="homesub">Web Development Foundations</h4>
 		<p>This course focuses on the core front-end or client-side technologies used to develop modern websites and web applications.  On completion of this module students will be able to implement a full dynamic website, to leverage a content management system to deliver and manage that website and to demonstrate their aptitude for programming.  This course also sets the stage for going more deeply into programming of more complex applications, mobile apps, etc. in future training courses.</p>
 		<p>You'll learn the fundamentals of how to build websites correctly and be well on the path to becoming a qualified front-end developer.</p>
-		<div style="margin-top: 60px;">
+		<div id="adjustposition">
 			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/html5.png" alt="html5"/>
 			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/css3.png" alt="css"/>
 			<img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/js.png" alt="js"/>
