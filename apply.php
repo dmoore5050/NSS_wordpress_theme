@@ -40,7 +40,7 @@ Template Name: Apply Now Page
 
 		<h3 class="subAttnPara">don't miss this opportunity to start your career as a software developer!</h3>
 
-		<a href="" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Soon</button></a>
+		<!-- <a href="" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Soon</button></a> -->
 	</div>
 </div>
 <div class="contentWrap">
@@ -92,7 +92,7 @@ Template Name: Apply Now Page
 <div style="clear: both;"></div>
 </div><!--contentWrap-->
 		<div class="contentWrap centerText">
-			<a href="" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Soon</button></a>
+			<!-- <a href="" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Soon</button></a> -->
 		</div>
 <div style="clear: both; padding-bottom: 120px;"></div>
 </div><!--contentWrap-->

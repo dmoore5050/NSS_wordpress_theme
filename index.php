@@ -75,7 +75,7 @@ $(document).ready(function() {
 				<p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
 		<?php endif; ?>
 		<?php wp_reset_query();?>
-		<a href=""><button id="applyBtn" class="button orange">Apply Soon</button></a>
+		<!-- <a href=""><button id="applyBtn" class="button orange">Apply Soon</button></a> -->
 	</div>
 </div>
 
