@@ -6,13 +6,6 @@ Template Name: Bootcamp
 <?php get_header(); ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/programsStyle.css">
 
-<!--[if lte IE 9]>
-  <style>
-    #ie_margin_correction {
-         margin-bottom: -20px;
-    }
-  </style>
-<![endif]-->
 
 <style>
   .darkBack, .dark {
@@ -31,11 +24,9 @@ Template Name: Bootcamp
     .titleSize {
       margin-top:0px;
     }
-  }
 
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    #ie_margin_correction {
-      margin-bottom: -20px;
+    #last_p_margin_correction {
+      margin-bottom: 0!important;
     }
   }
 
@@ -95,9 +86,11 @@ $(document).ready(function() {
       <h3 class="smallHeadline">Course 1:</h3>
     </div>
     <h4 class="homesub">Web Development Foundations</h4>
-    <p>This course focuses on the core front-end or client-side technologies used to develop modern websites and web applications.  On completion of this module students will be able to implement a full dynamic website, to leverage a content management system to deliver and manage that website and to demonstrate their aptitude for programming.  This course also sets the stage for going more deeply into programming of more complex applications, mobile apps, etc. in future training courses.</p>
-    <p id="ie_margin_correction">You'll learn the fundamentals of how to build websites correctly and be well on the path to becoming a qualified front-end developer.</p>
-    <div id="adjustposition">
+    <div class="course_text_wrapper">
+      <p>This course focuses on the core front-end or client-side technologies used to develop modern websites and web applications.  On completion of this module students will be able to implement a full dynamic website, to leverage a content management system to deliver and manage that website and to demonstrate their aptitude for programming.  This course also sets the stage for going more deeply into programming of more complex applications, mobile apps, etc. in future training courses.</p>
+      <p>You'll learn the fundamentals of how to build websites correctly and be well on the path to becoming a qualified front-end developer.</p>
+    </div>
+    <div class="bottom_bump">
       <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/html5.png" alt="html5"/>
       <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/css3.png" alt="css"/>
       <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/js.png" alt="js"/>
@@ -124,8 +117,10 @@ $(document).ready(function() {
       <h3 class="smallHeadline">Course 2:</h3>
     </div>
     <h4 class="homesub">Software Development Foundations</h4>
-    <p>This course focuses on core technologies used to develop the back-end, or server-side, of modern web and mobile applications.  You'll learn to concepts such as object-oriented programming, test-driven development, agile methods, pair programming and source code version control.  You will apply one of the most popular, modern web application development frameworks while designing, building and delivering web application. The combination of this course and Web Development Foundations gives the student exposure to "full stack" development of web applications - from controlling the styling of the browser front-end of the application through dynamic front-end logic connected to the business logic and database on the back-end or server side of the application.</p>
-    <div id="bottom_bump">
+    <div class="course_text_wrapper">
+      <p>This course focuses on core technologies used to develop the back-end, or server-side, of modern web and mobile applications.  You'll learn to concepts such as object-oriented programming, test-driven development, agile methods, pair programming and source code version control.  You will apply one of the most popular, modern web application development frameworks while designing, building and delivering web application. The combination of this course and Web Development Foundations gives the student exposure to "full stack" development of web applications - from controlling the styling of the browser front-end of the application through dynamic front-end logic connected to the business logic and database on the back-end or server side of the application.</p>
+    </div>
+    <div class="bottom_bump">
       <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/ruby.png" alt="ruby"/>
       <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/rails.png" alt="rails"/>
       <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/cucs.png" alt="cucumber"/>
