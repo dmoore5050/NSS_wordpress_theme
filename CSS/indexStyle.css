@@ -313,6 +313,10 @@ blockquote {
 	font-size: 16px;
 }
 
+.carousel-control {
+  color: rgb(241, 152, 13)!important;
+}
+
 .carouselarrows {
 	width: 1260px;
 }

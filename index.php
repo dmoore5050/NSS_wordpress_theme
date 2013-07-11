@@ -9,9 +9,6 @@
 	-o-background-size: cover;
 	background-size: cover;
 }
-.arrowBackground {
-	background-image: url('<?php echo get_template_directory_uri(); ?>/images/white_carbonfiber.png');
-}
 @-moz-document url-prefix() {
   .carousel-control {
     padding-top: 15px;
@@ -58,10 +55,9 @@ $(document).ready(function() {
         </div>
       </div>
    </div>
-  <a class="carousel-control left arrowBackground" href="#myCarousel" data-slide="prev">‹</a>
-  <a class="carousel-control right arrowBackground" href="#myCarousel" data-slide="next">›</a>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
 </div>
-
 <div id="actionCall">
   <div class="containAction">
     <?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
