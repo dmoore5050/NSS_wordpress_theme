@@ -7,14 +7,6 @@ Template Name: About Page
 <?php get_header(); ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/aboutStyle.css">
 
-<!--[if lte IE 9]>
-  <style>
-    .coreValues {
-         margin-left: 2.4%!important;
-    }
-  </style>
-<![endif]-->
-
 <style type='text/css'>
   .backgroundImgLt {
     background-image: url('<?php echo get_template_directory_uri(); ?>/images/first_aid_kit.png');
@@ -26,16 +18,6 @@ Template Name: About Page
       padding-top: 5px;
     }
 
-    .coreValues {
-      margin-left: 12.2%!important;
-    }
-  }
-
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .coreValues {
-         margin-left: 2.4%!important;
-    }
-  }
 </style>
 
   <div class="border clearfix">

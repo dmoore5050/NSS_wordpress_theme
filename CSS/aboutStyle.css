@@ -2,12 +2,12 @@
 }*/
 
 #aboutTitle {
-  color:#6D6E66;
+  color: #6D6E66;
 }
 
 .titleSize {
-  font-size:99px;
-  margin-top:-5px;
+  font-size: 99px;
+  margin-top: -5px;
 }
 
 .aboutBorder {
@@ -17,50 +17,53 @@
   height: 20px;
 }
 
-
 .valueMargin {
-  margin-top:30px;
+  margin-top: 30px;
+}
+
+.valuesHeader {
+  margin: 0 auto;
+  width: 1000px;
 }
 
 .colorTag {
-  color:#7898A4;
+  color: #7898A4;
 }
 
 .aboutSlide {
-  padding-top:10px;
-  padding-bottom:20px;
-  width:1000px;
-  margin:0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .imgFix {
-  padding-top:14px;
+  padding-top: 14px;
 }
 
 .value
 {
-  float:left;
+  float: left;
   width: 305px;
-  margin-left:22px;
-  text-align:right;
+  margin-left: 22px;
+  text-align: right;
 }
 .coreValues {
-  margin-left: 8.8%;
   margin-top: 30px;
 }
 .valposition {
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 .value-right {
-  float:left;
+  float: left;
   width: 600px;
-  margin-top:19px;
-  padding-left:40px;
+  margin-top: 19px;
+  padding-left: 40px;
 }
 
 #valuePic1, #valuePic2, #valuePic3, #valuePic4 {
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .valuePic {
@@ -80,7 +83,7 @@
 }
 
 .spaceLast {
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 #bottom {
@@ -100,7 +103,7 @@
 #bottom_right {
   width: 600px;
   float: left;
-  padding-left:40px;
+  padding-left: 40px;
 }
 
 #bottom_right p {
