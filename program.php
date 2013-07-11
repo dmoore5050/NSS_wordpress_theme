@@ -79,7 +79,7 @@ $(document).ready(function() {
     <h3 class="emphasisTitle modules">Web Developer Bootcamp</h3>
     <h3 class="emphasisTitle modules">Two hands-on courses, Six months, Full-time</h3>
   </div>
-  <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button class="button orange applyBtn btnPlace">Apply Now</button></a>
+<!--   <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button class="button orange applyBtn btnPlace">Apply Now</button></a> -->
   <div>
   <section class='firstHalf'>
     <div class="moduleBorder">
@@ -138,7 +138,7 @@ $(document).ready(function() {
       <li>Other soft skills such as pair-programming, code reviews, giving and receiving feedback, giving presentations, interviewing, etc.</li>
     </ul></p>
   </section>
-  <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button class="button orange applyBtn btnPlace2">Course Details & Schedules</button></a>
+<!--   <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button class="button orange applyBtn btnPlace2">Course Details & Schedules</button></a> -->
 </div>
 </div>
 
