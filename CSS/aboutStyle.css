@@ -2,114 +2,109 @@
 }*/
 
 #aboutTitle {
-	color:#6D6E66;
+  color:#6D6E66;
 }
 
 .titleSize {
-	font-size:99px;
-	margin-top:-5px;
+  font-size:99px;
+  margin-top:-5px;
 }
 
 .aboutBorder {
-	margin-bottom: 10px;
-	padding-bottom: 2px;
-	border-bottom: 2px solid rgb(82, 179, 197);
-	height: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(82, 179, 197);
+  height: 20px;
 }
 
 
 .valueMargin {
-	margin-top:30px;
+  margin-top:30px;
 }
 
 .colorTag {
-	color:#7898A4;	
+  color:#7898A4;
 }
 
 .aboutSlide {
-	padding-top:10px;
-	padding-bottom:20px;
-	width:1000px;
-	margin:0 auto;
+  padding-top:10px;
+  padding-bottom:20px;
+  width:1000px;
+  margin:0 auto;
 }
 
 .imgFix {
-	padding-top:14px;
+  padding-top:14px;
 }
 
 .value
 {
-	float:left;
-	width: 305px;
-	margin-left:22px;
-	text-align:right;
+  float:left;
+  width: 305px;
+  margin-left:22px;
+  text-align:right;
 }
 .coreValues {
-	margin-left: 155px;
-	margin-top: 30px;
+  margin-left: 8.8%;
+  margin-top: 30px;
 }
 .valposition {
-	margin-top:40px;
+  margin-top:40px;
 }
 
 .value-right {
-	float:left;
-	width: 600px;
-	margin-top:19px;
-	padding-left:40px;
+  float:left;
+  width: 600px;
+  margin-top:19px;
+  padding-left:40px;
 }
 
 #valuePic1, #valuePic2, #valuePic3, #valuePic4 {
-	margin-bottom:30px;
+  margin-bottom:30px;
 }
 
-.valuePic
-{
-text-align: center;
-margin-bottom: 10px;
-margin-top: 55px;
-width:190px;
+.valuePic {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 55px;
+  width:190px;
 }
 
 .aboutSmall {
-	font-size: 30px;
-	letter-spacing: 1px;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
 
 .border {
-border-bottom: 8px solid #DEDEDE;
+  border-bottom: 8px solid #DEDEDE;
 }
 
 .spaceLast {
-	margin-bottom:30px;
+  margin-bottom:30px;
 }
 
-#bottom
-{
-padding: 35px 0px 20px 0px;
-border-bottom: 1px solid #bbbbbb;
-border-top: 1px solid #D0D0D0;
-background-color: #F2F2F2;
+#bottom {
+  padding: 35px 0px 20px 0px;
+  border-bottom: 1px solid #bbbbbb;
+  border-top: 1px solid #D0D0D0;
+  background-color: #F2F2F2;
 }
 
-#bottom_left
-{
-width: 305px;
-float: left;
-text-align: right;
-margin-top: -10px;
+#bottom_left {
+  width: 305px;
+  float: left;
+  text-align: right;
+  margin-top: -10px;
 }
 
-#bottom_right
-{
-width: 600px;
-float: left;
-padding-left:40px;
+#bottom_right {
+  width: 600px;
+  float: left;
+  padding-left:40px;
 }
 
-#bottom_right p
-{
-margin: 0px;
+#bottom_right p {
+  margin: 0px;
 }
 
 .spacing {
