@@ -38,9 +38,8 @@ Template Name: Apply Now Page
 			<?php endif; ?>
 			<?php wp_reset_query();?>
 
-		<h3 class="subAttnPara">don't miss this opportunity to start your career as a software developer!</h3>
-
-		<!-- <a href="" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Soon</button></a> -->
+		<!-- <h3 class="subAttnPara">Don't miss this opportunity to start your career as a software developer!</h3>
+		<a href="" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Soon</button></a> -->
 	</div>
 </div>
 <div class="contentWrap">
