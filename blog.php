@@ -13,7 +13,7 @@ Template Name: Blog Page
 		<?php wp_get_archives( array ( 'cat' => '-9', 'type' => 'postbypost', 'limit' => '10', 'format' => 'custom', 'before' => '<li class="archives_list">', 'after' => '</li>' ) ); ?>
 	</aside><!--blogAside-->
 	<div id='loop'>
-		<?php $wp_query = new WP_Query("posts_per_page=10,  &cat=-9");?>
+		<?php $wp_query = new WP_Query("posts_per_page=10,  &cat=-9"); ?>
 			<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<div class="blogBorder">
 				<h3 class='homesub fontImpact'>
