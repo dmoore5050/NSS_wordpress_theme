@@ -2,6 +2,8 @@
 <html>
   <head>
   <title>Nashville Software School</title>
+  <!--favicon-->
+  <link href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" rel="shortcut icon" >
   <!--css-->
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
