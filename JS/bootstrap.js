@@ -1,5 +1,5 @@
 /* ===================================================
- * bootstrap-transition.js v2.1.0
+ * bootstrap-transition.js v2.3.2
  * http://twitter.github.com/bootstrap/javascript.html#transitions
  * ===================================================
  * Copyright 2012 Twitter, Inc.
@@ -20,13 +20,13 @@
 
 !function ($) {
 
+  "use strict"; // jshint ;_;
+
+
+  /* CSS TRANSITION SUPPORT (http://www.modernizr.com/)
+   * ======================================================= */
+
   $(function () {
-
-    "use strict"; // jshint ;_;
-
-
-    /* CSS TRANSITION SUPPORT (http://www.modernizr.com/)
-     * ======================================================= */
 
     $.support.transition = (function () {
 
@@ -57,7 +57,8 @@
 
   })
 
-}(window.jQuery);/* ==========================================================
+}(window.jQuery);
+/* ==========================================================
  * bootstrap-alert.js v2.1.0
  * http://twitter.github.com/bootstrap/javascript.html#alerts
  * ==========================================================
@@ -241,8 +242,9 @@
     })
   })
 
-}(window.jQuery);/* ==========================================================
- * bootstrap-carousel.js v2.1.0
+}(window.jQuery);
+/* ==========================================================
+ * bootstrap-carousel.js v2.3.2
  * http://twitter.github.com/bootstrap/javascript.html#carousel
  * ==========================================================
  * Copyright 2012 Twitter, Inc.
@@ -271,8 +273,8 @@
 
   var Carousel = function (element, options) {
     this.$element = $(element)
+    this.$indicators = this.$element.find('.carousel-indicators')
     this.options = options
-    this.options.slide && this.slide(this.options.slide)
     this.options.pause == 'hover' && this.$element
       .on('mouseenter', $.proxy(this.pause, this))
       .on('mouseleave', $.proxy(this.cycle, this))
@@ -282,19 +284,24 @@
 
     cycle: function (e) {
       if (!e) this.paused = false
+      if (this.interval) clearInterval(this.interval);
       this.options.interval
         && !this.paused
         && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
       return this
     }
 
+  , getActiveIndex: function () {
+      this.$active = this.$element.find('.item.active')
+      this.$items = this.$active.parent().children()
+      return this.$items.index(this.$active)
+    }
+
   , to: function (pos) {
-      var $active = this.$element.find('.item.active')
-        , children = $active.parent().children()
-        , activePos = children.index($active)
+      var activeIndex = this.getActiveIndex()
         , that = this
 
-      if (pos > (children.length - 1) || pos < 0) return
+      if (pos > (this.$items.length - 1) || pos < 0) return
 
       if (this.sliding) {
         return this.$element.one('slid', function () {
@@ -302,18 +309,18 @@
         })
       }
 
-      if (activePos == pos) {
+      if (activeIndex == pos) {
         return this.pause().cycle()
       }
 
-      return this.slide(pos > activePos ? 'next' : 'prev', $(children[pos]))
+      return this.slide(pos > activeIndex ? 'next' : 'prev', $(this.$items[pos]))
     }
 
   , pause: function (e) {
       if (!e) this.paused = true
       if (this.$element.find('.next, .prev').length && $.support.transition.end) {
         this.$element.trigger($.support.transition.end)
-        this.cycle()
+        this.cycle(true)
       }
       clearInterval(this.interval)
       this.interval = null
@@ -337,9 +344,7 @@
         , direction = type == 'next' ? 'left' : 'right'
         , fallback  = type == 'next' ? 'first' : 'last'
         , that = this
-        , e = $.Event('slide', {
-            relatedTarget: $next[0]
-          })
+        , e
 
       this.sliding = true
 
@@ -347,7 +352,20 @@
 
       $next = $next.length ? $next : this.$element.find('.item')[fallback]()
 
+      e = $.Event('slide', {
+        relatedTarget: $next[0]
+      , direction: direction
+      })
+
       if ($next.hasClass('active')) return
+
+      if (this.$indicators.length) {
+        this.$indicators.find('.active').removeClass('active')
+        this.$element.one('slid', function () {
+          var $nextIndicator = $(that.$indicators.children()[that.getActiveIndex()])
+          $nextIndicator && $nextIndicator.addClass('active')
+        })
+      }
 
       if ($.support.transition && this.$element.hasClass('slide')) {
         this.$element.trigger(e)
@@ -382,6 +400,8 @@
  /* CAROUSEL PLUGIN DEFINITION
   * ========================== */
 
+  var old = $.fn.carousel
+
   $.fn.carousel = function (option) {
     return this.each(function () {
       var $this = $(this)
@@ -391,7 +411,7 @@
       if (!data) $this.data('carousel', (data = new Carousel(this, options)))
       if (typeof option == 'number') data.to(option)
       else if (action) data[action]()
-      else if (options.interval) data.cycle()
+      else if (options.interval) data.pause().cycle()
     })
   }
 
@@ -403,21 +423,36 @@
   $.fn.carousel.Constructor = Carousel
 
 
+ /* CAROUSEL NO CONFLICT
+  * ==================== */
+
+  $.fn.carousel.noConflict = function () {
+    $.fn.carousel = old
+    return this
+  }
+
  /* CAROUSEL DATA-API
   * ================= */
 
-  $(function () {
-    $('body').on('click.carousel.data-api', '[data-slide]', function ( e ) {
-      var $this = $(this), href
-        , $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
-        , options = !$target.data('modal') && $.extend({}, $target.data(), $this.data())
-      $target.carousel(options)
-      e.preventDefault()
-    })
+  $(document).on('click.carousel.data-api', '[data-slide], [data-slide-to]', function (e) {
+    var $this = $(this), href
+      , $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
+      , options = $.extend({}, $target.data(), $this.data())
+      , slideIndex
+
+    $target.carousel(options)
+
+    if (slideIndex = $this.attr('data-slide-to')) {
+      $target.data('carousel').pause().to(slideIndex).cycle()
+    }
+
+    e.preventDefault()
   })
 
-}(window.jQuery);/* =============================================================
- * bootstrap-collapse.js v2.1.0
+}(window.jQuery);
+
+/* =============================================================
+ * bootstrap-collapse.js v2.3.2
  * http://twitter.github.com/bootstrap/javascript.html#collapse
  * =============================================================
  * Copyright 2012 Twitter, Inc.
@@ -470,7 +505,7 @@
         , actives
         , hasData
 
-      if (this.transitioning) return
+      if (this.transitioning || this.$element.hasClass('in')) return
 
       dimension = this.dimension()
       scroll = $.camelCase(['scroll', dimension].join('-'))
@@ -490,7 +525,7 @@
 
   , hide: function () {
       var dimension
-      if (this.transitioning) return
+      if (this.transitioning || !this.$element.hasClass('in')) return
       dimension = this.dimension()
       this.reset(this.$element[dimension]())
       this.transition('removeClass', $.Event('hide'), 'hidden')
@@ -538,14 +573,16 @@
   }
 
 
- /* COLLAPSIBLE PLUGIN DEFINITION
-  * ============================== */
+ /* COLLAPSE PLUGIN DEFINITION
+  * ========================== */
+
+  var old = $.fn.collapse
 
   $.fn.collapse = function (option) {
     return this.each(function () {
       var $this = $(this)
         , data = $this.data('collapse')
-        , options = typeof option == 'object' && option
+        , options = $.extend({}, $.fn.collapse.defaults, $this.data(), typeof option == 'object' && option)
       if (!data) $this.data('collapse', (data = new Collapse(this, options)))
       if (typeof option == 'string') data[option]()
     })
@@ -558,22 +595,31 @@
   $.fn.collapse.Constructor = Collapse
 
 
- /* COLLAPSIBLE DATA-API
+ /* COLLAPSE NO CONFLICT
   * ==================== */
 
-  $(function () {
-    $('body').on('click.collapse.data-api', '[data-toggle=collapse]', function (e) {
-      var $this = $(this), href
-        , target = $this.attr('data-target')
-          || e.preventDefault()
-          || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') //strip for ie7
-        , option = $(target).data('collapse') ? 'toggle' : $this.data()
-      $this[$(target).hasClass('in') ? 'addClass' : 'removeClass']('collapsed')
-      $(target).collapse(option)
-    })
+  $.fn.collapse.noConflict = function () {
+    $.fn.collapse = old
+    return this
+  }
+
+
+ /* COLLAPSE DATA-API
+  * ================= */
+
+  $(document).on('click.collapse.data-api', '[data-toggle=collapse]', function (e) {
+    var $this = $(this), href
+      , target = $this.attr('data-target')
+        || e.preventDefault()
+        || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '') //strip for ie7
+      , option = $(target).data('collapse') ? 'toggle' : $this.data()
+    $this[$(target).hasClass('in') ? 'addClass' : 'removeClass']('collapsed')
+    $(target).collapse(option)
   })
 
-}(window.jQuery);/* ============================================================
+}(window.jQuery);
+
+/* ============================================================
  * bootstrap-dropdown.js v2.1.0
  * http://twitter.github.com/bootstrap/javascript.html#dropdowns
  * ============================================================

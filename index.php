@@ -1,60 +1,62 @@
 <?php get_header ();?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/indexStyle.css">
 <style>
-.backgroundImgChalk {
-	background-image: url('<?php echo get_template_directory_uri(); ?>/images/chalk_black_low.jpg');
-	background-repeat: no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-@-moz-document url-prefix() {
-  .carousel-control {
-    padding-top: 15px;
+  .backgroundImgChalk {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/images/chalk_black_low.jpg');
+    background-repeat: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:    cover;
+    -o-background-size:      cover;
+    background-size:         cover;
   }
-}
+  @-moz-document url-prefix() {
+    .carousel-control {
+      padding-top: 15px;
+    }
+  }
 </style>
- <script>
-$(document).ready(function() {
-	$(function() {
-		$('.carousel').carousel('pause')
-	})
-});
+<script>
+  $(document).ready(function() {
+    $(function(){
+      $('.carousel').carousel({
+        interval: 6000
+      });
+    });
+  });
 </script>
 <div id="myCarousel" class="carousel slide carousel-fade border">
   <div class="carousel-inner backgroundImgChalk">
-    <div class="active item first">
+    <div class="active item individual_slide">
       <div class="margin">
         <img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel1.png" alt="slide1">
-        <div id="taglineInfo">
+        <div class="taglineInfo">
           <h3 class="smallHeadlineCarousel1 smallDiff">Learn How To</h3>
           <h2 class="emphasisTitleCarousel1">Build Web Applications</h2>
           <p class="carouselText">Six-month intensive training program that qualifies you for a junior developer job.</p>
         </div>
       </div>
-      </div>
-    <div class="item second">
+    </div>
+    <div class="item individual_slide">
       <div class="margin">
         <img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel2.png" alt="slide2">
-        <div id="taglineInfo">
+        <div class="taglineInfo">
           <h3 class="smallHeadlineCarousel1 smallDiff">Supporting You with</h3>
           <h2 class="emphasisTitleCarousel1">Mentors</h2>
           <p class="carouselText">Nashville's best developers volunteer their time to help you learn. </p>
         </div>
       </div>
-      </div>
-      <div class="item second">
+    </div>
+    <div class="item individual_slide">
       <div class="margin">
-        <img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel3.png" height="245px" style="margin-top: -50px; margin-left: -20px;" alt="slide2">
-          <div id="taglineInfo">
-            <h3 class="smallHeadlineCarousel1 smallDiff">Learn by Doing</h3>
-            <h2 class="emphasisTitleCarousel1">Apprenticeship</h2>
-            <p class="carouselText">Gain valuable experience through project work with our partner companies.  Get paid while you continue to learn.</p>
-          </div>
+        <img class="carouselBorder third_slide" src="<?php echo get_template_directory_uri(); ?>/images/carousel3.png" alt="slide3">
+        <div class="taglineInfo">
+          <h3 class="smallHeadlineCarousel1 smallDiff">Learn by Doing</h3>
+          <h2 class="emphasisTitleCarousel1">Apprenticeship</h2>
+          <p class="carouselText">Gain valuable experience through project work with our partner companies.  Get paid while you continue to learn.</p>
         </div>
       </div>
-   </div>
+    </div>
+  </div>
   <a class="carousel-control left" href="#myCarousel" data-slide="prev">‹</a>
   <a class="carousel-control right" href="#myCarousel" data-slide="next">›</a>
 </div>
@@ -71,7 +73,6 @@ $(document).ready(function() {
     <!-- <a href=""><button id="applyBtn" class="button orange">Apply Soon</button></a> -->
   </div>
 </div>
-
 <div class="containInfo clearfix">
   <div class="weDoFloat" class="clearfix">
     <section class="weDo">
