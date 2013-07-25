@@ -14,11 +14,7 @@ Template Name: Bootcamp
     .titleSize {
       margin-top:0px;
     }
-
-    #last_p_margin_correction {
-      margin-bottom: 0!important;
-    }
-  }
+}
 
   .backgroundImgChalk {
     background-image: url('<?php echo get_template_directory_uri(); ?>/images/chalk_black_low.jpg');
