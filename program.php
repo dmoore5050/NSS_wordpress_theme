@@ -130,7 +130,7 @@ $(document).ready(function() {
           <div>
             <section class='firstHalf'>
               <div class="moduleBorder">
-                <h3 class="smallHeadline">Course 1:</h3>
+                <h3 class="smallHeadline">Section 1:</h3>
               </div>
               <h4 class="homesub">Web Development Foundations</h4>
               <div class="courseTextWrapper">
@@ -161,7 +161,7 @@ $(document).ready(function() {
             </section>
             <section class='lastHalf'>
               <div class="moduleBorder">
-                <h3 class="smallHeadline">Course 2:</h3>
+                <h3 class="smallHeadline">Section 2:</h3>
               </div>
               <h4 class="homesub">Software Development Foundations</h4>
               <div class="courseTextWrapper">
