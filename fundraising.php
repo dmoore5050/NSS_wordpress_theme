@@ -4,7 +4,7 @@ Template Name: Fundraising Page
 */
 ?>
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/fundraisingStyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/fundraisingMockupStyle.css">
 
 <div class="contentWrap">
   <div class="accordionNav">
