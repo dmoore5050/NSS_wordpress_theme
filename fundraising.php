@@ -1,46 +1,34 @@
-<?php
+<?php get_header ();
 /*
 Template Name: Fundraising Page
 */
 ?>
 
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/fundraisingStyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/communityStyle.css">
 
-<div>
-	<h1>Donate Now!!!!!</h1>
-	
-	<?php echo do_shortcode('[donateextra]'); ?>
+<style type='text/css'>
+  .backgroundImgLt {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/images/first_aid_kit.png');
+  }
 
-<style>
-@-moz-document url-prefix() {
-   .buttonSpace {
-        margin: -15px 30px 0px 30px;
+  @-moz-document url-prefix() {
+    .titleSize {
+      margin-top:0px;
+      padding-top: 5px;
     }
-}
+
 </style>
-<div class="contentWrap">
-	<div class="contactWrap clearfix">
-		<div id="col1">
-			<div class="contactBorder">
-				<h3 class="smallHeadline">OUR LOCATION</h3>
-				<address>
-					<p>Nashville Business Incubation Center (NBIC)<br/>
-					315 Tenth Avenue North<br/>
-					Nashville, TN</p>
-				</address>
-			</div>
-		</div>
-		<div id="col2">
-			<div class="contactBorder">
-				<h3 class="smallHeadline">CONTACT US</h3>
-			</div>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-			<?php endwhile; else: ?>
-				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-			<?php endif; ?>
-		</div>
-	</div>
+
+<div id="backgroundWrapper" class="clearfix">
+	<div id="communityWrapper" class="clearfix">
+		<div class="sectionWrap clearfix">
+			<section class="clearfix">
+      	<h3 class="emphasisTitle aboutSmall">Fundraising</h3>
+      </section>
+    </div>
+  </div>
 </div>
+
+
 <?php get_footer(); ?>
