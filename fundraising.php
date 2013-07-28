@@ -11,6 +11,7 @@ Template Name: Fundraising Page
 	<h1>Donate Now!!!!!</h1>
 	
 	<?php echo do_shortcode('[donateextra]'); ?>
+	<?php echo do_shortcode('[appthemer_crowdfunding_submit]'); ?>
 
 <style>
 @-moz-document url-prefix() {
