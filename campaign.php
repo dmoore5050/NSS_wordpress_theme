@@ -38,6 +38,10 @@ Template Name: Campaign Page
         <p class='bodyText'><span class='goalName'>Stretch Goal #1: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
         <p class='bodyText'><span class='goalName'>Stretch Goal #2: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
         <p class='bodyText'><span class='goalName'>Stretch Goal #3: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
+        <br>
+        <div class='pledgeButtonWrapper'>
+          <a href=""><button class='pledgeButton button orange'>Pledge Support</button></a>
+        </div>
       </section>
     </div>
     <aside id='sidebarWrapper'>
@@ -51,7 +55,7 @@ Template Name: Campaign Page
         <p class='progressSubMessage'>days to go</p>
         <br>
         <div id='pledgeButtonWrapper'>
-          <a href=""><button id='pledgeButton' class="button orange">Pledge Support</button></a>
+          <a href=""><button class='pledgeButton button orange'>Pledge Support</button></a>
           <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
         </div>
       </section>

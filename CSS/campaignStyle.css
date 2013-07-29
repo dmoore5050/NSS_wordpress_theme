@@ -172,13 +172,13 @@
   color: #464646;
 }
 
-#pledgeButtonWrapper {
+.pledgeButtonWrapper {
   margin-top: 20px;
   width: 100%;
   text-align: center;
 }
 
-#pledgeButton {
+.pledgeButton {
   width: 225px;
   height: 60px;
   font-size: 18px!important;
