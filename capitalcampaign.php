@@ -30,21 +30,6 @@ padding: 25px 0px 20px 0px;
     }
 }
 </style>
-<script>
-function equalHeight(group) {
-   tallest = 0;
-   group.each(function() {
-        thisHeight = $(this).height();
-          if(thisHeight > tallest) {
-            tallest = thisHeight;
-          }
-    });
-   group.height(tallest);
-}
-$(document).ready(function() {
-   equalHeight($(".elements"));
-});
-</script>
 
 <div class='contentWrap clearfix'>
   <div class='light clearfix'>
@@ -62,30 +47,30 @@ $(document).ready(function() {
       <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'fundraising' ) ) ); ?>"><button class="button orange applyBtn btnPlaceDonate">Donate</button></a>
 <h4 id="modules" class=" light emphasisTitle">Student Story</h4>
       <h3 class="center homesub">Brandon Lyons</h3>
-<img id="img" class="imgBorder firstThird" src="<?php bloginfo('template_url'); ?>/images/McCadams_20130605_3576.jpg" alt="Brandon Lyons" width="300px;" height="300px;"/>    
+<img id="img" class="imgBorder firstThird" src="<?php bloginfo('template_url'); ?>/images/McCadams_20130605_3576.jpg" alt="Brandon Lyons" width="300px;" height="300px;"/>
 <p>Fund a scholarship and help build Nashville's home-grown tech community.Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech</p>
 
 
 <h4 id="modules" class=" light emphasisTitle">In The News</h4>
 
-  <img id="img" class="twoThird" src="<?php bloginfo('template_url'); ?>/images/citypaper.jpg" alt="NSS in the News" />  
+  <img id="img" class="twoThird" src="<?php bloginfo('template_url'); ?>/images/citypaper.jpg" alt="NSS in the News" />
 <p>Read what the Nashville City Paper had to say about the Nashville Software School</p>
 
-      
+
 <h4 id="modules" class=" light emphasisTitle">How your donation makes a difference</h4>
       <h3 class="center homesub"> Melanie Hall</h3>
-<img id="img" class="imgBorder midThird" src="<?php bloginfo('template_url'); ?>/images/McCadams_20130605_3521.jpg" alt="Melanie Hall" width="300px;" height="300px;"/>    
+<img id="img" class="imgBorder midThird" src="<?php bloginfo('template_url'); ?>/images/McCadams_20130605_3521.jpg" alt="Melanie Hall" width="300px;" height="300px;"/>
 <p>Fund a scholarship and help build Nashville's home-grown tech community.Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech</p>
 <br>
 <h4 id="modules" class=" light emphasisTitle">Student Story</h4>
         <h3 class="center homesub">Joe Shepard</h3>
-  <img id="img" class="imgBorder twoThird" src="<?php bloginfo('template_url'); ?>/images/McCadams_20130605_3779.jpg" alt="Joe Shepard" />  
+  <img id="img" class="imgBorder twoThird" src="<?php bloginfo('template_url'); ?>/images/McCadams_20130605_3779.jpg" alt="Joe Shepard" />
 <p class= 'twoThird'>Fund a scholarship and help build Nashville's home-grown tech community.Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech community.  Fund a scholarship and help build Nashville's home-grown tech</p>
 
       <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'fundraising' ) ) ); ?>"><button class="button orange applyBtn btnPlaceDonate">Donate</button></a>
 
     </div>
-   
+
     <div class='lastThird elements'>
       <h4 id="modules" class=" light emphasisTitle">Donation Levels</h4>
       <h4 class="center homesub">Keep 'em Caffeinated</h4>
