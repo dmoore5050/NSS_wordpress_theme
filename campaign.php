@@ -16,16 +16,28 @@ Template Name: Campaign Page
         <iframe width="620" height="349" src="//www.youtube.com/embed/8AdSzQZ8AKo?rel=0" frameborder="0" allowfullscreen></iframe>
       </section>
       <section id='campaignBody'>
-        <h2 class='copyTitle'>Body title here</h2>
+        <h2 class='bodyTitle'>Body title here</h2>
         <div id='leadWrap'>
           <p id='leadParagraph'>"Etsy Echo Park literally sriracha. Wolf cred hashtag, next level blue bottle four loko occupy. Disrupt mumblecore try-hard, cliche biodiesel moustache salvia pickled whatever."<span id="leadName"> -John Wark</span></p>
         </div>
         <p class='bodyText'>Small batch typewriter fanny pack, yr vinyl readymade salvia biodiesel chillwave selfies tumblr pour-over. Actually blog letterpress, art party sriracha shabby chic selvage Echo Park Carles. Fap wolf +1 next level, butcher fanny pack hoodie Brooklyn salvia dreamcatcher mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Truffaut High Life fashion axe, cred banjo keytar 3 wolf moon food truck butcher McSweeney's Williamsburg chillwave gluten-free photo booth. </p>
         <p class='bodyText'>
-          <img class="bodyImage" src="<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg" alt="filler image" width="320px;" height="320px;" align: 'left;'/>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis Terry Richardson, organic leggings food truck american apparel asymmetrical mumblecore.</p>
-        <p class='bodyText' >Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche. Fixie DIY occupy, pitchfork asymmetrical retro keffiyeh freegan stumptown viral PBR tattooed Etsy pug. Master cleanse forage sustainable ethical, Marfa street art. Echo Park Carles. Fap wolf +1 next level, butcher fanny pack hoodie Brooklyn salvia dreamcatcher mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. </p>
+          <img class="bodyImage" src="<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg" alt="filler image" width="320px;" height="320px;"/>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis Terry Richardson, organic leggings food truck american apparel asymmetrical mumblecore.</p>
+        <p class='bodyText'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche. Fixie DIY occupy, pitchfork asymmetrical retro keffiyeh freegan stumptown viral PBR tattooed Etsy pug. Master cleanse forage sustainable ethical, Marfa street art. Echo Park Carles. Fap wolf +1 next level, butcher fanny pack hoodie Brooklyn salvia dreamcatcher mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. </p>
         <br>
-        <h2 class='copyTitle right'>Another Body Title Here</h2>
+        <h2 class='bodyTitle right'>Another Body Title Here</h2>
+        <aside class='right smallAside'>
+          <div id='fakePic'></div>
+          <h3 id='asideTitle'>Johnny Fakename</h3>
+          <p id='asideBody'>Mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Fixie DIY occupy, pitch fork asymmetrical retro keffiyeh freegan stump town viral PBR tattoo Etsy pug bahn mi.</p>
+        </aside>
+        <p class='bodyText'>Bushwick artisan deep v ethnic, pop-up cardigan freegan gluten-free single-origin coffee Portland. Ullamco pitchfork pour-over PBR, thundercats hoodie Bushwick hella roof party reprehenderit readymade wolf aliqua. Meggings viral fap magna, blue bottle quis ad Austin. Messenger bag assumenda accusamus yr bitters, deep v vegan VHS magna culpa ennui small batch. Exercitation before they sold out.</p>
+        <p class='bodyText'>Master cleanse iPhone lo-fi Bushwick. Freegan mixtape laborum, occaecat photo booth officia Brooklyn voluptate squid iPhone id roof party. Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche assumenda hoodie nostrud 8-bit. Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche. </p>
+        <br>
+        <h2 class='bodyTitle center'>And Now: Stretch Goals!</h2>
+        <p class='bodyText'><span class='goalName'>Stretch Goal #1: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
+        <p class='bodyText'><span class='goalName'>Stretch Goal #2: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
+        <p class='bodyText'><span class='goalName'>Stretch Goal #3: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
       </section>
     </div>
     <aside id='sidebarWrapper'>

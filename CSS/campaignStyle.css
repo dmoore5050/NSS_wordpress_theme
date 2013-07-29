@@ -22,10 +22,8 @@
   width: 966px;
   height: auto;
   margin: 0 auto;
-/*  border-radius: 8px;*/
   background-color: white;
   padding: 20px;
-/*  box-shadow: 5px 5px 5px #d9d9d9;*/
 }
 
 #campaignContentWrapper {
@@ -39,15 +37,14 @@
 
 #campaignBody {
   background-color: #f1f1f1;
-  height: 1200px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 2px 2px 2px #d9d9d9;
 }
 
-.copyTitle {
+.bodyTitle {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-size: 32px;
   line-height: 1em;
   color: #2d2d2d;
@@ -60,6 +57,7 @@
 }
 
 #leadParagraph {
+  padding-top: 10px;
   font-weight: bold;
   font-size: 16px!important;
   color: black;
@@ -73,6 +71,7 @@
   font-size: 15px!important;
   line-height: 20px;
   color: #595959;
+  text-align: justify;
 }
 
 .bodyImage {
@@ -85,6 +84,52 @@
 .right {
   text-align: right;
 }
+
+.smallAside {
+  background: white;
+  height: 300px;
+  width: 180px;
+  float: right;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px #d9d9d9;
+}
+
+#fakePic {
+  background: green;
+  height: 125px;
+  width: 180px;
+}
+
+#asideTitle {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+#asideBody {
+  color: #595959;
+  margin-top: 0;
+  line-height: 18px;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.goalName {
+  font-weight: bold;
+}
+
+
 
 #sidebarWrapper {
   width: 316px;
@@ -227,7 +272,7 @@
 }
 
 .tierFooter {
-  color: #2d2d2d;
+  color: #464646;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 18px;
