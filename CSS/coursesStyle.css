@@ -10,7 +10,7 @@
 }
 
 .coursesHeader {
-  font-size: 70px;
+  font-size: 68px;
   margin-top: 30px;
   float: left;
   position: absolute;
@@ -18,7 +18,7 @@
 
 .chalkboard {
   height: 316px;
-  width: 833px;
+  width: 827px;
   float: right;
   clear: none;
   margin-top: 5px;
@@ -55,7 +55,7 @@
   font-weight: bold;
   letter-spacing: -7px;
   float: right;
-  margin-top: 223px;
+  margin-top: 213px;
 }
 
 .smallTwo {
@@ -64,7 +64,7 @@
   font-weight: bold;
   float: right;
   margin-right: 14px;
-  margin-top: 233px;
+  margin-top: 226px;
 }
 
 /* announcement bubble */
@@ -86,11 +86,11 @@
 .triangle_border:before {
   content: "";
   position: absolute;
-  top: -20px;
+  top: -26px;
   bottom: auto;
   left: auto;
-  right: 52px;
-  border-width: 0 20px 20px;
+  right: 48px;
+  border-width: 0 20px 26px;
   border-style: solid;
   border-color: #fec013 transparent;
   display: block;
@@ -100,11 +100,11 @@
 .triangle_border:after {
   content: "";
   position: absolute;
-  top: -13px;
+  top: -19px;
   bottom: auto;
   left: auto;
-  right: 59px;
-  border-width: 0 13px 13px;
+  right: 55px;
+  border-width: 0 13px 19px;
   border-style: solid;
   border-color: #fff transparent;
   display: block;
@@ -143,6 +143,7 @@
 
 .accordionNavItem {
   float: left;
+  font-size: 19px;
   text-decoration: none;
   padding: 0 15px;
 }
@@ -207,7 +208,7 @@
   border-bottom: 2px solid #52b3c5;
   padding-bottom: 12px;
   margin-bottom: 0;
-  height: 190px;
+  height: 210px;
   text-align: left;
 }
 
@@ -243,7 +244,7 @@
 }
 
 .courseTextWrapper {
-  height: 220px;
+  height: 230px;
   margin-bottom: 20px
 }
 
@@ -289,7 +290,7 @@
 /* bootcamp costs */
 
 #costWrap {
- width: 900px;
+ width: 842px;
  margin: 0 auto;
 }
 
@@ -304,13 +305,13 @@
 }
 
 .third {
-  width: 260px;
+  width: 210px;
   padding: 10px;
   float: left;
 }
 
 .twoThird {
-  width: 600px;
+  width: 590px;
   padding: 0 10px 0 10px;
   float: left;
   margin-top: 20px;
