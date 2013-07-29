@@ -1,0 +1,241 @@
+/* Campaign stylesheet */
+
+#container {
+  background-color: #f2f2f2;
+  margin-top: -27px;
+  padding-bottom: 28px;
+}
+
+#campaignHeader {
+  font-family: 'Open Sans';
+  text-align: center;
+  padding-top: 37px;
+  color: #1a334c;
+  font-size: 44px;
+  line-height: .85em;
+  letter-spacing: -2px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#contentWrapper {
+  width: 966px;
+  height: auto;
+  margin: 0 auto;
+/*  border-radius: 8px;*/
+  background-color: white;
+  padding: 20px;
+/*  box-shadow: 5px 5px 5px #d9d9d9;*/
+}
+
+#campaignContentWrapper {
+  width: 620px;
+  float: left;
+}
+
+#campaignMedia {
+  margin-bottom: 20px;
+}
+
+#campaignBody {
+  background-color: #f1f1f1;
+  height: 1200px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #d9d9d9;
+}
+
+.copyTitle {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 1em;
+  color: #2d2d2d;
+}
+
+#leadWrap {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+}
+
+#leadParagraph {
+  font-weight: bold;
+  font-size: 16px!important;
+  color: black;
+}
+
+#leadName {
+  font-weight: normal;
+}
+
+.bodyText {
+  font-size: 15px!important;
+  line-height: 20px;
+  color: #595959;
+}
+
+.bodyImage {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  float: left;
+}
+
+.right {
+  text-align: right;
+}
+
+#sidebarWrapper {
+  width: 316px;
+  float: right;
+}
+
+#campaignStatus {
+  background-color: #f1f1f1;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #d9d9d9;
+}
+
+.progressBangHeader {
+  font-family: 'Merriweather';
+  font-size: 48px;
+  line-height: 54px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #f1b306;
+  display: inline-block;
+}
+
+.progressSubMessage {
+  font-family: 'Merriweather';
+  font-size: 16px!important;
+  line-height: 18px;
+  margin-top: 0;
+  color: #464646;
+  display: inline-block;
+}
+
+.progressSubMessage:first-of-type {
+  display: block!important;
+  margin-bottom: 10px;
+}
+
+.greyText {
+  color: #464646;
+}
+
+#pledgeButtonWrapper {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#pledgeButton {
+  width: 225px;
+  height: 60px;
+  font-size: 18px!important;
+  margin-bottom: 15px;
+}
+
+#donationFinePrint {
+  width: 210px;
+  margin-bottom: 0;
+  color: #464646;
+  font-size: 13px!important;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#donationTiers {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  box-shadow: 2px 2px 2px #d9d9d9;
+  border-radius: 8px;
+}
+
+.tier {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #808080;
+  cursor: pointer;
+  padding: 15px 19px;
+}
+
+.tier:first-of-type {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.tier:last-of-type {
+  border-bottom: none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.tier:hover {
+  background-color: #dfdfdf;
+}
+
+.tierAmount {
+  font-family: 'Merriweather';
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 28px;
+  line-height: 1em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #e5a700;
+}
+
+.tier:hover .tierAmount {
+  color: #cc8e00;
+}
+
+.tierTitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1em;
+  font-weight: bold;
+  color: #2d2d2d;
+}
+
+.tierRule {
+  background-color: #f5f5f5;
+  border-top: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+  height: 1px;
+}
+
+.tier:hover .tierRule {
+  border-top: 1px solid #909090;
+  border-left: 1px solid #909090;
+}
+
+.tierDescription {
+  color: #595959;
+  margin-top: 0;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.tier:hover .tierDescription {
+  color: #464646;
+}
+
+.tierFooter {
+  color: #2d2d2d;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+/* footer */
+
+footer {
+  margin-top: 0!important;
+}
