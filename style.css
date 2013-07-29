@@ -144,9 +144,9 @@ header {
 
 .socialLinks {
   width: 180px;
-  float: right;
+  position: absolute;
   margin-top: 12px;
-   margin-right: -880px;
+  right: 0;
 }
 .socialLinks img {
   height: 20px;
@@ -165,7 +165,7 @@ header {
 
 #social1 {
   float: right;
-  width: 80px;
+  width: 40px;
 }
 
 /*SINGLE BLOG PAGE*/

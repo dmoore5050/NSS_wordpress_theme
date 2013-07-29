@@ -53,11 +53,9 @@
         <div id="social1">
           <a class="icon" href="http://www.twitter.com/nashsoftware"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/twitter_bird.png" alt="twitter"/></a>
         </div>
-
         <div id="social2">
           <a class="icon" href="http://www.facebook.com/NashvilleSoftwareSchool"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="facebook"/></a>
         </div>
-
         <div id="social3">
           <a class="icon" href="http://www.nashvillesoftwareschool.com/rss"><img border="0" src="<?php echo get_template_directory_uri(); ?>/images/rss.png" alt="rss"/></a>
         </div>
