@@ -9,10 +9,10 @@ Template Name: Fundraising Page
 <div class="contentWrap">
   <div class="accordionNav">
     <div class='navItemWrapper'>
-      <a href="#">Capital Campaign</a>
+      <a href="/NSS/fundraising/capitalcampaign">Capital Campaign</a>
     </div>
     <div class='navItemWrapper'>
-      <a href="#">Operating Costs Campaign</a>
+      <a href="/NSS/fundraising/campaign">Operating Costs Campaign</a>
     </div>
   </div>
   <h2 class="smallHeadline">Contribute</h2>
