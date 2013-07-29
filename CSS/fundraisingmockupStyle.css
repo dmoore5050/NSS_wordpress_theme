@@ -9,12 +9,15 @@
   border-bottom: 1px solid #eb8f00;
   padding: 5px 0;
   text-align: center;
+}
 
+.navItemWrapper {
+  width: 40%;
+  display: inline-block;
 }
 
 .accordionNav a {
   text-decoration: none;
-  padding: 0 157px;
   color: #666;
 }
 

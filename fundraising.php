@@ -8,8 +8,12 @@ Template Name: Fundraising Page
 
 <div class="contentWrap">
   <div class="accordionNav">
-    <a href="#">Capital Campaign</a>
-    <a href="#">Operating Costs Campaign</a>
+    <div class='navItemWrapper'>
+      <a href="#">Capital Campaign</a>
+    </div>
+    <div class='navItemWrapper'>
+      <a href="#">Operating Costs Campaign</a>
+    </div>
   </div>
   <h2 class="smallHeadline">Contribute</h2>
   <h3 class="emphasisTitle">Invest in Nashville's Tech Community</h3>
