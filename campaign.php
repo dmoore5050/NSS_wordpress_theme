@@ -54,7 +54,7 @@ Template Name: Campaign Page
         <h2 class='progressBangHeader'>17</h2>
         <p class='progressSubMessage'>days to go</p>
         <br>
-        <div id='pledgeButtonWrapper'>
+        <div class='pledgeButtonWrapper'>
           <a href=""><button class='pledgeButton button orange'>Pledge Support</button></a>
           <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
         </div>
