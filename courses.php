@@ -105,7 +105,7 @@ $(document).ready(function() {
         <div id='bootcampOverview' class='courseContent'>
           <section class='blurbHalf'>
             <h2 class="emphasisTitle programSpace">Intensive training & focused career preparation</h2>
-            <p> Intensive as in full-time, hands-on, collaborative, immersive, challenging, fast-moving, and rigorous. That kind of intensive. Also: intellectually stimulating, horizon broadening, energizing, and fun. All with the goal of preparing you as an entry-level software developer.</p>
+            <p> Intensive as in full-time, hands-on, collaborative, immersive, challenging, fast-moving, and rigorous. That kind of intensive. Also: intellectually stimulating, horizon broadening, energizing, and fun. All with the goal of preparing you for a career as an entry-level software developer.</p>
           </section>
           <section class='imgHalf'>
             <img class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/group.png" alt="first_class" width="460px;" height="230px;"/>
@@ -113,7 +113,7 @@ $(document).ready(function() {
           <div id="contentWrap" class='clearfix'>
             <div class='firstThird elements'>
               <h3 class="center homesub">Intensive Training</h3>
-              <p>Our curriculum is a carefully curated collection of online tutorials, classroom lecture, and cooperative discussion.  You’ll be coding solo, in pairs, and in teams.  It's designed around hands-on learning by doing.  You'll get both the hard knowledge and the soft skills you need to succeed as a developer, and the chance to push yourself hard, to learn fast, and to learn deeply.</p>
+              <p>Our curriculum is a carefully curated collection of online tutorials, classroom lecture, and cooperative discussion.  You’ll code solo, in pairs, and in teams, on projects we define and some that you do.  It's designed around hands-on learning by doing.  You'll get both the hard knowledge and the soft skills you need to succeed as a developer, and the chance to push yourself hard, to learn fast, and to dig deep.</p>
             </div>
             <div class='midThird elements'>
               <h3 class="center homesub">Mentoring</h3>
@@ -134,8 +134,8 @@ $(document).ready(function() {
               </div>
               <h4 class="homesub">Web Development Foundations</h4>
               <div class="courseTextWrapper">
-                <p>This course focuses on the core front-end (client-side) technologies used to develop modern websites and web applications.  On completion of this module, students will be able to implement a full dynamic website, leverage a content management system to deliver and manage that website, use source code version control to manage project files, and demonstrate their aptitude for programming.  This course provides the foundation needed to learn how to conceptualize and build complex applications in future training courses.</p>
-                <p>You'll learn the fundamentals of how to build websites correctly and be well on the path to becoming a qualified front-end developer.</p>
+                <p>This course focuses on the core front-end (client-side) technologies used to develop modern websites and web applications.  On completion of this module, students will be able to implement a complete, dynamic website, leverage a content management system to deliver and manage that website, use version control to manage project files, and demonstrate their aptitude for programming.  This course provides the foundation needed to learn how to conceptualize and build complex applications in future training courses.</p>
+                <p>You'll learn the fundamentals of building websites, and get a jump on becoming a qualified front-end developer.</p>
               </div>
               <div class="bottomBump">
                 <img class="imgBorder img logoImage" src="<?php bloginfo('template_url'); ?>/images/html5.png" alt="html5"/>
@@ -148,11 +148,11 @@ $(document).ready(function() {
               </div>
               <h4 class="homeSub">What You'll Learn</h4>
               <p><ul class="listStyle programsList">
-                <li><b>HTML5</b> & <b>CSS</b> to build functional, user-friendly websites</li>
+                <li><b>HTML5</b> & <b>CSS</b> to build functional, user-friendly sites</li>
                 <li><b>Javascript</b> to add interactivity to web pages and apps </li>
                 <li><b>jQuery</b> & <b>AJAX</b> to build dynamic one page apps</li>
-                <li><b>API's</b> to integrate data from outside services in your app</li>
-                <li><b>Git</b> & <b>Github</b> for source code control and collaboration</li>
+                <li><b>API's</b> to integrate data from outside services</li>
+                <li><b>Git</b> & <b>Github</b> for source code control & collaboration</li>
                 <li><b>Firebug</b> & <b>Chrome Dev Tools</b> to test your web app</li>
                 <li>Building and deploying a custom <b>Wordpress</b> site</li>
                 <li><b>Soft skills</b> like code review, giving and receiving feedback, and group presentions</li>
