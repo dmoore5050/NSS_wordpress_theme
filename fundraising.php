@@ -3,44 +3,47 @@
 Template Name: Fundraising Page
 */
 ?>
-
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/fundraisingStyle.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/fundraisingMockupStyle.css">
 
-<div>
-	<h1>Donate Now!!!!!</h1>
-	
-	<?php echo do_shortcode('[donateextra]'); ?>
-
-<style>
-@-moz-document url-prefix() {
-   .buttonSpace {
-        margin: -15px 30px 0px 30px;
-    }
-}
-</style>
 <div class="contentWrap">
-	<div class="contactWrap clearfix">
-		<div id="col1">
-			<div class="contactBorder">
-				<h3 class="smallHeadline">OUR LOCATION</h3>
-				<address>
-					<p>Nashville Business Incubation Center (NBIC)<br/>
-					315 Tenth Avenue North<br/>
-					Nashville, TN</p>
-				</address>
-			</div>
-		</div>
-		<div id="col2">
-			<div class="contactBorder">
-				<h3 class="smallHeadline">CONTACT US</h3>
-			</div>
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-			<?php endwhile; else: ?>
-				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-			<?php endif; ?>
-		</div>
-	</div>
+  <div class="accordionNav">
+    <a href="#">Capital Campaign</a>
+    <a href="#">Operating Costs Campaign</a>
+  </div>
+  <h2 class="smallHeadline">Contribute</h2>
+  <h3 class="emphasisTitle">Invest in Nashville's Tech Community</h3>
+  <div class="left">
+    <p>
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+    </p>
+    <p>
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+    </p>
+    <p>
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+      Text about how great NSS is and why to contribute.
+    </p>
+  </div>
+  <div class="right">
+    <div class="image_placeholder">
+      <p>Image/Video</p>
+    </div>
+  </div>
 </div>
 <?php get_footer(); ?>

@@ -130,12 +130,10 @@ header {
 }
 
 #header_left {
-  width: 320px;
   float: left;
 }
 
 #header_right {
-    width: 580px;
     float: right;
 }
 
@@ -145,11 +143,10 @@ header {
 }
 
 .socialLinks {
-  position: absolute;
   width: 180px;
-  float: left;
+  float: right;
   margin-top: 12px;
-   margin-left: 964px;
+   margin-right: -880px;
 }
 .socialLinks img {
   height: 20px;
