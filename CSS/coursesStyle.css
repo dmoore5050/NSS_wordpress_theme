@@ -23,7 +23,7 @@
   clear: none;
   margin-top: 5px;
   margin-bottom: -10px;
-  border-radius: 5px;
+  border-radius: 8px;
   text-align: center;
 }
 
@@ -40,14 +40,14 @@
   width: 540px;
   position: absolute;
   top: 203px;
-  right: 306px;
+  right: 370px;
   font-size: 17px;
 }
 
 .quoteAttribute {
   position: absolute;
   top: 248px;
-  right: 356px;
+  right: 420px;
 }
 
 .nssLogo {
@@ -72,7 +72,7 @@
 .triangle_border {
   position: relative;
   padding: 25px;
-  margin: 1em 0 1em;
+  margin: 1em 0 15px;
   border: 5px solid #fec013;
   color: #333;
   background: #fff;
@@ -125,8 +125,24 @@
   width: 960px;
 }
 
-#accordion h3 {
-  color: #464646;
+#accordionFirst:hover ~ #accordionSecond,
+#accordionFirst:focus ~ #accordionSecond {
+  border-top-color: #fbd850;
+}
+
+#accordionFirst {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+#accordionSecond {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+#accordionSecond:focus {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 .accordionPane {

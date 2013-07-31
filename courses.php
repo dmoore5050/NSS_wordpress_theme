@@ -84,7 +84,7 @@ $(document).ready(function() {
 </div>
   <div class='accordionWrapper'>
     <div id="accordion">
-      <h3>Software Development Bootcamp</h3>
+      <h3 id='accordionFirst'>Software Development Bootcamp</h3>
       <div class='accordionPane'>
         <div class='accordionNav'>
           <a href='#' id='bootcampOverviewButton' class='accordionNavItem activeAccordionNavItem'>Overview</a>
@@ -192,7 +192,7 @@ $(document).ready(function() {
           </div>
         </div>
       </div>
-      <h3>Night Classes</h3>
+      <h3 id='accordionSecond'>Night Classes</h3>
       <div class='accordionPane'>
         <h1 class='emphasisTitle'>Night Classes</h1>
       </div>

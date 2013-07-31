@@ -90,7 +90,7 @@
 	display: block;
 	cursor: pointer;
 	position: relative;
-	margin-top: 2px;
+	margin-top: -2px;
 	padding: 0.7em 0.5em 0.7em 0.7em;
 	min-height: 0; /* support: IE7 */
 }
@@ -825,7 +825,7 @@ body .ui-tooltip {
 	background: #fff;
 	/*background: #f6f6f6 url(../images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;*/
 	font-weight: bold;
-	color: #333;
+	color: #464646;
 }
 .ui-state-default a,
 .ui-state-default a:link,
