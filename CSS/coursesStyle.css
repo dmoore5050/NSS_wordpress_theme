@@ -100,11 +100,11 @@
 .triangle_border:after {
   content: "";
   position: absolute;
-  top: -19px;
+  top: -20px;
   bottom: auto;
   left: auto;
   right: 55px;
-  border-width: 0 13px 19px;
+  border-width: 0 14px 20px;
   border-style: solid;
   border-color: #fff transparent;
   display: block;
@@ -123,6 +123,10 @@
 #accordion {
   margin: 0 auto;
   width: 960px;
+}
+
+#accordion h3 {
+  color: #464646;
 }
 
 .accordionPane {
@@ -196,15 +200,18 @@
   border-bottom: 2px solid #52b3c5;
 }
 
-.firstThird {
-  width: 265px;
-  padding: 10px 21px 10px 0;
+.thirds {
+  width: 260px;
   float: left;
+}
+
+.firstThird {
+  padding: 10px 21px 10px 0;
   clear: both;
   margin-right: 1px;
 }
 
-.elements p {
+.thirds p {
   border-bottom: 2px solid #52b3c5;
   padding-bottom: 12px;
   margin-bottom: 0;
@@ -213,16 +220,12 @@
 }
 
 .midThird {
-  width: 265px;
   padding: 10px 21px 10px 0;
-  float: left;
   margin-right: 1px;
 }
 
 .lastThird {
-  width: 265px;
   padding: 10px 0;
-  float: left;
 }
 
 /* bootcamp sections pane */

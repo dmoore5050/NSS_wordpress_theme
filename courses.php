@@ -100,15 +100,15 @@ $(document).ready(function() {
             <img class="imgBorder" src="<?php bloginfo('template_url'); ?>/images/group.png" alt="first_class" width="460px;" height="230px;"/>
           </section>
           <div id="contentWrap" class='clearfix'>
-            <div class='firstThird elements'>
+            <div class='firstThird thirds'>
               <h3 class="center homesub">Intensive Training</h3>
               <p>Our curriculum is a carefully curated collection of online tutorials, classroom lecture, and cooperative discussion.  You’ll code solo, in pairs, and in teams, on projects we define and some that you do.  It's designed around hands-on learning by doing.  You'll get both the hard knowledge and the soft skills you need to succeed as a developer, and the chance to push yourself hard, to learn fast, and to dig deep.</p>
             </div>
-            <div class='midThird elements'>
+            <div class='midThird thirds'>
               <h3 class="center homesub">Mentoring</h3>
               <p>We're going to set a fast pace and push you hard, but you won’t have to do it by yourself.  You'll be instructed and mentored by some of the smartest, most experienced software developers in Nashville.  They'll teach you how to solve problems, help get you unstuck when you hit a wall, and give you insight into the paths they’ve taken and the choices they've made to develop their career.</p>
             </div>
-            <div class='lastThird elements'>
+            <div class='lastThird thirds'>
               <h3 class="center homesub">Apprenticeship</h3>
               <p>We work with our partner companies to line up internships and projects that will allow you to gain further hands-on experience.  You'll work with experienced software pros.  You'll gain an introduction to the professional workplace.  You'll expand your network of professional contacts.  You'll get to meet and impress potential employers with your knowledge and passion and ability to deliver.</p>
             </div>
