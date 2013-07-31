@@ -90,6 +90,7 @@ $(document).ready(function() {
           <a href='#' id='bootcampOverviewButton' class='accordionNavItem activeAccordionNavItem'>Overview</a>
           <a href='#' id='bootcampSectionsButton' class='accordionNavItem'>Sections</a>
           <a href='#' id='bootcampCostsButton' class='accordionNavItem'>Costs</a>
+          <a href='#' id='bootcampApplyButton' class='accordionNavItem'>Apply</a>
         </div>
         <div id='bootcampOverview' class='courseContent'>
           <section class='blurbHalf'>
