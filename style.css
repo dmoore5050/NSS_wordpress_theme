@@ -145,9 +145,9 @@ header {
 
 .socialLinks {
   width: 180px;
-  position: absolute;
+  float: right;
+  position: relative;
   margin-top: 12px;
-  right: 0;
 }
 .socialLinks img {
   height: 20px;
