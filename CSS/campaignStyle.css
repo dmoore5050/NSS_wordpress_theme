@@ -35,6 +35,8 @@
   margin-bottom: 20px;
 }
 
+/* campaign main body styling */
+
 #campaignBody {
   background-color: #f1f1f1;
   padding: 20px;
@@ -87,18 +89,19 @@
 
 .smallAside {
   background: white;
-  height: 300px;
   width: 180px;
   float: right;
   margin-top: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-bottom: 15px;
   padding: 20px;
-  box-shadow: 2px 2px 2px #d9d9d9;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -2px #e5a700;
 }
 
 #fakePic {
-  background: green;
+  background: #d9d9d9;
   height: 125px;
   width: 180px;
 }
@@ -113,12 +116,13 @@
   color: #2d2d2d;
 }
 
-#asideBody {
+#asideText {
   color: #595959;
   margin-top: 0;
   line-height: 18px;
   word-wrap: break-word;
   text-align: justify;
+  margin-bottom: 8px;
 }
 
 .center {
@@ -129,12 +133,29 @@
   font-weight: bold;
 }
 
+/* pledge button styling */
 
+.pledgeButtonWrapper {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.pledgeButton {
+  width: 225px;
+  height: 60px;
+  font-size: 18px!important;
+  margin-bottom: 15px;
+}
+
+/* right sidebar wrapper styling */
 
 #sidebarWrapper {
   width: 316px;
   float: right;
 }
+
+/* campaign status section styling */
 
 #campaignStatus {
   background-color: #f1f1f1;
@@ -172,19 +193,6 @@
   color: #464646;
 }
 
-.pledgeButtonWrapper {
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
-}
-
-.pledgeButton {
-  width: 225px;
-  height: 60px;
-  font-size: 18px!important;
-  margin-bottom: 15px;
-}
-
 #donationFinePrint {
   width: 210px;
   margin-bottom: 0;
@@ -193,6 +201,8 @@
   margin: 0 auto;
   text-align: left;
 }
+
+/* donation tiers section styling */
 
 #donationTiers {
   list-style: none;
