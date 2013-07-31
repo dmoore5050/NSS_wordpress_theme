@@ -38,33 +38,31 @@
 .quote {
   text-align: center;
   width: 540px;
-  position: absolute;
-  top: 203px;
-  right: 370px;
   font-size: 17px;
+  margin-top: 120px;
+  margin-bottom: 3px;
+  margin-left: 150px;
 }
 
 .quoteAttribute {
-  position: absolute;
-  top: 248px;
-  right: 420px;
+  margin-top: 0;
+  margin-left: 320px;
 }
 
 .nssLogo {
+  margin-top: 3px;
   font-size: 80px;
   font-weight: bold;
   letter-spacing: -7px;
   float: right;
-  margin-top: 213px;
 }
 
 .smallTwo {
+  margin-top: 15px;
+  margin-right: 14px;
   font-size: 45px;
-  float: left;
   font-weight: bold;
   float: right;
-  margin-right: 14px;
-  margin-top: 226px;
 }
 
 /* announcement bubble */
