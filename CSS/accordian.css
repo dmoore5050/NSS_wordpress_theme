@@ -801,10 +801,10 @@ body .ui-tooltip {
 	border: 1px solid #dddddd;
 	background: #fff;
 	/*background: #eeeeee url(../images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;*/
-	color: #333333;
+	color: #464646;
 }
 .ui-widget-content a {
-	color: #333333;
+	color: #464646;
 }
 .ui-widget-header {
 	border: 1px solid #e78f08;
