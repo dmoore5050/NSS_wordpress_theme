@@ -16,7 +16,7 @@ Template Name: Campaign Page
         <iframe width="620" height="349" src="//www.youtube.com/embed/8AdSzQZ8AKo?rel=0" frameborder="0" allowfullscreen></iframe>
       </section>
       <section id='campaignBody'>
-        <h2 class='bodyTitle'>Body title here</h2>
+        <h2 class='bodyTitle'>Body Title Here</h2>
         <div id='leadWrap'>
           <p id='leadParagraph'>"Etsy Echo Park literally sriracha. Wolf cred hashtag, next level blue bottle four loko occupy. Disrupt mumblecore try-hard, cliche biodiesel moustache salvia pickled whatever."<span id="leadName"> -John Wark</span></p>
         </div>
