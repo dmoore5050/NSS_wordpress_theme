@@ -6,8 +6,6 @@ Template Name: Courses
 <?php get_header(); ?>
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/accordian.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/coursesStyle.css">
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <style>
 
   @-moz-document url-prefix() {

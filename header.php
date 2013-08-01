@@ -4,23 +4,31 @@
   <title>Nashville Software School</title>
   <!--favicon-->
   <link href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" rel="shortcut icon" >
+
   <!--css-->
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/reveal.css" type="text/css" media="screen" />
+<!--   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/bootstrap.css"> -->
+
+  <!--fonts-->
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
-  <!--jquery-->
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!--javascript/jquery-->
+
+  <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<!--   // <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/JS/jquery.reveal.js"></script>
-  <!--bootstraps -->
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+
+  <!--bootstrap -->
   <script src="<?php echo get_template_directory_uri(); ?>/JS/bootstrap.js"></script>
 
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/reveal.css" type="text/css" media="screen" />
 <style>
   .background {
-    /*background-image: url('<?php echo get_template_directory_uri(); ?>/images/header_background.png');*/
 
     background: rgb(125,126,125); /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
