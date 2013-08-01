@@ -16,21 +16,21 @@
 
   .reveal-modal {
     visibility: hidden;
-    top: 60px;
+    top: 13%;
     left: 50%;
     margin-left: -300px;
     width: 520px;
     background: #eee url(modal-gloss.png) no-repeat -200px -80px;
     position: absolute;
     z-index: 101;
-    padding: 30px 40px 34px;
-    -moz-border-radius: 5px;
+    padding: 10px 40px 10px;
+    border-radius:         5px;
+    -moz-border-radius:    5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    -box-shadow:        0 0 10px rgba(0,0,0,.4);
+    -moz-box-shadow:    0 0 10px rgba(0,0,0,.4);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-    -box-shadow: 0 0 10px rgba(0,0,0,.4);
-    height: 40%;
+    max-height: 80%;
     overflow-y: scroll;
     }
 
@@ -50,6 +50,7 @@
     font-weight: bold;
     cursor: pointer;
     }
+
   /*
 
   NOTES
@@ -60,7 +61,7 @@
 
   <div id="myModal" class="reveal-modal">
     <h2>Awesome. I have it.</h2>
-    <p class="lead">Your couch.  I it's mine.</p>
+    <p class="lead">Your couch. It's mine.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices aliquet placerat. Duis pulvinar orci et nisi euismod vitae tempus lorem consectetur. Duis at magna quis turpis mattis venenatis eget id diam. </p>
     <a class="close-reveal-modal">&#215;</a>
   </div>
