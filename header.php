@@ -19,7 +19,6 @@
 
   <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<!--   // <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/JS/jquery.reveal.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
