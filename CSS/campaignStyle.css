@@ -109,6 +109,16 @@
   width: 180px;
 }
 
+#videoModal {
+  width: auto;
+  padding: 15px;
+  margin-top:160px;
+}
+
+.hide {
+  display: none;
+}
+
 #asideTitle {
   text-align: left;
   margin-top: 15px;

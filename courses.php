@@ -43,7 +43,7 @@ $(document).ready(function() {
     $( '#bootcampCostsButton' ).removeClass( 'activeAccordionNavItem' );
     $( '#bootcampSectionsButton' ).removeClass( 'activeAccordionNavItem' );
     return false;
-  } );
+  });
 
   $( '#bootcampSectionsButton' ).click(function(){
     $( '#bootcampSections' ).removeClass( 'hidden' );
