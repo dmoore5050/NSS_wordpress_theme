@@ -206,6 +206,11 @@
   color: #464646;
 }
 
+#formModal {
+  text-align: left;
+  padding: 40px;
+}
+
 #donationFinePrint {
   width: 210px;
   margin-bottom: 0;
