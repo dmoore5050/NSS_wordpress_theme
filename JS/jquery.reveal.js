@@ -292,7 +292,6 @@
           // Now, add the open class to this modal.
           //
           modal.addClass( "open" );
-
           //
           // Are we executing the 'fadeAndPop' animation?
           //
@@ -485,11 +484,16 @@
           // Clear the modal of the open class.
           //
           modal.removeClass( "open" );
-
+          //
+          // Stop and reset video on modal close.
+          //
+          var video = $( '#videoFrame' ).attr( 'src' );
+          $( '#videoFrame' ).attr( 'src', '' );
+          $( '#videoFrame' ).attr( 'src', video );
           //
           // Are we using the 'fadeAndPop' animation?
           //
-          if ( options.animation === "fadeAndPop" ) {
+          if ( options.animation === 'fadeAndPop' ) {
             //
             // Yes, okay, let's set the animation properties.
             //
@@ -497,7 +501,7 @@
               //
               // Set the top property to the document scrollTop minus calculated topOffset.
               //
-              "top":  $doc.scrollTop() - topOffset + 'px',
+              'top':  $doc.scrollTop() - topOffset + 'px',
               //
               // Fade the modal out, by using the opacity property.
               //

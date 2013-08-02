@@ -42,7 +42,7 @@ Template Name: Campaign Page
             <div id='fakePic'></div>
           </a>
           <div id='videoModal' class='reveal-modal hide' >
-            <iframe width="620" height="349" src="//www.youtube.com/embed/8AdSzQZ8AKo?rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe id='videoFrame' width='620' height='349' src='//www.youtube.com/embed/8AdSzQZ8AKo?rel=0' frameborder='0' allowfullscreen></iframe>
           </div>
           <h3 id='asideTitle'>Johnny Fakename</h3>
           <p id='asideText'>Mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Fixie DIY occupy, pitch fork asymmetrical retro keffiyeh freegan stump town viral PBR tattoo Etsy pug bahn mi.</p>
