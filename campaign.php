@@ -71,7 +71,10 @@ Template Name: Campaign Page
         <p class='progressSubMessage'>days to go</p>
         <br>
         <div class='pledgeButtonWrapper'>
-          <a href=""><button class='pledgeButton button orange'>Pledge Support</button></a>
+          <a href="#" data-reveal-id="formModal" data-animation="fade" data-animationspeed="300"><button class='pledgeButton button orange'>Pledge Support</button></a>
+          <div id='formModal' class='reveal-modal hide' >
+            <?php echo do_shortcode ("[donateextra]"); ?>
+          </div>
           <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
         </div>
       </section>

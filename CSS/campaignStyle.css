@@ -109,7 +109,7 @@
   width: 180px;
 }
 
-#videoModal {
+#videoModal, #formModal {
   width: auto;
   padding: 15px;
   margin-top:160px;
