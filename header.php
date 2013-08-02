@@ -2,13 +2,13 @@
 <html>
   <head>
   <title>Nashville Software School</title>
+
   <!--favicon-->
   <link href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" rel="shortcut icon" >
 
   <!--css-->
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/reveal.css" type="text/css" media="screen" />
-<!--   <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/bootstrap.css"> -->
 
   <!--fonts-->
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
@@ -16,17 +16,16 @@
   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
 
   <!--javascript/jquery-->
-
   <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/JS/jquery.reveal.js"></script>
   <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 
-
   <!--bootstrap -->
   <script src="<?php echo get_template_directory_uri(); ?>/JS/bootstrap.js"></script>
 
 <style>
+
   .background {
 
     background: rgb(125,126,125); /* Old browsers */
@@ -41,11 +40,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-8 */
     border-bottom: px solid rgba(88,88,88,1);
   }
-  @-moz-document url-prefix() {
-      #menu-item-20 {
-    margin-left: 4px;
-    }
-  }
+
 </style>
 <?php wp_head(); ?>
 </head>

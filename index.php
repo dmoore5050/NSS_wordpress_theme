@@ -30,8 +30,8 @@
       <div class="margin">
         <img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel1.png" alt="slide1">
         <div class="taglineInfo">
-          <h3 class="smallHeadlineCarousel1 smallDiff">Learn How To</h3>
-          <h2 class="emphasisTitleCarousel1">Build Web Applications</h2>
+          <h3 class="smallHeadlineCarousel smallDiff">Learn How To</h3>
+          <h2 class="emphasisTitleCarousel">Build Web Applications</h2>
           <p class="carouselText">Six-month intensive training program that qualifies you for a junior developer job.</p>
         </div>
       </div>
@@ -40,8 +40,8 @@
       <div class="margin">
         <img class="carouselBorder" src="<?php echo get_template_directory_uri(); ?>/images/carousel2.png" alt="slide2">
         <div class="taglineInfo">
-          <h3 class="smallHeadlineCarousel1 smallDiff">Supporting You with</h3>
-          <h2 class="emphasisTitleCarousel1">Mentors</h2>
+          <h3 class="smallHeadlineCarousel smallDiff">Supporting You with</h3>
+          <h2 class="emphasisTitleCarousel">Mentors</h2>
           <p class="carouselText">Nashville's best developers volunteer their time to help you learn. </p>
         </div>
       </div>
@@ -50,8 +50,8 @@
       <div class="margin">
         <img class="carouselBorder third_slide" src="<?php echo get_template_directory_uri(); ?>/images/carousel3.png" alt="slide3">
         <div class="taglineInfo">
-          <h3 class="smallHeadlineCarousel1 smallDiff">Learn by Doing</h3>
-          <h2 class="emphasisTitleCarousel1">Apprenticeship</h2>
+          <h3 class="smallHeadlineCarousel smallDiff">Learn by Doing</h3>
+          <h2 class="emphasisTitleCarousel">Apprenticeship</h2>
           <p class="carouselText">Gain valuable experience through project work with our partner companies.  Get paid while you continue to learn.</p>
         </div>
       </div>
