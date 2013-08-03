@@ -80,7 +80,7 @@ $(document).ready(function() {
       </div>
       <aside id='sidebarWrapper'>
         <section id='campaignStatus'>
-          <h2 class='progressBangHeader'><span class='greyText'>$</span><?php echo do_shortcode ('[donortotal]'); ?></h2>
+          <h2 class='progressBangHeader'><span class='greyText'>$</span><?php echo do_shortcode ('[donatetotal]'); ?></h2>
           <p class='progressSubMessage'>donated of $20000.00 goal</p>
           <h2 class='progressBangHeader'>25</h2>
           <p class='progressSubMessage'>supporters</p>
@@ -144,7 +144,7 @@ $(document).ready(function() {
         </section>
       </aside>
     </div>
-    <div id='donorWallWrapper' class='hidden'><?php echo do_shortcode ('[donatewall]'); ?></div>
+    <div id='donorWallWrapper' class='hidden'><?php echo do_shortcode ('[donorwall]'); ?></div>
   </div>
 </div>
 
