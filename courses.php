@@ -4,8 +4,10 @@ Template Name: Courses
 */
 ?>
 <?php get_header(); ?>
-<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/accordian.css">
+
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/jquery_ui_style.css">
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/coursesStyle.css">
+
 <style>
 
   @-moz-document url-prefix() {
@@ -53,7 +55,7 @@ $(document).ready(function() {
     $( '#bootcampCostsButton' ).removeClass( 'activeAccordionNavItem' );
     $( '#bootcampOverviewButton' ).removeClass( 'activeAccordionNavItem' );
     return false;
-  } );
+  });
 
   $( '#bootcampCostsButton' ).click(function(){
     $( '#bootcampCosts' ).removeClass( 'hidden' );

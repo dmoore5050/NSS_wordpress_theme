@@ -8,7 +8,7 @@
 
   <!--css-->
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/reveal.css" type="text/css" media="screen" />
+  <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/CSS/reveal.css" media="screen" />
 
   <!--fonts-->
   <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
@@ -16,10 +16,11 @@
   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
 
   <!--javascript/jquery-->
-  <script src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js' type='text/javascript'></script>
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/JS/jquery.reveal.js"></script>
-  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type='text/javascript' src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/JS/foundation.js'></script>
+  <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/JS/foundation.reveal.js'></script>
+  <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js'></script>
 
   <!--bootstrap -->
   <script src="<?php echo get_template_directory_uri(); ?>/JS/bootstrap.js"></script>
