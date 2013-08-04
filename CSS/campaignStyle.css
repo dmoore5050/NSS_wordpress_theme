@@ -143,10 +143,13 @@
   width: 180px;
 }
 
+#videoModal {
+  margin-top: 160px;
+}
+
 #videoModal, #formModal {
   width: auto;
   padding: 15px;
-  margin-top:160px;
 }
 
 .hidden {

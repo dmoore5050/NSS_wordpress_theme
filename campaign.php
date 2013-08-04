@@ -74,7 +74,7 @@ $(document).ready(function() {
           <p class='bodyText'><span class='goalName'>Stretch Goal #3: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
           <br>
           <div class='pledgeButtonWrapper'>
-            <a href=""><button class='pledgeButton button orange'>Pledge Support</button></a>
+            <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
           </div>
         </section>
       </div>
