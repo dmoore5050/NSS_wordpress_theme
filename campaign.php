@@ -87,8 +87,10 @@ $(document).ready(function() {
           <h2 class='progressBangHeader'><?php echo do_shortcode ('[donornumber]'); ?></h2>
           <p class='progressSubMessage'>supporters</p>
           <br>
-          <h2 class='progressBangHeader'>17</h2>
-          <p class='progressSubMessage'>days to go</p>
+          <?php echo do_shortcode ("[countdown date=+31]
+          <h2 class='progressBangHeader'>[dtimer]</h2>
+          <p class='progressSubMessage'>days to go</p>[after]Campaign ended!
+          [/countdown]"); ?>
           <br>
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
