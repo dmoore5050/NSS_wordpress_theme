@@ -145,11 +145,11 @@
 
 #videoModal {
   margin-top: 160px;
+  padding: 15px;
 }
 
 #videoModal, #formModal {
   width: auto;
-  padding: 15px;
 }
 
 .hidden {
@@ -177,6 +177,7 @@
 
 .center {
   text-align: center;
+  margin: 0 auto;
 }
 
 .goalName {
@@ -245,7 +246,32 @@
 
 #formModal {
   text-align: left;
-  padding: 40px;
+  padding: 20px 40px;
+  top: 40px;
+  margin-left: -230px;
+}
+
+.formTitle {
+  border-bottom: 1px solid #eb8f00;
+  text-align: left;
+  padding: 8px 0;
+  margin: 25px auto 25px auto;
+  font-size: 16px;
+  line-height: 1em;
+  color: #2d2d2d;
+}
+
+.top {
+  border-top: 1px solid #eb8f00;
+  margin-top: 0;
+  font-size: 20px;
+  text-align: center;
+  width: 88%;
+}
+
+.bold {
+  font-weight: bold;
+  color: #52b3c5;
 }
 
 #donationFinePrint {

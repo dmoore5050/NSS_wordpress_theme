@@ -95,6 +95,7 @@ $(document).ready(function() {
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
             <div id='formModal' class='reveal-modal hide' >
+              <h3 class="formTitle top"><span class='bold'>Support</span> Nashville Software School</h3>
               <?php echo do_shortcode ('[donateextra]'); ?>
             </div>
             <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
