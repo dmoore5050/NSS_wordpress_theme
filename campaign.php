@@ -16,14 +16,14 @@ $(document).ready(function() {
     $( '#tabOne' ).addClass( 'activeTab' );
     $( '#tabTwo' ).removeClass( 'activeTab' );
     $( '#donorWallWrapper' ).addClass( 'hidden' );
-    $( '#mainWrapper' ).removeClass( 'hidden' );
+    $( '#campaignContentWrapper' ).removeClass( 'hidden' );
     return false;
   });
 
   $( '#tabTwo' ).click(function(){
     $( '#tabTwo' ).addClass( 'activeTab' );
     $( '#tabOne' ).removeClass( 'activeTab' );
-    $( '#mainWrapper' ).addClass( 'hidden' );
+    $( '#campaignContentWrapper' ).addClass( 'hidden' );
     $( '#donorWallWrapper' ).removeClass( 'hidden' );
     return false;
   });
@@ -78,11 +78,13 @@ $(document).ready(function() {
           </div>
         </section>
       </div>
+      <div id='donorWallWrapper' class='hidden'><?php echo do_shortcode ('[donorwall title="Supporter Recognition Wall"]'); ?></div>
+
       <aside id='sidebarWrapper'>
         <section id='campaignStatus'>
           <h2 class='progressBangHeader'><span class='greyText'>$</span><?php echo do_shortcode ('[donatetotal prefix="0" suffix="0"]'); ?></h2>
           <p class='progressSubMessage'>donated of $20000.00 goal</p>
-          <h2 class='progressBangHeader'>25</h2>
+          <h2 class='progressBangHeader'><?php echo do_shortcode ('[donornumber]'); ?></h2>
           <p class='progressSubMessage'>supporters</p>
           <br>
           <h2 class='progressBangHeader'>17</h2>
@@ -144,7 +146,6 @@ $(document).ready(function() {
         </section>
       </aside>
     </div>
-    <div id='donorWallWrapper' class='hidden'><?php echo do_shortcode ('[donorwall title="Supporter Recognition Wall"]'); ?></div>
   </div>
 </div>
 

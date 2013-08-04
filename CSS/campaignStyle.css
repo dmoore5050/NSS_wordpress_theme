@@ -59,7 +59,7 @@
   border: 1px solid #bfbfbf;
 }
 
-#campaignContentWrapper {
+#campaignContentWrapper, #donorWallWrapper {
   width: 620px;
   float: left;
 }
