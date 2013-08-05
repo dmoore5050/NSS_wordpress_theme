@@ -38,6 +38,11 @@
   border: 1px solid #bfbfbf;
   margin-left: -1px;
   text-decoration: none;
+  color: #464646!important;
+}
+
+.tab:hover {
+  color: #f47c2f!important;
 }
 
 .activeTab {
@@ -49,6 +54,7 @@
 .activeTab a {
   background-color: white;
   border-bottom: none;
+  color: #f47c2f!important;
 }
 
 #contentWrapper {
