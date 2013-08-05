@@ -10,25 +10,25 @@ Template Name: Campaign Page
 
 <script>
 
-$(document).ready(function() {
+  $(document).ready(function() {
 
-  $( '#tabOne' ).click(function(){
-    $( '#tabOne' ).addClass( 'activeTab' );
-    $( '#tabTwo' ).removeClass( 'activeTab' );
-    $( '#donorWallWrapper' ).addClass( 'hidden' );
-    $( '#campaignContentWrapper' ).removeClass( 'hidden' );
-    return false;
-  });
+    $( '#tabOne' ).click(function(){
+      $( '#tabOne' ).addClass( 'activeTab' );
+      $( '#tabTwo' ).removeClass( 'activeTab' );
+      $( '#donorWallWrapper' ).addClass( 'hidden' );
+      $( '#campaignContentWrapper' ).removeClass( 'hidden' );
+      return false;
+    });
 
-  $( '#tabTwo' ).click(function(){
-    $( '#tabTwo' ).addClass( 'activeTab' );
-    $( '#tabOne' ).removeClass( 'activeTab' );
-    $( '#campaignContentWrapper' ).addClass( 'hidden' );
-    $( '#donorWallWrapper' ).removeClass( 'hidden' );
-    return false;
-  });
+    $( '#tabTwo' ).click(function(){
+      $( '#tabTwo' ).addClass( 'activeTab' );
+      $( '#tabOne' ).removeClass( 'activeTab' );
+      $( '#campaignContentWrapper' ).addClass( 'hidden' );
+      $( '#donorWallWrapper' ).removeClass( 'hidden' );
+      return false;
+    });
 
-})
+  })
 
 </script>
 
@@ -95,7 +95,7 @@ $(document).ready(function() {
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
             <div id='formModal' class='reveal-modal hide' >
-              <h3 class="formTitle top"><span class='bold'>Support</span> Nashville Software School</h3>
+              <h3 class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
               <?php echo do_shortcode ('[donateextra]'); ?>
             </div>
             <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>

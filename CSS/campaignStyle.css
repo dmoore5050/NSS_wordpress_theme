@@ -255,21 +255,25 @@
   border-bottom: 1px solid #eb8f00;
   text-align: left;
   padding: 8px 0;
-  margin: 25px auto 25px auto;
+  margin: 25px 0 15px 0;
   font-size: 16px;
   line-height: 1em;
   color: #2d2d2d;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .top {
   border-top: 1px solid #eb8f00;
-  margin-top: 0;
+  margin: 0 auto 10px auto;
   font-size: 20px;
   text-align: center;
   width: 88%;
 }
 
-.bold {
+.bigAndBlue {
   font-weight: bold;
   color: #52b3c5;
 }
