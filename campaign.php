@@ -8,21 +8,38 @@ Template Name: Campaign Page
 <link rel='stylesheet' type='text/css' href='<?php echo get_template_directory_uri(); ?>/CSS/campaignStyle.css'>
 <link rel='stylesheet' type='text/css' href='<?php echo get_template_directory_uri(); ?>/CSS/jquery_ui_style.css'>
 
+<style>
+  @-moz-document url-prefix() {
+    #tabOne {
+      margin-left: -1px;
+    }
+
+    .inactiveTab a {
+      line-height: 18px;
+    }
+
+    #contentWrapper {
+      margin-top: -1px;
+    }
+
+  }
+</style>
+
 <script>
 
   $(document).ready(function() {
 
     $( '#tabOne' ).click(function(){
-      $( '#tabOne' ).addClass( 'activeTab' );
-      $( '#tabTwo' ).removeClass( 'activeTab' );
+      $( '#tabOne' ).removeClass( 'inactiveTab' ).addClass( 'activeTab' );
+      $( '#tabTwo' ).removeClass( 'activeTab' ).addClass('inactiveTab');
       $( '#donorWallWrapper' ).addClass( 'hidden' );
       $( '#campaignContentWrapper' ).removeClass( 'hidden' );
       return false;
     });
 
     $( '#tabTwo' ).click(function(){
-      $( '#tabTwo' ).addClass( 'activeTab' );
-      $( '#tabOne' ).removeClass( 'activeTab' );
+      $( '#tabTwo' ).removeClass( 'inactiveTab' ).addClass( 'activeTab' );
+      $( '#tabOne' ).removeClass( 'activeTab' ).addClass( 'inactiveTab' );
       $( '#campaignContentWrapper' ).addClass( 'hidden' );
       $( '#donorWallWrapper' ).removeClass( 'hidden' );
       return false;
@@ -35,8 +52,12 @@ Template Name: Campaign Page
 <div id='content'>
   <h3 id='campaignHeader' class='emphasisTitle'>Campaign Name</h3>
   <div id='tabsWrapper'>
-    <p id='tabOne' class='activeTab'><a href='#' class='tab'>Campaign Home</a></p>
-    <p id='tabTwo'><a href='#' class='tab'>Donor Wall</a></p>
+    <p id='tabOne' class='activeTab'>
+      <a href='#' class='tab'>Campaign Home</a>
+    </p>
+    <p id='tabTwo' class='inactiveTab'>
+      <a href='#' class='tab'>Donor Wall</a>
+    </p>
   </div>
   <div id='contentWrapper' class='clearfix'>
     <div id='mainWrapper'>

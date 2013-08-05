@@ -46,9 +46,8 @@
   color: #52b3c5!important;
 }
 
-.activeTab {
-  padding-top: 11px!important;
-  line-height: 21px;
+.inactiveTab a {
+  line-height: 18px;
 }
 
 .activeTab a {
