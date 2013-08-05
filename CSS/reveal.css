@@ -31,7 +31,6 @@
     -moz-box-shadow:    0 0 10px rgba(0,0,0,.4);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
     max-height: 90%;
-    overflow-y: scroll;
     }
 
   .reveal-modal.small     { width: 200px; margin-left: -140px;}
