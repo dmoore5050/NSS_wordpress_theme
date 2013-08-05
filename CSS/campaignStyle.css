@@ -42,11 +42,10 @@
 }
 
 .tab:hover {
-  color: #f47c2f!important;
+  color: #52b3c5!important;
 }
 
 .activeTab {
-  position: relative;
   padding-top: 11px!important;
   line-height: 21px;
 }
@@ -54,7 +53,7 @@
 .activeTab a {
   background-color: white;
   border-bottom: none;
-  color: #f47c2f!important;
+  color: #52b3c5!important;
 }
 
 #contentWrapper {
