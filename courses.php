@@ -67,6 +67,10 @@ $(document).ready(function() {
     return false;
   });
 
+  $( '#accordionFirst' ).click(function(){
+    $( '#accordionLast' ).toggleClass( 'topBorder' );
+  });
+
 });
 </script>
 
@@ -192,7 +196,7 @@ $(document).ready(function() {
           </div>
         </div>
       </div>
-      <h3 id='accordionSecond'>Night Classes</h3>
+      <h3 id='accordionLast'>Night Classes</h3>
       <div class='accordionPane'>
         <h1 class='emphasisTitle'>Night Classes</h1>
       </div>

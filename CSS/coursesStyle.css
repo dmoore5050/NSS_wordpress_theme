@@ -123,9 +123,13 @@
   width: 960px;
 }
 
-#accordionFirst:hover ~ #accordionSecond,
-#accordionFirst:focus ~ #accordionSecond {
+#accordionFirst:hover ~ #accordionLast,
+#accordionFirst:focus ~ #accordionLast {
   border-top-color: #fbd850;
+}
+
+.topBorder {
+  border-top-color: #ccc!important;
 }
 
 #accordionFirst {
@@ -133,14 +137,9 @@
   border-top-left-radius: 8px;
 }
 
-#accordionSecond {
+#accordionLast {
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
-}
-
-#accordionSecond:focus {
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
 }
 
 .accordionPane {
@@ -149,6 +148,11 @@
 
 .accordionPane p {
   text-align: left;
+}
+
+#ui-accordion-accordion-panel-1 {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .accordionNav {
