@@ -132,6 +132,10 @@
   border-top-color: #ccc!important;
 }
 
+.topBorder:hover {
+  border-top-color: #fbd850!important;
+}
+
 #accordionFirst {
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
