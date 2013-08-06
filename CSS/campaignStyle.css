@@ -29,14 +29,15 @@
 
 .tab {
   display: block;
-  background-color: #f1f1f1;
+  margin-left: -1px;
   padding: 10px!important;
   width: 150px;
+  background-color: #dfdfdf;
   text-align: center;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  border: 1px solid #bfbfbf;
-  margin-left: -1px;
+  border: 1px solid #a6a6a6;
+  border-bottom: none;
   text-decoration: none;
   color: #464646!important;
 }
@@ -45,14 +46,12 @@
   color: #52b3c5!important;
 }
 
-.activeTab {
-  padding-top: 11px!important;
-  line-height: 21px;
+.inactiveTab a {
+  line-height: 18px;
 }
 
 .activeTab a {
   background-color: white;
-  border-bottom: none;
   color: #52b3c5!important;
 }
 
@@ -251,16 +250,44 @@
 
 #formModal {
   text-align: left;
-  padding: 20px 40px;
+  padding: 20px 40px 12px;
   top: 40px;
   margin-left: -230px;
+}
+
+input {
+  padding-left: 4px;
+}
+
+input, select {
+  margin-top: 2px;
+  height: 18px;
+}
+
+textarea {
+  margin-top: 2px;
+}
+
+#formSubmit {
+  border: 0;
+  height: 37px;
+}
+
+input, select, textarea {
+  border: 2px solid #a6a6a6;
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 2px #52b3c5;
+  border: 2px solid #52b3c5;
+  outline: 0;
 }
 
 .formTitle {
   border-bottom: 1px solid #eb8f00;
   text-align: left;
   padding: 8px 0;
-  margin: 25px 0 15px 0;
+  margin: 20px 0 15px 0;
   font-size: 16px;
   line-height: 1em;
   color: #2d2d2d;
@@ -278,9 +305,21 @@
   width: 88%;
 }
 
+#donateextraform p {
+  margin-top: 10px;
+}
+
 .bigAndBlue {
   font-weight: bold;
   color: #52b3c5;
+}
+
+#t3 {
+  margin-top: -1px;
+}
+
+#recognize {
+  margin-top: -1px;
 }
 
 #donationFinePrint {
