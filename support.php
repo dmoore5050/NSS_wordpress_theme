@@ -4,7 +4,7 @@ Template Name: Support Page
 */
 ?>
 <?php get_header(); ?>
-<link rel='stylesheet' type='text/css' href='<?php echo get_template_directory_uri(); ?>/CSS/fundraisingMockupStyle.css'>
+<link rel='stylesheet' type='text/css' href='<?php echo get_template_directory_uri(); ?>/CSS/supportStyle.css'>
 <div class='container clearfix'>
   <div class='contentWrap'>
     <h2 id='introHeadline'>Contribute:</h2>
