@@ -50,6 +50,7 @@ Template Name: Campaign Page
         $('#amount').val(value);
       });
 
+
   })
 
 
