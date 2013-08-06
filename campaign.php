@@ -28,7 +28,14 @@ Template Name: Campaign Page
       return false;
     });
 
+      $('.openForm').click(function(){
+        var value = $(this).attr('id');
+        $('#amount').val(value);
+      });
+
   })
+
+
 
 </script>
 
@@ -93,9 +100,9 @@ Template Name: Campaign Page
           [/countdown]"); ?>
           <br>
           <div class='pledgeButtonWrapper'>
-            <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
-            <div id='formModal' class='reveal-modal hide' >
-              <h3 class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
+            <a href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
+            <div id='supportModal' class='reveal-modal hide' >
+              <h3 id="10" class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
               <?php echo do_shortcode ('[donateextra]'); ?>
             </div>
             <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
@@ -104,46 +111,58 @@ Template Name: Campaign Page
         <section>
           <ul id='donationTiers'>
             <li class='tier'>
-              <h3 class='tierAmount'><span class='greyText'>$</span>20</h3>
-              <h3 class='tierTitle'>First tier title goes here!</h3>
-              <hr class='tierRule'>
-              <p class='tierDescription'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche.<p>
-              <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              <a class = 'openForm' id='20' href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>20</h3>
+                <h3 class='tierTitle'>First tier title goes here!</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche.<p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
             </li>
             <li class='tier'>
-              <h3 class='tierAmount'><span class='greyText'>$</span>50</h3>
-              <h3 class='tierTitle'>Second tier title goes here!</h3>
-              <hr class='tierRule'>
-              <p class='tierDescription'> Fixie DIY occupy, pitchfork asymmetrical retro keffiyeh freegan stumptown viral PBR tattooed Etsy pug. Master cleanse forage sustainable ethical, Marfa street art.<p>
-              <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              <a class = 'openForm' id='50' href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>50</h3>
+                <h3 class='tierTitle'>Second tier title goes here!</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'> Fixie DIY occupy, pitchfork asymmetrical retro keffiyeh freegan stumptown viral PBR tattooed Etsy pug. Master cleanse forage sustainable ethical, Marfa street art.<p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
             </li>
             <li class='tier'>
-              <h3 class='tierAmount'><span class='greyText'>$</span>100</h3>
-              <h3 class='tierTitle'>Third tier title goes here!</h3>
-              <hr class='tierRule'>
-              <p class='tierDescription'>YOLO semiotics +1 letterpress. Narwhal flexitarian roof party gentrify mixtape, keffiyeh biodiesel banh mi small batch blog.<p>
-              <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              <a class = 'openForm' id='100' href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>100</h3>
+                <h3 class='tierTitle'>Third tier title goes here!</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>YOLO semiotics +1 letterpress. Narwhal flexitarian roof party gentrify mixtape, keffiyeh biodiesel banh mi small batch blog.<p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
             </li>
             <li class='tier'>
-              <h3 class='tierAmount'><span class='greyText'>$</span>250</h3>
-              <h3 class='tierTitle'>Fourth tier title goes here!</h3>
-              <hr class='tierRule'>
-              <p class='tierDescription'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche.<p>
-              <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              <a class = 'openForm' id='250' href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>250</h3>
+                <h3 class='tierTitle'>Fourth tier title goes here!</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche.<p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
             </li>
             <li class='tier'>
+              <a class = 'openForm' id='500' href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'>
               <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
               <h3 class='tierTitle'>Fifth tier title goes here!</h3>
               <hr class='tierRule'>
               <p class='tierDescription'>Fanny pack salvia biodiesel typewriter kitsch. Mixtape salvia chillwave hella. Forage sriracha retro Banksy deep v viral. Quinoa beard sustainable, small batch jean shorts banh mi aesthetic kogi polaroid. Carles asymmetrical umami Williamsburg.<p>
               <p class='tierFooter'>Shipping/delivery info goes here.</p>
+            </a>
             </li>
             <li class='tier'>
-              <h3 class='tierAmount'><span class='greyText'>$</span>1000</h3>
-              <h3 class='tierTitle'>Sixth tier title goes here!</h3>
-              <hr class='tierRule'>
-              <p class='tierDescription'>Blog sriracha gastropub vinyl wolf small batch iPhone. Pour-over kogi Brooklyn sriracha, pug art party.<p>
-              <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              <a class = 'openForm' id='1000' href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>1000</h3>
+                <h3 class='tierTitle'>Sixth tier title goes here!</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Blog sriracha gastropub vinyl wolf small batch iPhone. Pour-over kogi Brooklyn sriracha, pug art party.<p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
             </li>
           </ul>
         </section>
