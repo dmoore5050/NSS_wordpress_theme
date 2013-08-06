@@ -56,9 +56,6 @@
   display: block;
 }
 
-.infoMargin a {
-  text-decoration: none;
-}
 
 .imgPop {
   float:left;
@@ -71,10 +68,6 @@
 
 .peopleTitle {
   margin-top:5px;
-}
-
-.peopleInfo {
-  text-decoration:none;
 }
 
 .hrWidth {

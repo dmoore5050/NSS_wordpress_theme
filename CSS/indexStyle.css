@@ -29,7 +29,6 @@
 
 .linkStyle {
 	font-style: italic;
-  	text-decoration: none;
 }
 
 .meetLink {
@@ -37,7 +36,6 @@
 	margin-top: -30px;
 	margin-right: 10px;
 	font-style: italic;
-	text-decoration: none;
 }
 
 .icon1 {
@@ -198,13 +196,16 @@ blockquote {
 	padding-right: 0;
 }
 
-.newsBody a {
-	text-decoration: none;
+.postTitle {
+  color: #7898a4;
+}
+
+.postTitle:hover {
+  color: #f47c2f;
 }
 
 .newsBody a:hover {
 	color: #7898a4;
-	text-decoration: underline;
 }
 
 .indexBorder {
@@ -266,7 +267,6 @@ blockquote {
 
 #applyBtn a {
 	color: white!important;
-	text-decoration: none;
 }
 
 .headingBorder {
@@ -343,10 +343,6 @@ blockquote {
   overflow: hidden;
   margin-top: -4%;
   z-index: -1;
-}
-
-#myCarousel a {
-  text-decoration: none;
 }
 
 .carousel .item {
@@ -466,7 +462,6 @@ blockquote {
 
 .carousel-control:hover {
   color: #ffffff;
-  text-decoration: none;
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
@@ -560,7 +555,6 @@ blockquote {
   background-color: #E6E6E6;
   background-position: 0 -15px;
   color: #333333;
-  text-decoration: none;
 }
 
 .btn:focus {

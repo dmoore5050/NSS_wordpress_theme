@@ -7,7 +7,6 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .blogTitle {
-text-decoration: none;
 color: #666!important;
 }
 
@@ -40,10 +39,6 @@ margin: 15px;
 	border-bottom: 1px #d0d0d0 solid;
 }
 
-.archives_list a:link {
-	text-decoration: none;
-}
-
 #loop
 {
 	width: 70%;
@@ -52,7 +47,6 @@ margin: 15px;
 }
 
 .more_link {
-	text-decoration: none;
 	font-style: italic;
 }
 .blogBorder {
