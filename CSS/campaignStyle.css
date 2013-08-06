@@ -199,7 +199,7 @@
 .pledgeButton {
   width: 225px;
   height: 60px;
-  font-size: 18px!important;
+  font-size: 18px;
   margin-bottom: 15px;
 }
 
@@ -240,7 +240,7 @@
 }
 
 .progressSubMessage:first-of-type {
-  display: block!important;
+  display: block;
   margin-bottom: 10px;
 }
 
@@ -249,7 +249,6 @@
 }
 
 #formModal {
-  text-align: left;
   padding: 20px 40px 12px;
   top: 40px;
   left: 32.5%;

@@ -26,7 +26,6 @@ Template Name: Campaign Page
 </style>
 
 <script>
-
   $(document).ready(function() {
 
     $( '#tabOne' ).click(function(){
@@ -45,16 +44,12 @@ Template Name: Campaign Page
       return false;
     });
 
-      $('.openForm').click(function(){
-        var value = $(this).attr('id');
-        $('#amount').val(value);
-      });
-
+    $('.openForm').click(function(){
+      var value = $(this).attr('id');
+      $('#amount').val(value);
+    });
 
   })
-
-
-
 </script>
 
 <div id='content'>
