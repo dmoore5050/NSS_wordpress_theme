@@ -38,7 +38,6 @@
   border-top-left-radius: 8px;
   border: 1px solid #a6a6a6;
   border-bottom: none;
-  text-decoration: none;
   color: #464646!important;
 }
 
@@ -150,6 +149,7 @@
 #videoModal {
   margin-top: 160px;
   padding: 15px;
+  left: 27%;
 }
 
 #videoModal, #formModal {
@@ -252,7 +252,7 @@
   text-align: left;
   padding: 20px 40px 12px;
   top: 40px;
-  margin-left: -230px;
+  left: 32.5%;
 }
 
 input {

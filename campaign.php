@@ -122,12 +122,12 @@ Template Name: Campaign Page
           [/countdown]"); ?>
           <br>
           <div class='pledgeButtonWrapper'>
-            <a href='#' data-reveal-id='supportModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
-            <div id='supportModal' class='reveal-modal hide' >
-              <h3 id="10" class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
-              <?php echo do_shortcode ('[donateextra]'); ?>
-            </div>
+            <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
             <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
+          </div>
+          <div id='formModal' class='reveal-modal hide' >
+            <h3 id="10" class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
+            <?php echo do_shortcode ('[donateextra]'); ?>
           </div>
         </section>
         <section>
