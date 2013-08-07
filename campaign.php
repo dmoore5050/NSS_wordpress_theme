@@ -67,7 +67,7 @@ Template Name: Campaign Page
   })
 </script>
 
-<div id='content'>
+<div id='container'>
   <h3 id='campaignHeader' class='emphasisTitle'>Campaign Name</h3>
   <div id='tabsWrapper'>
     <p id='tabOne' class='activeTab'>
@@ -126,11 +126,26 @@ Template Name: Campaign Page
         </div>
       </div>
       <div id='updatesWrapper' class='hidden'>
-        <div id='updatesBody'>
-          Updates Wrapper
+        <div id='updatesBody' class='clearfix'>
+          <?php $wp_query = new WP_Query("post_type=campaign_update&tag=capital&post_status=publish&posts_per_page=10");?>
+          <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+            <div class='postWrapper'>
+              <div class='titleBar clearfix'>
+                <h3 class='titleLeft'><?php the_title();?></h3>
+                <p class='nameRight'><?php the_author();?><p>
+              </div>
+<!--               <br><br> -->
+              <div class='updatePostBody'>
+                <?php the_content ();?>
+              </div>
+            </div>
+          <?php endwhile; ?>
+          <?php else : ?>
+            <p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
+          <?php endif; ?>
+          <?php wp_reset_query();?>
         </div>
       </div>
-
       <aside id='sidebarWrapper'>
         <section id='campaignStatus'>
           <h2 class='progressBangHeader'><span class='greyText'>$</span><?php echo do_shortcode ('[donatetotal prefix="0" suffix="0"]'); ?></h2>

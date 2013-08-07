@@ -1,6 +1,6 @@
 /* Campaign stylesheet */
 
-#content {
+#container {
   background-color: #f2f2f2;
   margin-top: -27px;
   padding-bottom: 28px;
@@ -16,6 +16,16 @@
   font-weight: bold;
   margin-bottom: 15px;
 }
+
+#contentWrapper {
+  width: 966px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #bfbfbf;
+}
+
+/* tabs */
 
 #tabsWrapper {
   width: 1005px;
@@ -57,21 +67,18 @@
   margin-left: -1px;
 }
 
-#contentWrapper {
-  width: 966px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 20px;
-  border: 1px solid #bfbfbf;
-}
+/* left section */
 
 #campaignContentWrapper, #donorWallWrapper, #updatesWrapper {
   width: 620px;
   float: left;
 }
 
-#donorWallBody, #updatesBody {
-  height: 800px; /* TEMP */
+#campaignBody, #donorWallBody, #updatesBody {
+  background-color: #f1f1f1;
+  padding: 10px 20px 5px 20px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 2px #c0c0c0;
 }
 
 #campaignMedia {
@@ -79,13 +86,6 @@
 }
 
 /* campaign main body styling */
-
-#campaignBody, #donorWallBody, #updatesBody {
-  background-color: #f1f1f1;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 3px 3px 2px #c0c0c0;
-}
 
 .bodyTitle {
   margin-top: 0;
@@ -209,6 +209,42 @@
   font-size: 18px;
   margin-bottom: 15px;
 }
+
+/* update */
+
+.postWrapper {
+  border-bottom: 1px solid #464646;
+  margin-bottom: 5px;
+}
+
+.postWrapper:last-of-type {
+  border-bottom: 0;
+}
+
+.titleLeft {
+  float: left;
+  display: inline-block;
+  margin: 3px 0 10px 0;
+}
+
+.nameRight {
+  float: right;
+  display: inline-block;
+  margin: 10px 0 5px 0;
+}
+
+.blogRule {
+  margin-top: 10px;
+  height: 1px;
+  border: none;
+  background-color: #464646;
+}
+
+.updatePostBody {
+  margin-bottom: 5px;
+}
+
+/* donor wall */
 
 /* right sidebar wrapper styling */
 
