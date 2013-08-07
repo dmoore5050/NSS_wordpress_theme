@@ -140,14 +140,14 @@ Template Name: Campaign Page
             <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
           </div>
           <div id='formModal' class='reveal-modal hide' >
-            <h3 id="10" class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
+            <h3 class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
             <?php echo do_shortcode ('[donateextra]'); ?>
           </div>
         </section>
         <section>
           <ul id='donationTiers'>
             <li class='tier'>
-              <a class = 'openForm' data-amount='20' href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='#' class='openForm' data-amount='20' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>20</h3>
                 <h3 class='tierTitle'>First tier title goes here!</h3>
                 <hr class='tierRule'>
@@ -156,7 +156,7 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a class = 'openForm' data-amount='50' href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='#' class='openForm' data-amount='50' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>50</h3>
                 <h3 class='tierTitle'>Second tier title goes here!</h3>
                 <hr class='tierRule'>
@@ -165,7 +165,7 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a class = 'openForm' data-amount='100' href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='#' class='openForm' data-amount='100' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>100</h3>
                 <h3 class='tierTitle'>Third tier title goes here!</h3>
                 <hr class='tierRule'>
@@ -174,7 +174,7 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a class = 'openForm' data-amount='250' href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='#' class='openForm' data-amount='250' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>250</h3>
                 <h3 class='tierTitle'>Fourth tier title goes here!</h3>
                 <hr class='tierRule'>
@@ -183,7 +183,7 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a class = 'openForm' data-amount='500' href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='#' class='openForm' data-amount='500' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
               <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
               <h3 class='tierTitle'>Fifth tier title goes here!</h3>
               <hr class='tierRule'>
@@ -192,7 +192,7 @@ Template Name: Campaign Page
             </a>
             </li>
             <li class='tier'>
-              <a class = 'openForm' data-amount='1000' href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='#' class='openForm' data-amount='1000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>1000</h3>
                 <h3 class='tierTitle'>Sixth tier title goes here!</h3>
                 <hr class='tierRule'>
