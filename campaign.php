@@ -120,8 +120,16 @@ Template Name: Campaign Page
           </div>
         </section>
       </div>
-      <div id='donorWallWrapper' class='hidden'><?php echo do_shortcode ('[donorwall title="Supporter Recognition Wall"]'); ?></div>
-      <div id='updatesWrapper' class='hidden'>Updates Wrapper</div>
+      <div id='donorWallWrapper' class='hidden'>
+        <div id="donorWallBody">
+          <?php echo do_shortcode ('[donorwall title="Supporter Recognition Wall"]'); ?>
+        </div>
+      </div>
+      <div id='updatesWrapper' class='hidden'>
+        <div id='updatesBody'>
+          Updates Wrapper
+        </div>
+      </div>
 
       <aside id='sidebarWrapper'>
         <section id='campaignStatus'>
