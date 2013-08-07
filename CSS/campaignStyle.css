@@ -29,7 +29,6 @@
 
 .tab {
   display: block;
-  margin-left: -1px;
   padding: 10px!important;
   width: 150px;
   background-color: #dfdfdf;
@@ -52,6 +51,10 @@
 .activeTab a {
   background-color: white;
   color: #52b3c5!important;
+}
+
+#tabOne {
+  margin-left: -1px;
 }
 
 #contentWrapper {
