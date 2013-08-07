@@ -10,6 +10,7 @@ Template Name: Campaign Page
 
 <style>
   @-moz-document url-prefix() {
+
     #tabOne {
       margin-left: -1px;
     }
@@ -30,17 +31,31 @@ Template Name: Campaign Page
 
     $( '#tabOne' ).click(function(){
       $( '#tabOne' ).removeClass( 'inactiveTab' ).addClass( 'activeTab' );
-      $( '#tabTwo' ).removeClass( 'activeTab' ).addClass('inactiveTab');
-      $( '#donorWallWrapper' ).addClass( 'hidden' );
+      $( '#tabTwo' ).removeClass( 'activeTab' ).addClass( 'inactiveTab' );
+      $( '#tabThree' ).removeClass( 'activeTab' ).addClass( 'inactiveTab' );
       $( '#campaignContentWrapper' ).removeClass( 'hidden' );
+      $( '#donorWallWrapper' ).addClass( 'hidden' );
+      $( '#updatesWrapper' ).addClass( 'hidden' );
       return false;
     });
 
     $( '#tabTwo' ).click(function(){
       $( '#tabTwo' ).removeClass( 'inactiveTab' ).addClass( 'activeTab' );
       $( '#tabOne' ).removeClass( 'activeTab' ).addClass( 'inactiveTab' );
+      $( '#tabThree' ).removeClass( 'activeTab' ).addClass( 'inactiveTab' );
+      $( '#updatesWrapper' ).removeClass( 'hidden' );
       $( '#campaignContentWrapper' ).addClass( 'hidden' );
+      $( '#donorWallWrapper' ).addClass( 'hidden' );
+      return false;
+    });
+
+    $( '#tabThree' ).click(function(){
+      $( '#tabThree' ).removeClass( 'inactiveTab' ).addClass( 'activeTab' );
+      $( '#tabOne' ).removeClass( 'activeTab' ).addClass( 'inactiveTab' );
+      $( '#tabTwo' ).removeClass( 'activeTab' ).addClass('inactiveTab');
       $( '#donorWallWrapper' ).removeClass( 'hidden' );
+      $( '#campaignContentWrapper' ).addClass( 'hidden' );
+      $( '#updatesWrapper' ).addClass( 'hidden' );
       return false;
     });
 
@@ -59,6 +74,9 @@ Template Name: Campaign Page
       <a href='#' class='tab'>Campaign Home</a>
     </p>
     <p id='tabTwo' class='inactiveTab'>
+      <a href='#' class='tab'>Updates</a>
+    </p>
+    <p id='tabThree' class='inactiveTab'>
       <a href='#' class='tab'>Donor Wall</a>
     </p>
   </div>
@@ -103,6 +121,7 @@ Template Name: Campaign Page
         </section>
       </div>
       <div id='donorWallWrapper' class='hidden'><?php echo do_shortcode ('[donorwall title="Supporter Recognition Wall"]'); ?></div>
+      <div id='updatesWrapper' class='hidden'>Updates Wrapper</div>
 
       <aside id='sidebarWrapper'>
         <section id='campaignStatus'>
