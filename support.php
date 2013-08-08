@@ -22,12 +22,9 @@ Template Name: Support Page
         Text about how great NSS is and why to contribute.
         Text about how great NSS is and why to contribute.
         Text about how great NSS is and why to contribute.
-        Text about how great NSS is and why to contribute.
       </p>
 
       <p>
-        Text about how great NSS is and why to contribute.
-        Text about how great NSS is and why to contribute.
         Text about how great NSS is and why to contribute.
         Text about how great NSS is and why to contribute.
         Text about how great NSS is and why to contribute.

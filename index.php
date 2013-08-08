@@ -80,7 +80,7 @@
         <h2 class="smallHeadline">What We Do</h2>
       </div>
       <h3 class="homesub">Home-growing Tech Talent</h3>
-      <p class="doSpace">Are you looking for a way to begin a career as a software developer?  Want to build mobile apps or web sites?  Nashville Software School will help you prepare for a job as a entry-level or junior software developer - even if you have no prior technical training or experience.</p>
+      <p class="doSpace">Looking for a way to begin a career as a software developer?  Want to build mobile apps or web sites?  Nashville Software School will help you prepare for a job as an entry-level software developer - even with no prior training or experience.</p>
       <p>Our innovative Bootcamp program is designed to take you from novice to developer in six months of intensive training and mentoring followed by real project work as an apprentice programmer.</p>
       <a class="linkStyle" href="<?php echo esc_url( get_permalink( get_page_by_title( 'program' ) ) ); ?>">Learn More</a>
     </section>

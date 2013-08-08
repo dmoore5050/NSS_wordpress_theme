@@ -39,7 +39,7 @@
 
 .tab {
   display: block;
-  padding: 10px!important;
+  padding: 10px;
   width: 150px;
   background-color: #f2f2f2;
   text-align: center;
@@ -47,20 +47,20 @@
   border-top-left-radius: 8px;
   border: 1px solid #a6a6a6;
   border-bottom: none;
-  color: #464646!important;
 }
 
-.tab:hover {
-  color: #52b3c5!important;
+.activTab a:hover, .inactiveTab a:hover {
+  color: #52b3c5;
 }
 
 .inactiveTab a {
   line-height: 18px;
+  color: #464646;
 }
 
 .activeTab a {
   background-color: white;
-  color: #52b3c5!important;
+  color: #52b3c5;
 }
 
 #tabOne {
@@ -106,7 +106,7 @@
 #leadParagraph {
   padding-top: 5px;
   font-weight: bold;
-  font-size: 16px!important;
+  font-size: 16px;
   color: black;
 }
 
@@ -115,7 +115,6 @@
 }
 
 .bodyText {
-  font-size: 15px!important;
   line-height: 20px;
   color: #595959;
   text-align: justify;
@@ -282,7 +281,7 @@
 
 .progressSubMessage {
   font-family: 'Merriweather';
-  font-size: 16px!important;
+  font-size: 16px;
   line-height: 18px;
   margin-top: 0;
   color: #464646;
@@ -375,7 +374,7 @@ input:focus, select:focus, textarea:focus {
   width: 210px;
   margin-bottom: 0;
   color: #464646;
-  font-size: 13px!important;
+  font-size: 13px;
   margin: 0 auto;
   text-align: left;
 }
