@@ -1,200 +1,200 @@
 .clearfix:after {
-	content: ".";
-	visibility: hidden;
-	display: block;
-	height: 0;
-	clear: both;
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 .containInfo {
-	padding-top: 30px ;
-	padding-bottom: 50px;
-	width: 960px;
-	margin: 0 auto;
-	height: 100%;
+  padding-top: 30px ;
+  padding-bottom: 50px;
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
 }
 
 .weDo, .studentBox {
-	width: 240px;
+  width: 240px;
 }
 
 .weDoFloat {
-	width: 200px;
-	float: left;
+  width: 200px;
+  float: left;
 }
 
 .spacing {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .linkStyle {
-	font-style: italic;
+  font-style: italic;
 }
 
 .meetLink {
-	float: right;
-	margin-top: -30px;
-	margin-right: 10px;
-	font-style: italic;
+  float: right;
+  margin-top: -30px;
+  margin-right: 10px;
+  font-style: italic;
 }
 
 .icon1 {
-	width: 30px;
-	float: left;
+  width: 30px;
+  float: left;
 
 }
 
 .name1 {
-	width: 100px;
-	float: left;
+  width: 100px;
+  float: left;
 
 }
 
 .peopleLocate {
-	float: left;
-	margin-left: 80px;
-	width: 680px;
-	margin-top: -40px;
+  float: left;
+  margin-left: 80px;
+  width: 680px;
+  margin-top: -40px;
 }
 
 .textLocate {
-	margin-top: 29px;
+  margin-top: 29px;
 }
 
 .peopleLoop {
-	float: right;
-	width: 759px;
-	margin-top: 10px;
-	padding: 0;
+  float: right;
+  width: 759px;
+  margin-top: 10px;
+  padding: 0;
 }
 
 .doSpace {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .weBox {
-	float: right;
-	margin-left: 40px;
-	width: 200px;
+  float: right;
+  margin-left: 40px;
+  width: 200px;
 }
 
 .weBox p {
-	margin-top: -10px;
+  margin-top: -10px;
 }
 
 .clickBox {
-	padding: 10px 0 10px 8px;
-	margin-top: -1px;
-	margin-left: -10px;
+  padding: 10px 0 10px 8px;
+  margin-top: -1px;
+  margin-left: -10px;
 }
 
 #weAre {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .lowerWidth {
-	width: 960px;
-	margin: 0 auto;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .className {
-	padding-top: 13px;
-	margin-bottom: 13px;
+  padding-top: 13px;
+  margin-bottom: 13px;
 }
 
 .lowerTitle {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .studentBox {
-	float: left;
+  float: left;
 }
 
 .studentBorder {
-	border-bottom: 4px solid #D0D0D0;
+  border-bottom: 4px solid #D0D0D0;
 }
 
 .student img {
-	margin-top: 3px;
-	margin-left: 20px;
+  margin-top: 3px;
+  margin-left: 20px;
 }
 
 .studentName {
-	float: right;
-	padding-top: 40px;
-	font-size: 18px;
+  float: right;
+  padding-top: 40px;
+  font-size: 18px;
 }
 
 blockquote {
-	padding: 5px;
-	margin: 0 auto;
-	font-size: 20px;
-	color: #666666;
+  padding: 5px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #666666;
 }
 
 .dateBox {
-	float: right;
-	margin-top: -10px;
+  float: right;
+  margin-top: -10px;
 }
 
 .monthBox {
-	background: #303d42;
-	width: 40px;
-	color: white;
-	padding: 4px;
-	text-align: center;
+  background: #303d42;
+  width: 40px;
+  color: white;
+  padding: 4px;
+  text-align: center;
 }
 
 .dayBox {
-	background: #fec013;
-	width: 40px;
-	padding: 4px;
-	text-align: center;
-	margin-top: -15px;
-	margin-bottom: 5px;
+  background: #fec013;
+  width: 40px;
+  padding: 4px;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 5px;
 }
 
 .news {
-	width: 680px;
-	margin-left: 40px;
-	float: left;
+  width: 680px;
+  margin-left: 40px;
+  float: left;
 }
 
 .newsHead {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .commentSpace {
-	margin-top: -10px;
+  margin-top: -10px;
 }
 
 .newsLoop{
-	width: 700px;
+  width: 700px;
   padding-bottom: 40px;
 }
 
 .newsTitle {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 #bottomPostRule {
-	margin: 0;
-	border-color: #d0d0d0;
+  margin: 0;
+  border-color: #d0d0d0;
 }
 
 .titleBox {
-	height: 46px;
+  height: 46px;
 }
 
 .newsBox {
-	width: 44.2%;;
-	float: left;
-	padding-right: 40px;
-	margin-bottom: 15px;
+  width: 44.2%;;
+  float: left;
+  padding-right: 40px;
+  margin-bottom: 15px;
 }
 
 .newsBox:nth-child(2), .newsBox:last-child {
-	padding-right: 0;
+  padding-right: 0;
 }
 
 .postTitle {
@@ -206,112 +206,112 @@ blockquote {
 }
 
 .newsBody a:hover {
-	color: #7898a4;
+  color: #7898a4;
 }
 
 .indexBorder {
-	float: right;
-	width: 680px;
-	border-bottom: 4px solid #D0D0D0;
-	margin-top: 1px;
-	height: 35px;
-	margin-bottom: 20px;
+  float: right;
+  width: 680px;
+  border-bottom: 4px solid #D0D0D0;
+  margin-top: 1px;
+  height: 35px;
+  margin-bottom: 20px;
 }
 
 .lowerIndexBorder {
-	border-bottom: 4px solid #D0D0D0;
+  border-bottom: 4px solid #D0D0D0;
 }
 
 .newsLink {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .imgBorder {
-	padding: 8px;
-	border: 1px solid #D0D0D0;
-	background: #f2f2f2;
+  padding: 8px;
+  border: 1px solid #D0D0D0;
+  background: #f2f2f2;
 }
 
 .post-categories  {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .post-categories li {
-	list-style-type: none;
-	margin-left: -40px;
+  list-style-type: none;
+  margin-left: -40px;
 }
 
 #actionCall {
-	height: 45px;
-	background: #f2f2f2;
-	border-bottom: 1px solid #d0d0d0;
-	border-top: 1px solid #d0d0d0;
+  height: 45px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #d0d0d0;
+  border-top: 1px solid #d0d0d0;
 }
 
 .containAction {
-	width: 600px;
-	margin: 0 auto;
-	font-style: italic;
-	margin-top: -4px;
+  width: 600px;
+  margin: 0 auto;
+  font-style: italic;
+  margin-top: -4px;
   text-align: center;
 }
 
 .containAction p {
-	font-size: 17px;
+  font-size: 17px;
   display: inline-block;
 }
 
 #applyBtn {
   margin-left: 15px;
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 #applyBtn a {
-	color: white!important;
+  color: white!important;
 }
 
 .headingBorder {
-	margin-bottom: 10px;
-	padding-bottom: 2px;
-	border-bottom: 4px solid #D0D0D0;
-	height: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #D0D0D0;
+  height: 20px;
 }
 
 .border {
-	border-bottom: 8px solid #DEDEDE;
+  border-bottom: 8px solid #DEDEDE;
 }
 
 .fullsize {
-	float: right;
-	margin-top: -50px;
-	margin-right: -180px;
+  float: right;
+  margin-top: -50px;
+  margin-right: -180px;
 }
 
 /*START CAROUSEL*/
 
 .emphasisTitleCarousel {
-	color: #f2f2f2;
-	font-size: 54px;
-	margin-top: -5px;
-	line-height: .85em;
-	letter-spacing: -2px;
-	font-weight: bold;
-	margin-bottom: 25px;
+  color: #f2f2f2;
+  font-size: 54px;
+  margin-top: -5px;
+  line-height: .85em;
+  letter-spacing: -2px;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
 
 .smallHeadlineCarousel {
-	font-size: 28px;
-	line-height: 1em;
-	letter-spacing: 1px;
-	font-weight: bold;
-	color: #FEC013;
-	padding: 0;
-	font-family: 'Gochi Hand', cursive;
+  font-size: 28px;
+  line-height: 1em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #FEC013;
+  padding: 0;
+  font-family: 'Gochi Hand', cursive;
 }
 
 .carouselText {
-	color: #d0d0d0;
-	font-size: 16px;
+  color: #d0d0d0;
+  font-size: 16px;
 }
 
 .carousel-control {
@@ -319,7 +319,7 @@ blockquote {
 }
 
 .carouselarrows {
-	width: 1260px;
+  width: 1260px;
 }
 
 .carousel {
@@ -386,8 +386,8 @@ blockquote {
 }
 
 .taglineInfo, .carousel-caption {
-	width: 470px;
-	margin-top: -55px;
+  width: 470px;
+  margin-top: -55px;
 }
 
 .carousel .active,
@@ -472,50 +472,49 @@ blockquote {
   margin-top: -90px;
 }
 
-
 .carouselImg {
-	width: 420px;
-	float: right;
-	margin-top: -20px;
+  width: 420px;
+  float: right;
+  margin-top: -20px;
 }
 
 .newsBody {
-	margin-top: 15px;
-	width: 320px;
+  margin-top: 15px;
+  width: 320px;
 }
 
 /*START CONTENT*/
 
 .newsBorder {
-	float: right;
-	width: 680px;
-	border-bottom: 4px solid #D0D0D0;
-	margin-top: 42px;
-	height: 35px;
-	margin-bottom: 20px;
+  float: right;
+  width: 680px;
+  border-bottom: 4px solid #D0D0D0;
+  margin-top: 42px;
+  height: 35px;
+  margin-bottom: 20px;
 }
 
 .post1Meta  p {
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 10px;
-	font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .floatMeta {
-	float: left;
-	padding: 0 20px 0 0;
-	margin-top: -4px;
+  float: left;
+  padding: 0 20px 0 0;
+  margin-top: -4px;
 }
 
 .metaImg {
-	margin-top: 8px;
-	border-top: 1px solid #d0d0d0;
+  margin-top: 8px;
+  border-top: 1px solid #d0d0d0;
 }
 
 .metaImg hr {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 /*START BUTTONS*/
@@ -618,7 +617,7 @@ blockquote {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   font-color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	-moz-border-bottom-colors: none;
+  -moz-border-bottom-colors: none;
   -moz-border-image: none;
   -moz-border-left-colors: none;
   -moz-border-right-colors: none;
