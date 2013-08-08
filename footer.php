@@ -1,9 +1,4 @@
-<style>
-  #footer_right {
-    margin-top: -48px;
-    margin-bottom: 25px;
-  }
-</style>
+
     <div style="clear: both;"></div>
     <footer>
       <div id="footer_wrapper" class="clearfix">

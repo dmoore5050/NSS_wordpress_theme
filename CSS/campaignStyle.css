@@ -461,9 +461,3 @@ input:focus, select:focus, textarea:focus {
   line-height: 18px;
   font-weight: bold;
 }
-
-/* footer */
-
-footer {
-  margin-top: 0!important;
-}

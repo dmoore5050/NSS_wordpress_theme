@@ -170,6 +170,7 @@ blockquote {
 
 .newsLoop{
 	width: 700px;
+  padding-bottom: 40px;
 }
 
 .newsTitle {

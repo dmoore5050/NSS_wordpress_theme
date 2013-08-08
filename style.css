@@ -203,7 +203,6 @@ footer {
   border-top: 8px solid #D0D0D0;
   margin: 0 auto;
   position: relative;
-  margin-top: 80px; /* negative value of footer height */
   height: 90px;
   clear:both;
 }
@@ -222,42 +221,12 @@ footer {
 #footer_right {
   width: 643px;
   float: left;
-  margin-top: -30px;
-  margin-bottom: 10px;
+  margin-top: -48px;
+  margin-bottom: 25px;
 }
 
 #footer_logo img {
   height: 50px;
-}
-
-.footer_social {
-  margin-top: -30px;
-  float: right;
-  margin-right:-20px;
-}
-
-.footer_social a {
-  color: gray;
-  text-decoration: none;
-  display: block;
-  float: left;
-  font-size: 14px;
-}
-
-.footer_social img {
-  height: 20px;
-  width: 20px;
-}
-
-.icon {
-  display: inline-block;
-  float: left;
-  margin-right: 10px;
-}
-
-.name {
-  padding: 4px 10px 0px 3px;
-  height: 12px;
 }
 
 footer h5 {
