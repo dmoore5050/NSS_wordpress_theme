@@ -11,7 +11,7 @@ Template Name: Campaign Page
 <style>
   @-moz-document url-prefix() {
 
-    #tabOne {
+    .tab:first-of-type {
       margin-left: -1px;
     }
 
@@ -134,7 +134,6 @@ Template Name: Campaign Page
                 <h3 class='titleLeft'><?php the_title();?></h3>
                 <p class='nameRight'><?php the_author();?><p>
               </div>
-<!--               <br><br> -->
               <div class='updatePostBody'>
                 <?php the_content ();?>
               </div>

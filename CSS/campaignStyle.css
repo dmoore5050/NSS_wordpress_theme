@@ -41,7 +41,7 @@
   display: block;
   padding: 10px!important;
   width: 150px;
-  background-color: #dfdfdf;
+  background-color: #f2f2f2;
   text-align: center;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
@@ -79,6 +79,8 @@
   padding: 10px 20px 5px 20px;
   border-radius: 8px;
   box-shadow: 3px 3px 2px #c0c0c0;
+  border: 1px solid #cdcdcd;
+  min-height: 600px;
 }
 
 #campaignMedia {
@@ -213,24 +215,28 @@
 /* update */
 
 .postWrapper {
-  border-bottom: 1px solid #464646;
+  border-bottom: 1px solid #a6a6a6;
   margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .postWrapper:last-of-type {
   border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .titleLeft {
   float: left;
   display: inline-block;
   margin: 3px 0 10px 0;
+  color: #2d2d2d;
 }
 
 .nameRight {
   float: right;
   display: inline-block;
-  margin: 10px 0 5px 0;
+  margin: 7px 0 5px 0;
+  color: #464646;
 }
 
 .blogRule {
@@ -260,6 +266,7 @@
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 8px;
+  border: 1px solid #cdcdcd;
   box-shadow: 3px 3px 2px #c0c0c0;
 }
 
@@ -380,6 +387,7 @@ input:focus, select:focus, textarea:focus {
   padding-left: 0;
   margin-bottom: 0;
   box-shadow: 3px 3px 2px #c0c0c0;
+  border: 1px solid #cdcdcd;
   border-radius: 8px;
 }
 
