@@ -110,10 +110,14 @@ Template Name: Campaign Page
           <p class='bodyText'>Bushwick artisan deep v ethnic, pop-up cardigan freegan gluten-free single-origin coffee Portland. Ullamco pitchfork pour-over PBR, thundercats hoodie Bushwick hella roof party reprehenderit readymade wolf aliqua. Meggings viral fap magna, blue bottle quis ad Austin. Messenger bag assumenda accusamus yr bitters, deep v vegan VHS magna culpa ennui small batch. Exercitation before they sold out.</p>
           <p class='bodyText'>Master cleanse iPhone lo-fi Bushwick. Freegan mixtape laborum, occaecat photo booth officia Brooklyn voluptate squid iPhone id roof party. Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche assumenda hoodie nostrud 8-bit. Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche. </p>
           <br>
-          <h2 class='bodyTitle center'>And Now: Stretch Goals!</h2>
-          <p class='bodyText'><span class='goalName'>Stretch Goal #1: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
-          <p class='bodyText'><span class='goalName'>Stretch Goal #2: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
-          <p class='bodyText'><span class='goalName'>Stretch Goal #3: </span>Pitchfork labore locavore artisan exercitation, incididunt hoodie odio banjo Godard roof party Etsy. Mollit adipisicing cray aliqua. Qui officia lo-fi fugiat you probably haven't heard of them Tonx. Sed tofu cillum duis, organic leggings food truck american apparel asymmetrical mumblecore.</p>
+          <?php $wp_query = new WP_Query("post_type=campaign_update&tag=capital&cat=22&post_status=publish&posts_per_page=1");?>
+          <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
+          <?php the_content ();?>
+          <?php endwhile; ?>
+          <?php else : ?>
+            <p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
+          <?php endif; ?>
+          <?php wp_reset_query();?>
           <br>
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
@@ -127,7 +131,7 @@ Template Name: Campaign Page
       </div>
       <div id='updatesWrapper' class='hidden'>
         <div id='updatesBody' class='clearfix'>
-          <?php $wp_query = new WP_Query("post_type=campaign_update&tag=capital&post_status=publish&posts_per_page=10");?>
+          <?php $wp_query = new WP_Query("post_type=campaign_update&tag=capital&cat=-22&post_status=publish&posts_per_page=10");?>
           <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
             <div class='postWrapper'>
               <div class='titleBar clearfix'>
