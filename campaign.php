@@ -151,11 +151,13 @@ Template Name: Campaign Page
           <p class='progressSubMessage'>donated of $20000.00 goal</p>
           <h2 class='progressBangHeader'><?php echo do_shortcode ('[donornumber]'); ?></h2>
           <p class='progressSubMessage'>supporters</p>
+          <!-- Begin Countdown Timer. Remove following section to remove timer. -->
           <br>
-          <?php echo do_shortcode ("[countdown date=+31]
+          <?php echo do_shortcode ("[countdown date=2013/08/30]
           <h2 class='progressBangHeader'>[dtimer]</h2>
           <p class='progressSubMessage'>days to go</p>[after]Campaign ended!
           [/countdown]"); ?>
+          <!-- End Countdown Timer -->
           <br>
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>

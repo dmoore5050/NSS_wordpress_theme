@@ -189,7 +189,8 @@
 
 .center {
   text-align: center;
-  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .goalName {
