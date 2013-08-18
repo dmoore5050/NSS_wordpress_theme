@@ -225,16 +225,13 @@ footer {
 }
 
 #footer_left {
-  width: 317px;
   float: left;
   margin-top: -30px;
 }
 
 #footer_right {
-  width: 643px;
-  float: left;
+  float: right;
   margin-top: -48px;
-  margin-bottom: 25px;
 }
 
 #footer_logo img {
@@ -312,10 +309,6 @@ nav a {
 
 li.current_page_item a {
   color: #fec013 !important;
-}
-
-#footNav {
-  margin-left: 180px;
 }
 
 #footNav a {
