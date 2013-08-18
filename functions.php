@@ -120,8 +120,6 @@ function wpt_announcement_posttype() {
 }
 add_action( 'init', 'wpt_announcement_posttype');
 
-// add_action( 'init', 'wpt_classes_posttype');
-
 function kia_subtitle($title){
 if(function_exists('the_subtitle')) the_subtitle();
 }
