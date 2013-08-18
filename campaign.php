@@ -23,6 +23,10 @@ Template Name: Campaign Page
       margin-top: -1px;
     }
 
+    #tabOne {
+      margin-left: -1px;
+    }
+
   }
 </style>
 
