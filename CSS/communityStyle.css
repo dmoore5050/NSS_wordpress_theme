@@ -62,6 +62,11 @@
   height:200px;
 }
 
+.reveal-modal {
+  width: 53%;
+  left: 20.5%;
+}
+
 .modalBio {
   margin-left: -30px;
 }
