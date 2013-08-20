@@ -68,6 +68,10 @@ Template Name: Campaign Page
       $('#amount').val(value);
     });
 
+    $('#formSubmit').click(function(){
+      $('#formModal').trigger('reveal:close');
+    });
+
   })
 </script>
 
