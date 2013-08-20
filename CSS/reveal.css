@@ -27,7 +27,6 @@
     -box-shadow:        0 0 10px rgba(0,0,0,.4);
     -moz-box-shadow:    0 0 10px rgba(0,0,0,.4);
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-    max-height: 90%;
     }
 
   .reveal-modal.small     { width: 200px; margin-left: -140px;}
