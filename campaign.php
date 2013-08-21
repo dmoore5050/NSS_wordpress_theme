@@ -105,12 +105,18 @@ Template Name: Campaign Page
           <p class='bodyText'>
             We are a strongly community-centered organization.  Our founders, instructors and mentors are all working technology professionals in the Nashville area who have donated time, dollars and energy to help prove that the NSS model works.
           </p>
-          <p class='bodyText'>
-            We are also a Tennessee non-profit corporation.  Our mission is to open doors to technology careers to qualified applicants irrespective of their financial resources and to grow the local tech workforce for the benefit of all local startups or established organizations.
-          </p>
-          <h2 class="bodyTitle">
-            So does this really work?
-          </h2>
+          <p class='bodyText'>We are also a Tennessee non-profit corporation.  Our mission is to open doors to technology careers to qualified applicants irrespective of their financial resources and to grow the local tech workforce for the benefit of all local startups or established organizations.</p>
+          <h2 class="bodyTitle">So does this really work?</h2>
+          <aside class='right smallAside'>
+            <a href='#' id='modalTrigger' data-reveal-id='videoModal' data-animation='fade' data-animationspeed='300'>
+              <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg' alt='filler image' width='180px;' height='180px;'/>
+            </a>
+            <div id='videoModal' class='reveal-modal hidden' >
+              <iframe id='videoFrame' width='620' height='349' src='//www.youtube.com/embed/8AdSzQZ8AKo?rel=0' frameborder='0' allowfullscreen></iframe>
+            </div>
+            <h3 id='asideTitle'>Johnny Fakename</h3>
+            <p id='asideText'>Mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Fixie DIY occupy, pitch fork asymmetrical retro keffiyeh freegan stump town viral PBR tattoo Etsy pug bahn mi.</p>
+          </aside>
           <p class='bodyText'>
             We have graduated 40 junior software developers since starting our first class in June 2012.  In late 2012 we graduated our first cohort of 14 developers and at mid-year 2013 we graduated an additional 26.  Most of the graduates of our first cohort are employed in software developer or other technology jobs around Nashville.  Several in our second cohort have already secured full-time positions and the remainder are actively searching for positions in Nashville.
           </p>
