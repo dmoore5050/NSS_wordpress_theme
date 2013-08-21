@@ -273,7 +273,7 @@
 /* right sidebar wrapper styling */
 
 #sidebarWrapper {
-  width: 316px;
+  width: 322px;
   float: right;
 }
 
@@ -444,6 +444,11 @@ input:focus, select:focus, textarea:focus {
 
 .months {
   font-size:22px;
+}
+
+.recurring {
+  color:#464646;
+  font-size: 16px;
 }
 
 .tier:hover .tierAmount {
