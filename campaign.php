@@ -117,10 +117,9 @@ Template Name: Campaign Page
           <h2 class="bodyTitle">So does this really work?</h2>
           <aside class='right smallAside'>
             <a href='#'>
-              <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg' alt='City Paper headshots' width='180px;' height='180px;'/>
+              <img class='asideImage' src='<?php bloginfo('template_url'); ?>/images/CodeSchoolTopper.jpg' alt='City Paper headshots' width='183px;' height='183px;'/>
             </a>
-            <h3 id='asideTitle'>Johnny Fakename</h3>
-            <p id='asideText'>Mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Fixie DIY occupy, pitch fork asymmetrical retro keffiyeh freegan stump town viral PBR tattoo Etsy pug bahn mi.</p>
+            <p id='asideText'>Read more about NSS in a great article from the Nashville City Paper.</p>
           </aside>
           <p class='bodyText'>
             We have graduated 40 junior software developers since starting our first class in June 2012.  In late 2012 we graduated our first cohort of 14 developers and at mid-year 2013 we graduated an additional 26.  Most of the graduates of our first cohort are employed in software developer or other technology jobs around Nashville.  Several in our second cohort have already secured full-time positions and the remainder are actively searching for positions in Nashville.
@@ -147,7 +146,7 @@ Template Name: Campaign Page
             What do we need the money for?
           </h2>
           <p class='bodyText'>
-          <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='filler image' width='320px;' height='295px;'/>
+          <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='Eliza teaching' width='320px;' height='295px;'/>
 
             We love the business model we have designed but it means that we spend a lot training a class of graduates before we begin to recoup that investment through placement fees and repayments.
 
@@ -236,8 +235,8 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>25</h3>
                 <h3 class='tierTitle'>Trainee Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Your name will be permanently placed on the Recognition wall in Nashville Software School's classrooms.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierDescription'>Your name will be permanently placed on the Recognition Wall in Nashville Software School's classrooms.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -245,8 +244,8 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>50</h3>
                 <h3 class='tierTitle'>Junior Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'> NSS logo sticker, and your name on the Recognition wall.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierDescription'>You'll get an NSS logo sticker, and your name on the Recognition Wall.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -254,8 +253,8 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>75</h3>
                 <h3 class='tierTitle'>Web Designer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>NSS Cohort 3 Limited Edition T-shirt, and your name on the Recognition wall.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierDescription'>You'll get an NSS Cohort 3 Limited Edition T-shirt, and your name on the Recognition Wall.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -263,8 +262,8 @@ Template Name: Campaign Page
                 <h3 class='tierAmount' style='display: inline-block;'><span class='greyText'>$</span>100</h3>
                 <h3 class='tierTitle'>Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>NSS Cohort 3 Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierDescription'>You'll get an NSS Cohort 3 Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -273,7 +272,7 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Developer()</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -281,8 +280,9 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>250</h3>
                 <h3 class='tierTitle'>Senior Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>????, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierDescription'>NSS ceramic coffee mug!
+                  <br><br>You'll also get a Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -291,7 +291,7 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Senior Developer()</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -299,10 +299,10 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
                 <h3 class='tierTitle'> Lead Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>NSS Insulated Coffee Mug!
-                  <br><br>You'll also get Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                <p class='tierDescription'>NSS insulated coffee mug!
+                  <br><br>You'll also get a Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.
                 </p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -311,7 +311,7 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Lead Developer()</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -320,9 +320,9 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Principal Engineer</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Personalized Thank You photograph of you with one of our students whose tuition your donation paid for!
-                  <br><br>You'll also get an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                  <br><br>You'll also get an NSS insulated coffee mug, a Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.
                 </p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -331,7 +331,7 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Principal Engineer()</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -340,9 +340,9 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Product Architect</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Your generous gift will pay for the initial tuition for a student as well as purchase them a new laptop computer!
-                  <br><br>You'll get a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                  <br><br>You'll get a personalized Thank You photograph of you with one of our students, an NSS insulated coffee mug, a Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.
                 </p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -351,7 +351,7 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Product Architect()</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: January 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -359,10 +359,10 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>5,000</h3>
                 <h3 class='tierTitle'>Development Manager</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students!
-                  <br><br>You'll a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                <p class='tierDescription'>Your generous gift will pay for a full 12-week stipend to support the living expense of one of our students!
+                  <br><br>You'll get a personalized Thank You photograph of you with one of our students, an NSS insulated coffee mug, a Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.
                 </p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: March 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -371,7 +371,7 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Development Manager()</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: March 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -380,9 +380,9 @@ Template Name: Campaign Page
                 <h3 class='tierTitle'>Chief Technology Officer</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students plus their initial tuition plus a new laptop computer!
-                  <br><br>You'll a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                  <br><br>You'll get a personalized Thank You photograph of you with one of our students, an NSS insulated coffee mug, a Limited Edition T-shirt, an NSS logo sticker, and your name on the Recognition Wall.
                 </p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierFooter'>Estimated Availability: March 2014</p>
               </a>
             </li>
             <li class='tier'>
@@ -390,10 +390,8 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>1000<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Chief Technology Officer()</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students plus their initial tuition plus a new laptop computer!
-                  <br><br>You'll a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
-                </p>
-                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+                <p class='tierDescription'>Same as above.
+                <p class='tierFooter'>Estimated Availability: March 2014</p>
               </a>
             </li>
           </ul>
