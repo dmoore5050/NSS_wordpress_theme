@@ -91,8 +91,7 @@ Template Name: Campaign Page
           <h2 class='bodyTitle'>Sustain Nashville Software School</h2>
           <p id='leadParagraph'>We need your support to be able to continue to grow Nashville's tech talent pool.</p>
             <section id='campaignMedia'>
-              <iframe width='576' height='349' src='//www.youtube.com/embed/8AdSzQZ8AKo?rel=0' frameborder='0' allowfullscreen></iframe>
-            </section>
+         <iframe width="640" height="480" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>            </section>
             <p class='bodyText'>
               All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.
               In 2012 a group of Nashville technologists got together to try to find a way to address this problem.  We believed that Nashville had plenty of people with the latent talent to become tech professionals.  We knew that it didn't take a four year college degree and computer science degree to become a productive professional software developer because many of us didn't have such a degree.  We believed that we could partner with Nashville area technology employers to create a curriculum that would create the skills they needed in an entry-level software developer.
