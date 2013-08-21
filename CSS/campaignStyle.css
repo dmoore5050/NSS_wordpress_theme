@@ -6,20 +6,34 @@
   padding-bottom: 28px;
 }
 
+#titleWrapper {
+  width: 1005px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
 #campaignHeader {
-  text-align: center;
-  padding-top: 37px;
+  padding-top: 42px;
   color: #1a334c;
   font-size: 44px;
   line-height: .85em;
   letter-spacing: -2px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 0;
+}
+
+#campaignSubHead {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #535353;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #contentWrapper {
   width: 966px;
   margin: 0 auto;
+/*  margin-top: -1px;*/
   background-color: white;
   padding: 20px;
   border: 1px solid #bfbfbf;
@@ -49,7 +63,7 @@
   border-bottom: none;
 }
 
-.activTab a:hover, .inactiveTab a:hover {
+.activeTab a:hover, .inactiveTab a:hover {
   color: #52b3c5;
 }
 
@@ -90,7 +104,7 @@
 /* campaign main body styling */
 
 .bodyTitle {
-  margin-top: 30;
+  margin-top: 30px;
   margin-bottom: 15px;
   font-size: 32px;
   line-height: 1em;
@@ -419,9 +433,13 @@ input:focus, select:focus, textarea:focus {
   margin-bottom: 6px;
   font-size: 28px;
   line-height: 1em;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   font-weight: bold;
   color: #e5a700;
+}
+
+.months {
+  font-size:22px;
 }
 
 .tier:hover .tierAmount {

@@ -9,6 +9,7 @@ Template Name: Campaign Page
 <link rel='stylesheet' type='text/css' href='<?php echo get_template_directory_uri(); ?>/CSS/jquery_ui_style.css'>
 
 <style>
+
   @-moz-document url-prefix() {
 
     .inactiveTab a {
@@ -61,7 +62,13 @@ Template Name: Campaign Page
 
     $('.openForm').click(function(){
       var value = $(this).attr('data-amount');
+      var recur = $(this).attr('data-recur');
+      var frequency = $(this).attr('data-frequency');
+      var duration = $(this).attr('data-duration');
       $('#amount').val(value);
+      $('#t3').val(recur);
+      $('#p3').val(frequency);
+      $('#srt').val(duration);
     });
 
     $('#formSubmit').click(function(){
@@ -72,7 +79,10 @@ Template Name: Campaign Page
 </script>
 
 <div id='container'>
-  <h3 id='campaignHeader' class='emphasisTitle'>Campaign Name</h3>
+  <div id='titleWrapper'>
+    <h3 id='campaignHeader' class='emphasisTitle'>Sustain Nashville Software School</h3>
+    <p id='campaignSubHead'>We need your support to be able to continue to grow Nashville's tech talent pool</p>
+  </div>
   <div id='tabsWrapper'>
     <p id='tabOne' class='activeTab'>
       <a href='#' class='tab'>Campaign Home</a>
@@ -87,11 +97,11 @@ Template Name: Campaign Page
   <div id='contentWrapper' class='clearfix'>
     <div id='mainWrapper'>
       <div id='campaignContentWrapper'>
-        <section id='campaignBody'>
-          <h2 class='bodyTitle'>Sustain Nashville Software School</h2>
-          <p id='leadParagraph'>We need your support to be able to continue to grow Nashville's tech talent pool.</p>
             <section id='campaignMedia'>
-         <iframe width="640" height="480" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>            </section>
+         <iframe width="620" height="465" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id='campaignBody'>
             <p class='bodyText'>
               All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.
               In 2012 a group of Nashville technologists got together to try to find a way to address this problem.  We believed that Nashville had plenty of people with the latent talent to become tech professionals.  We knew that it didn't take a four year college degree and computer science degree to become a productive professional software developer because many of us didn't have such a degree.  We believed that we could partner with Nashville area technology employers to create a curriculum that would create the skills they needed in an entry-level software developer.
@@ -107,12 +117,9 @@ Template Name: Campaign Page
           <p class='bodyText'>We are also a Tennessee non-profit corporation.  Our mission is to open doors to technology careers to qualified applicants irrespective of their financial resources and to grow the local tech workforce for the benefit of all local startups or established organizations.</p>
           <h2 class="bodyTitle">So does this really work?</h2>
           <aside class='right smallAside'>
-            <a href='#' id='modalTrigger' data-reveal-id='videoModal' data-animation='fade' data-animationspeed='300'>
-              <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg' alt='filler image' width='180px;' height='180px;'/>
+            <a href='#'>
+              <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg' alt='City Paper headshots' width='180px;' height='180px;'/>
             </a>
-            <div id='videoModal' class='reveal-modal hidden' >
-              <iframe id='videoFrame' width='620' height='349' src='//www.youtube.com/embed/8AdSzQZ8AKo?rel=0' frameborder='0' allowfullscreen></iframe>
-            </div>
             <h3 id='asideTitle'>Johnny Fakename</h3>
             <p id='asideText'>Mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Fixie DIY occupy, pitch fork asymmetrical retro keffiyeh freegan stump town viral PBR tattoo Etsy pug bahn mi.</p>
           </aside>
@@ -202,7 +209,7 @@ Template Name: Campaign Page
           <p class='progressSubMessage'>supporters</p>
           <br>
           <!-- Begin Countdown Timer. Remove following section to remove timer. -->
-          <?php echo do_shortcode ("[countdown date=2013/08/30]
+          <?php echo do_shortcode ("[countdown date=2013/11/30]
           <h2 class='progressBangHeader'>[dtimer]</h2>
           <p class='progressSubMessage'>days to go</p>[after]Campaign ended!
           [/countdown]"); ?>
@@ -210,7 +217,9 @@ Template Name: Campaign Page
           <!-- End Countdown Timer -->
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
-            <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
+            <p id='donationFinePrint'>All donations to this campaign will become immediately available to Nashville Software School.</p>
+            <br>
+            <p id='donationFinePrint'>Nashville Software School is a non-profit corporation and has filed for approval as a 501(c)3, so part of your donation to this campaign is TAX DEDUCTIBLE (depending on the perks, and that’s one).</p>
           </div>
           <div id='formModal' class='reveal-modal hide' >
             <h3 class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
@@ -224,7 +233,7 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>25</h3>
                 <h3 class='tierTitle'>Trainee Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>your name on the Recognition wall</p>
+                <p class='tierDescription'>Your name will be permanently placed on the Recognition wall in Nashville Software School's classrooms.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
@@ -248,10 +257,19 @@ Template Name: Campaign Page
             </li>
             <li class='tier'>
               <a href='#' class='openForm' data-amount='100' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>100</h3>
+                <h3 class='tierAmount' style='display: inline-block;'><span class='greyText'>$</span>100</h3>
                 <h3 class='tierTitle'>Developer</h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>NSS Cohort 3 Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='10' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>10<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Developer()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Same as above.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
@@ -265,11 +283,31 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
+              <a href='#' class='openForm' data-amount='25' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>25<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Senior Developer()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Same as above.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
               <a href='#' class='openForm' data-amount='500' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
                 <h3 class='tierTitle'> Lead Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierDescription'>NSS Insulated Coffee Mug!
+                  <br><br>You'll also get Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                </p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='50' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>50<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Lead Developer()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Same as above.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
@@ -278,7 +316,18 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>1,000</h3>
                 <h3 class='tierTitle'>Principal Engineer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Personalized Thank You photograph of you with one of our students whose tuition your donation paid for, NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierDescription'>Personalized Thank You photograph of you with one of our students whose tuition your donation paid for!
+                  <br><br>You'll also get an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                </p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='100' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>100<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Principal Engineer()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Same as above.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
@@ -287,7 +336,18 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>2,500</h3>
                 <h3 class='tierTitle'>Product Architect</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Your generous gift will pay for the initial tuition for a student as well as purchase them a new laptop computer! PLUS a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierDescription'>Your generous gift will pay for the initial tuition for a student as well as purchase them a new laptop computer!
+                  <br><br>You'll get a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                </p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='250' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>250<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Product Architect()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Same as above.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
@@ -296,7 +356,18 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>5,000</h3>
                 <h3 class='tierTitle'>Development Manager</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students! PLUS a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students!
+                  <br><br>You'll a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                </p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='500' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>500<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Development Manager()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Same as above.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
@@ -305,7 +376,20 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>10,000</h3>
                 <h3 class='tierTitle'>Chief Technology Officer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students plus their initial tuition plus a new laptop computer! PLUS a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students plus their initial tuition plus a new laptop computer!
+                  <br><br>You'll a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                </p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='1000' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>1000<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+                <h3 class='tierTitle'>Chief Technology Officer()</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students plus their initial tuition plus a new laptop computer!
+                  <br><br>You'll a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.
+                </p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
