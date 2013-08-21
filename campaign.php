@@ -11,10 +11,6 @@ Template Name: Campaign Page
 <style>
   @-moz-document url-prefix() {
 
-    .tab:first-of-type {
-      margin-left: -1px;
-    }
-
     .inactiveTab a {
       line-height: 18px;
     }
@@ -85,7 +81,7 @@ Template Name: Campaign Page
       <a href='#' class='tab'>Updates</a>
     </p>
     <p id='tabThree' class='inactiveTab'>
-      <a href='#' class='tab'>Donor Wall</a>
+      <a href='#' class='tab'>Recognition Wall</a>
     </p>
   </div>
   <div id='contentWrapper' class='clearfix'>
@@ -163,14 +159,14 @@ Template Name: Campaign Page
           <p class='progressSubMessage'>donated of $20000.00 goal</p>
           <h2 class='progressBangHeader'><?php echo do_shortcode ('[donornumber]'); ?></h2>
           <p class='progressSubMessage'>supporters</p>
-          <!-- Begin Countdown Timer. Remove following section to remove timer. -->
           <br>
+          <!-- Begin Countdown Timer. Remove following section to remove timer. -->
           <?php echo do_shortcode ("[countdown date=2013/08/30]
           <h2 class='progressBangHeader'>[dtimer]</h2>
           <p class='progressSubMessage'>days to go</p>[after]Campaign ended!
           [/countdown]"); ?>
-          <!-- End Countdown Timer -->
           <br>
+          <!-- End Countdown Timer -->
           <div class='pledgeButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
             <p id='donationFinePrint'>Any donation fine print, deadline details, etc. could go in these lines.</p>
@@ -183,56 +179,92 @@ Template Name: Campaign Page
         <section>
           <ul id='donationTiers'>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='20' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>20</h3>
-                <h3 class='tierTitle'>First tier title goes here!</h3>
+              <a href='#' class='openForm' data-amount='25' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>25</h3>
+                <h3 class='tierTitle'>Trainee Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche.<p>
+                <p class='tierDescription'>your name on the Recognition wall</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
             <li class='tier'>
               <a href='#' class='openForm' data-amount='50' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>50</h3>
-                <h3 class='tierTitle'>Second tier title goes here!</h3>
+                <h3 class='tierTitle'>Junior Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'> Fixie DIY occupy, pitchfork asymmetrical retro keffiyeh freegan stumptown viral PBR tattooed Etsy pug. Master cleanse forage sustainable ethical, Marfa street art.<p>
+                <p class='tierDescription'> NSS logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='75' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>75</h3>
+                <h3 class='tierTitle'>Web Designer</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>NSS Cohort 3 Limited Edition T-shirt, and your name on the Recognition wall.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
             <li class='tier'>
               <a href='#' class='openForm' data-amount='100' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>100</h3>
-                <h3 class='tierTitle'>Third tier title goes here!</h3>
+                <h3 class='tierTitle'>Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>YOLO semiotics +1 letterpress. Narwhal flexitarian roof party gentrify mixtape, keffiyeh biodiesel banh mi small batch blog.<p>
+                <p class='tierDescription'>NSS Cohort 3 Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
             <li class='tier'>
               <a href='#' class='openForm' data-amount='250' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>250</h3>
-                <h3 class='tierTitle'>Fourth tier title goes here!</h3>
+                <h3 class='tierTitle'>Senior Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Meggings banh mi forage flannel Marfa, ethnic mumblecore Odd Future freegan 90's Neutra wolf. Bitters McSweeney's irony you probably haven't heard of them, helvetica church-key cliche.<p>
+                <p class='tierDescription'>????, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
             <li class='tier'>
               <a href='#' class='openForm' data-amount='500' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-              <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
-              <h3 class='tierTitle'>Fifth tier title goes here!</h3>
-              <hr class='tierRule'>
-              <p class='tierDescription'>Fanny pack salvia biodiesel typewriter kitsch. Mixtape salvia chillwave hella. Forage sriracha retro Banksy deep v viral. Quinoa beard sustainable, small batch jean shorts banh mi aesthetic kogi polaroid. Carles asymmetrical umami Williamsburg.<p>
-              <p class='tierFooter'>Shipping/delivery info goes here.</p>
-            </a>
+                <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
+                <h3 class='tierTitle'> Lead Developer</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
             </li>
             <li class='tier'>
               <a href='#' class='openForm' data-amount='1000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>1000</h3>
-                <h3 class='tierTitle'>Sixth tier title goes here!</h3>
+                <h3 class='tierAmount'><span class='greyText'>$</span>1,000</h3>
+                <h3 class='tierTitle'>Principal Engineer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>Blog sriracha gastropub vinyl wolf small batch iPhone. Pour-over kogi Brooklyn sriracha, pug art party.<p>
+                <p class='tierDescription'>Personalized Thank You photograph of you with one of our students whose tuition your donation paid for, NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='2500' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>2,500</h3>
+                <h3 class='tierTitle'>Product Architect</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Your generous gift will pay for the initial tuition for a student as well as purchase them a new laptop computer! PLUS a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='5000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>5,000</h3>
+                <h3 class='tierTitle'>Development Manager</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students! PLUS a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
+                <p class='tierFooter'>Shipping/delivery info goes here.</p>
+              </a>
+            </li>
+            <li class='tier'>
+              <a href='#' class='openForm' data-amount='10000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>10,000</h3>
+                <h3 class='tierTitle'>Chief Technology Officer</h3>
+                <hr class='tierRule'>
+                <p class='tierDescription'>Your generous gift will pay for a full 12 week stipend to support the living expense of one of our students plus their initial tuition plus a new laptop computer! PLUS a Personalized Thank You photograph of you with one of our students, an NSS Insulated Coffee Mug, Limited Edition T-shirt, logo sticker, and your name on the Recognition wall.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
