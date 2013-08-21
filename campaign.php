@@ -116,7 +116,7 @@ Template Name: Campaign Page
           <p class='bodyText'>We are also a Tennessee non-profit corporation.  Our mission is to open doors to technology careers to qualified applicants irrespective of their financial resources and to grow the local tech workforce for the benefit of all local startups or established organizations.</p>
           <h2 class="bodyTitle">So does this really work?</h2>
           <aside class='right smallAside'>
-            <a href='#'>
+            <a href='http://nashvillecitypaper.com/content/city-news/new-program-teaches-software-coding-power-city-s-tech-boom'>
               <img class='asideImage' src='<?php bloginfo('template_url'); ?>/images/CodeSchoolTopper.jpg' alt='City Paper headshots' width='183px;' height='183px;'/>
             </a>
             <p id='asideText'>Read more about NSS in a great article from the Nashville City Paper.</p>
