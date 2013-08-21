@@ -97,10 +97,9 @@ Template Name: Campaign Page
   <div id='contentWrapper' class='clearfix'>
     <div id='mainWrapper'>
       <div id='campaignContentWrapper'>
-            <section id='campaignMedia'>
+        <section id='campaignMedia'>
          <iframe width="620" height="465" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>
         </section>
-
         <section id='campaignBody'>
             <p class='bodyText'>
               All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.
@@ -148,7 +147,11 @@ Template Name: Campaign Page
             What do we need the money for?
           </h2>
           <p class='bodyText'>
-            We love the business model we have designed but it means that we spend a lot training a class of graduates before we begin to recoup that investment through placement fees and repayments.  That means we need to maintain a working capital reserve large enough to sustain the schoolÕs operation through a full training and repayment cycle.
+          <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='filler image' width='320px;' height='295px;'/>
+
+            We love the business model we have designed but it means that we spend a lot training a class of graduates before we begin to recoup that investment through placement fees and repayments.
+
+          <p class='bodyText'>That means we need to maintain a working capital reserve large enough to sustain the school's operation through a full training and repayment cycle.
           </p>
           <p class='bodyText'>
             We have been able to successfully bootstrap NSS for its first year of operation.  The financial support of our founders and advisory board, plus the placement fees and repayments from our first class have allowed us to demonstrate the ability to train and place our graduates into software developer jobs.  However, to reach full sustainability, we now need the support of the full Nashville community to help us build the endowment - our working capital reserve -  that we need to fully fund the school.
