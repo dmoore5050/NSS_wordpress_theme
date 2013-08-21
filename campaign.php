@@ -91,7 +91,7 @@ Template Name: Campaign Page
           <h2 class='bodyTitle'>Sustain Nashville Software School</h2>
           <p id='leadParagraph'>We need your support to be able to continue to grow Nashville's tech talent pool.</p>
             <section id='campaignMedia'>
-         <iframe width="640" height="480" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>            </section>
+         <iframe width="576" height="432" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>            </section>
             <p class='bodyText'>
               All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.
               In 2012 a group of Nashville technologists got together to try to find a way to address this problem.  We believed that Nashville had plenty of people with the latent talent to become tech professionals.  We knew that it didn't take a four year college degree and computer science degree to become a productive professional software developer because many of us didn't have such a degree.  We believed that we could partner with Nashville area technology employers to create a curriculum that would create the skills they needed in an entry-level software developer.
@@ -107,12 +107,10 @@ Template Name: Campaign Page
           <p class='bodyText'>We are also a Tennessee non-profit corporation.  Our mission is to open doors to technology careers to qualified applicants irrespective of their financial resources and to grow the local tech workforce for the benefit of all local startups or established organizations.</p>
           <h2 class="bodyTitle">So does this really work?</h2>
           <aside class='right smallAside'>
-            <a href='#' id='modalTrigger' data-reveal-id='videoModal' data-animation='fade' data-animationspeed='300'>
+            <a href='http://nashvillecitypaper.com/content/city-news/new-program-teaches-software-coding-power-city-s-tech-boom'>
               <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/codeschooltopper.jpg' alt='filler image' width='180px;' height='180px;'/>
             </a>
-            <div id='videoModal' class='reveal-modal hidden' >
-              <iframe id='videoFrame' width='620' height='349' src='//www.youtube.com/embed/8AdSzQZ8AKo?rel=0' frameborder='0' allowfullscreen></iframe>
-            </div>
+            
             <h3 id='asideTitle'>Johnny Fakename</h3>
             <p id='asideText'>Mumblecore. 8-bit lo-fi polaroid selfies plaid post-ironic. Fixie DIY occupy, pitch fork asymmetrical retro keffiyeh freegan stump town viral PBR tattoo Etsy pug bahn mi.</p>
           </aside>
@@ -141,7 +139,11 @@ Template Name: Campaign Page
             What do we need the money for?
           </h2>
           <p class='bodyText'>
-            We love the business model we have designed but it means that we spend a lot training a class of graduates before we begin to recoup that investment through placement fees and repayments.  That means we need to maintain a working capital reserve large enough to sustain the schoolÕs operation through a full training and repayment cycle.
+          <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='filler image' width='320px;' height='295px;'/>
+
+            We love the business model we have designed but it means that we spend a lot training a class of graduates before we begin to recoup that investment through placement fees and repayments.  
+            
+          <p class='bodyText'>That means we need to maintain a working capital reserve large enough to sustain the school's operation through a full training and repayment cycle.
           </p>
           <p class='bodyText'>
             We have been able to successfully bootstrap NSS for its first year of operation.  The financial support of our founders and advisory board, plus the placement fees and repayments from our first class have allowed us to demonstrate the ability to train and place our graduates into software developer jobs.  However, to reach full sustainability, we now need the support of the full Nashville community to help us build the endowment - our working capital reserve -  that we need to fully fund the school.
@@ -224,7 +226,7 @@ Template Name: Campaign Page
                 <h3 class='tierAmount'><span class='greyText'>$</span>25</h3>
                 <h3 class='tierTitle'>Trainee Developer</h3>
                 <hr class='tierRule'>
-                <p class='tierDescription'>your name on the Recognition wall</p>
+                <p class='tierDescription'>Your name on the Recognition wall.</p>
                 <p class='tierFooter'>Shipping/delivery info goes here.</p>
               </a>
             </li>
