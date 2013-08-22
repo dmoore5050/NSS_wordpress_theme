@@ -100,68 +100,27 @@ Template Name: Campaign Page
          <iframe width="620" height="465" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id='campaignBody'>
-            <p class='bodyText'>
-              All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.
-              In 2012 a group of Nashville technologists got together to try to find a way to address this problem.  We believed that Nashville had plenty of people with the latent talent to become tech professionals.  We knew that it didn't take a four year college degree and computer science degree to become a productive professional software developer because many of us didn't have such a degree.  We believed that we could partner with Nashville area technology employers to create a curriculum that would create the skills they needed in an entry-level software developer.
-            <p class='bodyText'>The result?</p>
-            <h2 class="bodyTitle">Nashville Software School</h2>
-            </p>
           <p class='bodyText'>
-            Nashville Software School (NSS) is a career accelerator for highly motivated adult learners who possess the aptitude to become software developers.  We offer a six month, full-time vocational training program that creates career-ready entry-level software developers.
-          </p>
-          <p class='bodyText'>
-            We are a strongly community-centered organization.  Our founders, instructors and mentors are all working technology professionals in the Nashville area who have donated time, dollars and energy to help prove that the NSS model works.
-          </p>
-          <p class='bodyText'>We are also a Tennessee non-profit corporation.  Our mission is to open doors to technology careers to qualified applicants irrespective of their financial resources and to grow the local tech workforce for the benefit of all local startups or established organizations.</p>
-          <h2 class="bodyTitle">So does this really work?</h2>
-          <aside class='right smallAside'>
-            <a href='http://nashvillecitypaper.com/content/city-news/new-program-teaches-software-coding-power-city-s-tech-boom'>
-              <img class='asideImage' src='<?php bloginfo('template_url'); ?>/images/CodeSchoolTopper.jpg' alt='City Paper headshots' width='183px;' height='183px;'/>
-            </a>
-            <p id='asideText'>Read more about NSS in a great article from the Nashville City Paper.</p>
-          </aside>
-          <p class='bodyText'>
-            We have graduated 40 junior software developers since starting our first class in June 2012.  In late 2012 we graduated our first cohort of 14 developers and at mid-year 2013 we graduated an additional 26.  Most of the graduates of our first cohort are employed in software developer or other technology jobs around Nashville.  Several in our second cohort have already secured full-time positions and the remainder are actively searching for positions in Nashville.
-          </p>
-          <p class='bodyText'>
-            Our alumni work at local companies including Centresource, OnLife Health, Checkd.in, Change Healthcare, ioStudio, Zeumo, Eliza Brock Software, LiveSchool, and BorderJump.
-          </p>
-          <p class='bodyText'>
-            We have also proven to our satisfaction that there is no shortage of demand in Nashville for training from people seeking careers in software development.  And there is no shortage of people with the latent potential to become professional developers seeking a way to activate that potential.  We stopped taking applications for our third cohort of students at 200 applications - of whom at least 50 were fully qualified for admission to NSS.
+            Between June of 2012 and July of 2013 Nashville Software School graduated its first 40 junior software developers and demonstrated the viability of its training model. Now it’s time to take the next step in the evolution of NSS and take a major step towards long-term sustainability of its business model.
           </p>
           <h2 class="bodyTitle">
-            NSS invests in our students
+            Help us Train NSS Cohort Three
           </h2>
           <p class='bodyText'>
-            As noted above, NSS is open to qualified applicants irrespective of their ability to pay for six months of full-time training.  In practical terms this means that we only ask our students for a nominal commitment fee at the beginning of the program - currently $1000.  Our cost to train a student is significantly greater than $1000.  But rather than require significant tuition payments up-front, payments that would have created significant barriers to a tech career for many of the great students that have graduated from our program, we recoup our investment in our students at the end of our program when they go to work as professional developers or in other technology jobs.
+            Our third cohort of students is starting the NSS program in September 2013 and will graduate in March 2014.  During this training of this cohort we must shift from a completely bootstrapped mode of operation to a more sustainable model.  That means building our working capital reserves to create sufficient operating cushion to bring on our first full-time, permanent instructor.  That means engaging additional teaching assistants to work with students in the classroom.  That means funding a small permanent support staff to support student recruiting and student placement.
           </p>
           <p class='bodyText'>
-            This approach aligns our incentives with those of our students.  We are incented to only admit those who we truly believe have the motivation and aptitude to succeed as professional developers.  We are incented to ensure that they are learning both the foundational knowledge required of all professional developers but that they are also learning tools and technologies that are widely used.  We are also incented to ensure our students become deeply connected with the Nashville tech community where they aspire to work.
+            <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='Eliza teaching' width='320px;' height='295px;'/>
+            All of that requires help from the community.  Our investment in our prior student cohort will return to us over the next nine months but in the meantime we must be able to continue to train students and grow the program.  Your contributions to this campaign will allow that to happen.
           </p>
           <p class='bodyText'>
-            We then recoup our investment once our students graduate and go to work.  Our partner companies that hire graduates pay us a placement fee to offset our investment in the student and that relieves the student of his obligation to the school.  Or, for those students who don't go to work for partner companies, the students repay us from their earnings as a working tech professional.
-          </p>
-          <h2 class="bodyTitle">
-            What do we need the money for?
-          </h2>
-          <p class='bodyText'>
-          <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='Eliza teaching' width='320px;' height='295px;'/>
-
-            We love the business model we have designed but it means that we spend a lot training a class of graduates before we begin to recoup that investment through placement fees and repayments.
-
-          <p class='bodyText'>That means we need to maintain a working capital reserve large enough to sustain the school's operation through a full training and repayment cycle.
+            Help us build our capital reserves. Help us ensure that we will be able to continue to open doors to careers in technology for motivated students. Help us continue to grow Nashville's technology talent pool by training hungry, committed junior developers. Help ensure that when the time comes that you are looking for developers to hire for your team, when you are looking for a freelancer to build your website or mobile app, when you are searching for a technical co-founder for your startup that those resources will be available to you right here in Nashville.
           </p>
           <p class='bodyText'>
-            We have been able to successfully bootstrap NSS for its first year of operation.  The financial support of our founders and advisory board, plus the placement fees and repayments from our first class have allowed us to demonstrate the ability to train and place our graduates into software developer jobs.  However, to reach full sustainability, we now need the support of the full Nashville community to help us build the endowment - our working capital reserve -  that we need to fully fund the school.
+            Support us now by selecting a donation level from the options in the column to the right. Help sustain Nashville Software School.  Help us train Cohort 3’s 20-plus new entry-level software developers.  Help us turn Nashville Software School into a viable, long-term contributor to the health of Nashville’s technology community.
           </p>
           <p class='bodyText'>
-            We have a third cohort of student starting the program in September 2013.  That will be our last cohort of students if we can't engage the broader support of the Nashville community.
-          </p>
-          <p class='bodyText'>
-            Help us build our capital reserves.  Help us ensure that we will be able to continue to open doors to careers in technology for motivated students.  Help us continue to grow Nashville's technology talent pool by training hungry, committed junior developers.  Help ensure that when the time comes that you are looking for developers to hire for your team, when you are looking for a freelancer to build your website or mobile app, when you are searching for a technical co-founder for your startup that those resources will be available to you right here in Nashville.
-          </p>
-          <p class='bodyText'>
-            Support us now by selecting a donation level from the options in the column to the right.  Help sustain Nashville Software School.
+            And remember, NSS is a Tennessee non-profit corporation and has applied for 501(c)3 status.  A portion of your donation to NSS is tax deductible.
           </p>
           <?php $wp_query = new WP_Query("post_type=campaign_update&tag=nextstep&cat=25&post_status=publish&posts_per_page=1");?>
           <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
