@@ -1,3 +1,84 @@
+/*temp styles*/
+
+.wrapper {
+  width: 740px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 8px;
+  padding: 1px 20px;
+  border: 1px solid #bfbfbf;
+}
+
+#campaignHeader {
+  padding-top: 42px;
+  color: #1a334c;
+  font-size: 44px;
+  line-height: .85em;
+  letter-spacing: -2px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+#campaignSubhead {
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: bold;
+  color: #6B8B97;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.bodyTitle {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  line-height: 1em;
+  color: #2d2d2d;
+}
+
+.bodySubtitle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 1em;
+  color: #2d2d2d;
+}
+
+.bodyText {
+  line-height: 20px;
+  color: #595959;
+  text-align: justify;
+}
+
+.smallAside {
+  background: white;
+  width: 183px;
+  float: right;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  box-shadow: 0 4px 2px -2px #e5a700;
+}
+
+.asideImage {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#asideText {
+  color: #2d2d2d;
+  margin-top: 0;
+  line-height: 18px;
+  word-wrap: break-word;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/*end temp styles*/
 
 .container {
   background-color: #f2f2f2;
@@ -60,16 +141,6 @@
   padding: 0;
 }
 
-#introHeadline {
-  font-size: 24px;
-  line-height: 1em;
-  margin: 20px 0 6px 0;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #7898a4;
-  padding: 0;
-}
-
 #mainSupportHead {
   color: #1a334c;
   font-size: 60px;
@@ -80,32 +151,17 @@
   margin-bottom: 20px;
 }
 
+.bodyImage {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .left {
+  margin-right: 20px;
   float: left;
-  width: 34%;
-  padding-right: 5%;
-  background: white;
-  border-radius: 8px;
-  padding: 0 3%;
 }
 
-.right
-{
+.right {
+  margin-left: 20px;
   float: right;
-  width: 57%;
-  padding-left: 3%;
-}
-
-p {
-  margin: 30px 0;
-}
-
-.video_placeholder {
-  height: 199px;
-  width: 100%;
-  background-color: #aaa;
-  padding-top: 155px;
-  color: white;
-  font-family: 'Open Sans';
-  text-align: center;
 }

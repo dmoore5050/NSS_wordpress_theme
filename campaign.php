@@ -79,8 +79,8 @@ Template Name: Campaign Page
 
 <div id='container'>
   <div id='titleWrapper'>
-    <h3 id='campaignHeader' class='emphasisTitle'>Sustain Nashville Software School</h3>
-    <p id='campaignSubHead'>We need your support to be able to continue to grow Nashville's tech talent pool</p>
+    <h1 id='campaignHeader' class='emphasisTitle'>Next Step Campaign</h1>
+    <h2 id='campaignSubHead'>Support NSS’s Third Student Cohort and Help us Build our Operating Fund</h2>
   </div>
   <div id='tabsWrapper'>
     <p id='tabOne' class='activeTab'>
@@ -101,7 +101,7 @@ Template Name: Campaign Page
         </section>
         <section id='campaignBody'>
           <p class='bodyText'>
-            Between June of 2012 and July of 2013 Nashville Software School graduated its first 40 junior software developers and demonstrated the viability of its training model. Now it’s time to take the next step in the evolution of NSS and take a major step towards long-term sustainability of its business model.
+            Between June of 2012 and July of 2013 Nashville Software School graduated its first 40 junior software developers and demonstrated the viability of its training model. Now it’s time to take the next step in the evolution of NSS and move towards long-term sustainability of its business model.
           </p>
           <h2 class="bodyTitle">
             Help us Train NSS Cohort Three
@@ -175,7 +175,7 @@ Template Name: Campaign Page
           [/countdown]"); ?>
           <br>
           <!-- End Countdown Timer -->
-          <div class='pledgeButtonWrapper'>
+          <div class='pledgeButtonWrapper formButtonWrapper'>
             <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
             <p id='donationFinePrint'>All donations to this campaign will become immediately available to Nashville Software School.</p>
             <br>

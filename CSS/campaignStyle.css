@@ -169,12 +169,6 @@
   box-shadow: 0 4px 2px -2px #e5a700;
 }
 
-#fakePic {
-  background: #d9d9d9;
-  height: 125px;
-  width: 180px;
-}
-
 #videoModal {
   margin-top: 160px;
   padding: 15px;
@@ -226,9 +220,12 @@
 /* pledge button styling */
 
 .pledgeButtonWrapper {
-  margin-top: 20px;
   width: 100%;
   text-align: center;
+}
+
+.formButtonWrapper {
+  margin-top: 20px;
 }
 
 .pledgeButton {
@@ -274,6 +271,21 @@
 
 .updatePostBody {
   margin-bottom: 5px;
+}
+
+.imageWrap {
+  padding: 10px;
+  border: 1px solid #bfbfbf;
+  width: 560px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background: white;
+}
+
+.caption {
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 /* donor wall */
