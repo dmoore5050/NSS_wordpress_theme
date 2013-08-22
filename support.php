@@ -15,7 +15,8 @@ Template Name: Support Page
           <a href='#' class='subNavItem' data-reveal-id='comingSoonModal' data-animation='fade' data-animationspeed='300'>Capital Campaign</a>
       </div>
       <div id='comingSoonModal' class='reveal-modal hide'>
-        <h1 id='modalHead'>Coming Soon</h1>
+        <h1 id='modalHead'>Capital Campaign</h1>
+        <h2 id='modalSubhead'>launching september 2013</h2>
       </div>
     </div>
     <div class='left'>

@@ -37,6 +37,27 @@
  width: 35.5%;
  left: 29.25%;
  top: 30%;
+ padding: 40px 20px;
+}
+
+#modalHead {
+  color: #1a334c;
+  font-size: 60px;
+  line-height: .7em;
+  letter-spacing: -4px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+#modalSubhead {
+  font-size: 24px;
+  line-height: 1em;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #7898a4;
+  padding: 0;
 }
 
 #introHeadline {
@@ -58,15 +79,6 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-#modalHead {
-  color: #1a334c;
-  font-size: 60px;
-  line-height: .7em;
-  letter-spacing: -4px;
-  font-weight: bold;
-}
-
 
 .left {
   float: left;
