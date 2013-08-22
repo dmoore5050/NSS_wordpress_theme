@@ -33,6 +33,12 @@
   color: #52b3c5!important;
 }
 
+#comingSoonModal {
+ width: 35.5%;
+ left: 29.25%;
+ top: 30%;
+}
+
 #introHeadline {
   font-size: 24px;
   line-height: 1em;
@@ -51,6 +57,14 @@
   letter-spacing: -4px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+#modalHead {
+  color: #1a334c;
+  font-size: 60px;
+  line-height: .7em;
+  letter-spacing: -4px;
+  font-weight: bold;
 }
 
 

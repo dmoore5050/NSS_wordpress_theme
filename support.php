@@ -12,7 +12,10 @@ Template Name: Support Page
     <div id='navWrap'>
       <div class='subNav'>
           <a href='/support/nextstep' class='subNavItem'>Next Step Campaign</a>
-          <a href='/support/capital' class='subNavItem'>Capital Campaign</a>
+          <a href='#' class='subNavItem' data-reveal-id='comingSoonModal' data-animation='fade' data-animationspeed='300'>Capital Campaign</a>
+      </div>
+      <div id='comingSoonModal' class='reveal-modal hide'>
+        <h1 id='modalHead'>Coming Soon</h1>
       </div>
     </div>
     <div class='left'>
