@@ -11,8 +11,8 @@ Template Name: Support Page
     <h3 id='mainSupportHead'>Invest in Nashville's Tech Community</h3>
     <div id='navWrap'>
       <div class='subNav'>
-          <a href='/NSS/support/capitalcampaign' class='subNavItem'>Capital Campaign</a>
-          <a href='/NSS/support/campaign' class='subNavItem'>Operating Costs Campaign</a>
+          <a href='/support/nextstep' class='subNavItem'>Next Step Campaign</a>
+          <a href='/support/capital' class='subNavItem'>Capital Campaign</a>
       </div>
     </div>
     <div class='left'>

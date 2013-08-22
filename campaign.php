@@ -164,7 +164,7 @@ Template Name: Campaign Page
           <p class='bodyText'>
             Support us now by selecting a donation level from the options in the column to the right.  Help sustain Nashville Software School.
           </p>
-          <?php $wp_query = new WP_Query("post_type=campaign_update&tag=capital&cat=22&post_status=publish&posts_per_page=1");?>
+          <?php $wp_query = new WP_Query("post_type=campaign_update&tag=nextstep&cat=25&post_status=publish&posts_per_page=1");?>
           <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
           <?php the_content ();?>
           <?php endwhile; ?>
@@ -206,7 +206,7 @@ Template Name: Campaign Page
       <aside id='sidebarWrapper'>
         <section id='campaignStatus'>
           <h2 class='progressBangHeader'><span class='greyText'>$</span><?php echo do_shortcode ('[donatetotal prefix="0" suffix="0"]'); ?></h2>
-          <p class='progressSubMessage'>donated of $20000.00 goal</p>
+          <p class='progressSubMessage'>donated of $50000.00 goal</p>
           <h2 class='progressBangHeader'><?php echo do_shortcode ('[donornumber]'); ?></h2>
           <p class='progressSubMessage'>supporters</p>
           <br>
@@ -305,8 +305,8 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='50' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>50<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+              <a href='#' class='openForm' data-amount='45' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>45<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Lead Developer -<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
@@ -325,8 +325,8 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='100' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>100<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+              <a href='#' class='openForm' data-amount='90' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>90<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Principal Engineer -<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
@@ -345,8 +345,8 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='250' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>250<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+              <a href='#' class='openForm' data-amount='225' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>225<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Product Architect -<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
@@ -365,8 +365,8 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='500' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>500<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+              <a href='#' class='openForm' data-amount='475' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>475<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Development Manager -<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.</p>
@@ -385,8 +385,8 @@ Template Name: Campaign Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='1000' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
-                <h3 class='tierAmount'><span class='greyText'>$</span>1000<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
+              <a href='#' class='openForm' data-amount='950' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+                <h3 class='tierAmount'><span class='greyText'>$</span>950<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Chief Technology Officer -<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
                 <p class='tierDescription'>Same as above.
