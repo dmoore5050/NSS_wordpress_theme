@@ -169,3 +169,12 @@
   margin-left: 20px;
   float: right;
 }
+
+.linkWrapper {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.blue {
+  color: #6B8B97;
+}

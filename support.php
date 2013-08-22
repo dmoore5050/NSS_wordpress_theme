@@ -82,6 +82,9 @@ Template Name: Support Page
       <p class='bodyText'>
         Please help us continue to grow Nashville’s tech talent pool by opening doors to technology careers to motivated adult learners.  Donate to one or both of our campaigns by clicking on the campaign menu buttons near the top of this page.
       </p>
+      <div class='linkWrapper'>
+        <a href='#'><span class='blue'>-</span> Back to Top <span class='blue'>-</span></a>
+      </div>
     </div>
   </div>
 </div>
