@@ -3,10 +3,12 @@
 .wrapper {
   width: 740px;
   margin: 0 auto;
+  margin-top: 15px;
   background: white;
   border-radius: 8px;
   padding: 1px 20px;
   border: 1px solid #bfbfbf;
+  text-align: left;
 }
 
 #campaignHeader {
@@ -88,7 +90,9 @@
 }
 
 .contentWrap {
+  width: 782px;
   min-height: 100%;
+  text-align: center;
 }
 
 #navWrap {

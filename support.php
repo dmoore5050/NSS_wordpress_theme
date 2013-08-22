@@ -8,9 +8,7 @@ Template Name: Support Page
 <div class='container clearfix'>
   <div class='contentWrap'>
     <h1 id='campaignHeader' class='emphasisTitle'>Sustain Nashville Software School</h1>
-    <h2 id='campaignSubhead'>We need your support to be able to continue to grow Nashville's tech talent pool</h2>
-    <!-- <h2 id='introHeadline'>Contribute:</h2> -->
-    <!-- <h3 id='mainSupportHead'>Invest in Nashville's Tech Community</h3> -->
+    <h2 id='campaignSubhead'>We need your support to continue to grow Nashville's tech talent pool</h2>
     <div id='navWrap'>
       <div class='subNav'>
           <a href='/support/nextstep' class='subNavItem'>Next Step Campaign</a>
@@ -22,6 +20,7 @@ Template Name: Support Page
       </div>
     </div>
     <div class='wrapper'>
+      <h2 class="bodyTitle">Fixing Nashville's Tech Talent Shortage</h2>
       <p class='bodyText'>
         All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.
       </p>
