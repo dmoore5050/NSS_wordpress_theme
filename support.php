@@ -20,6 +20,7 @@ Template Name: Support Page
       </div>
     </div>
     <div class='wrapper'>
+      <iframe class='center' width="600" height="372" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>
       <h2 class="bodyTitle">Fixing Nashville's Tech Talent Shortage</h2>
       <p class='bodyText'>
         All of us who have been working in and around the Nashville tech community, or who have been trying to hire or partner with skilled software developers, have known for years that Nashville has a painful shortage of these critical resources.  We've all seen the quarterly surveys from the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  We've all shared the frustration of spending months trying to fill software developer positions.

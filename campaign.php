@@ -7,25 +7,6 @@ Template Name: Campaign Page
 
 <link rel='stylesheet' type='text/css' href='<?php echo get_template_directory_uri(); ?>/CSS/campaignStyle.css'>
 
-<style>
-
-  @-moz-document url-prefix() {
-
-    .inactiveTab a {
-      line-height: 18px;
-    }
-
-    #contentWrapper {
-      margin-top: -1px;
-    }
-
-    #tabOne {
-      margin-left: -1px;
-    }
-
-  }
-</style>
-
 <script>
   $(document).ready(function() {
 
@@ -97,7 +78,7 @@ Template Name: Campaign Page
     <div id='mainWrapper'>
       <div id='campaignContentWrapper'>
         <section id='campaignMedia'>
-         <iframe width="620" height="465" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>
+         <iframe width="620" height="383" src="//www.youtube.com/embed/XZiska--wX0" frameborder="0" allowfullscreen></iframe>
         </section>
         <section id='campaignBody'>
           <p class='bodyText'>

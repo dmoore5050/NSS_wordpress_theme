@@ -6,13 +6,18 @@
   margin-top: 15px;
   background: white;
   border-radius: 8px;
-  padding: 1px 20px;
+  padding: 20px 20px 1px 20px;
   border: 1px solid #bfbfbf;
   text-align: left;
 }
 
+.center {
+  margin: 0 auto;
+  display: block;
+}
+
 #campaignHeader {
-  padding-top: 42px;
+  padding-top: 24px;
   color: #1a334c;
   font-size: 44px;
   line-height: .85em;
