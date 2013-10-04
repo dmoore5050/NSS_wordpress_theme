@@ -385,3 +385,21 @@ li.current_page_item a {
   color: white!important;
   text-decoration: none;
 }
+
+/* BBQ STYLES */
+
+.pull-center {
+  text-align: center;
+}
+
+.bbq-hero {
+  margin-top: 40px;
+}
+.bbq-register {
+  margin: 20px 0 60px;
+}
+.bbq-btn-large {
+  padding:  20px;
+  width: 50%;
+  text-transform: uppercase;
+}
