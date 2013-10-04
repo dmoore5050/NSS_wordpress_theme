@@ -4,10 +4,11 @@ Template Name: BBQ Page
 */
 ?>
 <?php get_header(); ?>
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/CSS/bbqStyle.css">
 
 <div class='contentWrap'>
   <section class="bbq-hero">
-    <h1 class="emphasisTitle programSpace">Something About BBQs & Grilling Burgers</h1>
+    <h1 class="emphasisTitle bbqSpace">Something About BBQs & Grilling Burgers</h1>
     <h2 class="smallHeadline pull-center">...or smoking bratwursts</h2>
     <img src="http://placehold.it/960x280">
     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
@@ -17,12 +18,12 @@ Template Name: BBQ Page
 
 <div class='darkBack'>
   <div id="contentWrap2" class='clearfix'>    
-    <div class='elementsm half'>
+    <div class='half'>
       <h3 class="smallHeadline">Register For For The Event Text</h3>
       <p>Sutff about pricing or contact info.... Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-    </div><!-- /.elementsm -->
+    </div><!-- /.half -->
 
-    <div class='elements half'>
+    <div class='half'>
       <p class="pull-center"><a href="#"><button class="button orange applyBtn">[BUTTON_TO_EVENTBRITE_OR_WHATEVER]</button></a></p>
     </div>
   </div><!-- /#contentWrap2 -->
@@ -55,18 +56,18 @@ Template Name: BBQ Page
   <div style="clear: both;"></div>
 
   <div class="bbq-register pull-center">
-    <a href="#"><button class="button orange bbq-btn-large">Join us for a fun filled day and great food!<br>[BUTTON_TO_EVENTBRITE_OR_WHATEVER]</button></a>
+    <a href="#"><button class="button orange bbq-btn-large">Join us for a fun-filled day and great food!<br>[BUTTON_TO_EVENTBRITE_OR_WHATEVER]</button></a>
   </div><!-- /.bbq-register -->
 </div><!-- /.contentWrap -->
 
 <div class='darkBack'>
   <div id="contentWrap2" class='clearfix'>    
-    <div class='elementsm half'>
+    <div class='half'>
       <h3 class="smallHeadline">Can't Make The Event But Want to Show Your Support?</h3>
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
     </div>    
-    <div class='elements half'>
-      <p class="pull-center"><a href="http://nashvillesoftwareschool.com/support/"><button class="button orange applyBtn">[BUTTON_TO_SUPPORT_PAGE]</button></a></p>
+    <div class='half'>
+      <p class="pull-center"><a href="http://nashvillesoftwareschool.com/support/"><button class="button btn-slate applyBtn">[BUTTON_TO_SUPPORT_PAGE]</button></a></p>
     </div>
   </div>
 </div><!-- /.darkBack -->
