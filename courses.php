@@ -159,8 +159,8 @@ $(document).ready(function() {
               </div>
               <h4 class="homesub">Software Development Foundations</h4>
               <div class="courseTextWrapper">
-                <p>This course focuses on core technologies used to develop the back-end, or server-side, of modern web and mobile applications.  You'll learn concepts such as object-oriented programming, test-driven development, agile methods, and pair programming.  You will apply one of the most popular modern web application development frameworks while designing, building, and delivering working apps.</p>
-                <p>The combination of this course and Web Development Foundations gives the student exposure to "full stack" development of web applications - from controlling the styling the user sees to building the functional logic and database structures that run behind the scenes.</p>
+                <p>This course focuses on core technologies used to develop the back-end, or server-side, of modern applications.  You'll learn concepts such as object-oriented programming, test-driven development, agile methods, and pair programming.  You will apply one of the most popular modern development frameworks while designing, building, and delivering working apps.</p>
+                <p>This course combined with Web Development Foundations exposes the student to "full stack" development of web applications - from controlling the styling the user sees to building the functional logic and database structures that run behind the scenes.</p>
               </div>
               <div class="bottomBump">
                 <img class="imgBorder img logoImage" src="<?php bloginfo('template_url'); ?>/images/ruby.png" alt="ruby"/>
