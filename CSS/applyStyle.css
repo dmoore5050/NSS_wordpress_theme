@@ -1,5 +1,5 @@
 .spaceThis {
-	margin-bottom: 5px;
+	margin-bottom:5px;
 }
 
 #firstHalf
@@ -16,37 +16,38 @@ border-bottom: 8px solid #DEDEDE;
 background: #F2F2F2;
 border-bottom: 1px solid #D0D0D0;
 border-top: 1px solid #D0D0D0;
-margin-bottom: 40px;
+margin-bottom:40px;
 text-align:center;
 }
 
 .firstColor {
-	color: #7898A4;
+	color: #7898A4;	
 }
 
 .attnPara {
-	font-style: italic;
+	font-style:italic;
 	color: #1A334C;
 }
 
 .subAttnPara {
 	margin-top: -12px;
-	font-style: italic;
+	font-style:italic;
 	color: #1A334C;
 }
 
 .centerText {
-	text-align: center;
+	text-align:center;
 }
 
 .applyBtn {
-	margin-bottom: 15px;
+	margin-bottom:15px;
 	padding: 15px;
 	width: 180px;
 }
 
 .applyBtn a {
 	color:white;
+	text-decoration:none;
 }
 
 .applyBorder {

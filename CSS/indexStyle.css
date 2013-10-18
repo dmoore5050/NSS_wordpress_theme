@@ -256,9 +256,16 @@ blockquote {
   text-align: center;
 }
 
+.ticker { 
+  font-size: 120%;
+  /*padding-top: 40px;*/
+}
+
 .containAction p {
   font-size: 17px;
   display: inline-block;
+  text-align: left;
+  border: 1px solid red;
 }
 
 #applyBtn {

@@ -62,14 +62,7 @@
 </div>
 <div id="actionCall">
   <div class="containAction">
-    <?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
-    <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-      <p><?php the_subtitle(); ?></p>
-    <?php endwhile; ?>
-    <?php else : ?>
-      <p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
-    <?php endif; ?>
-    <?php wp_reset_query();?>
+    <span class="ticker"><?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(649);} ?></span>
     <!-- <a href=""><button id="applyBtn" class="button orange">Apply Soon</button></a> -->
   </div>
 </div>

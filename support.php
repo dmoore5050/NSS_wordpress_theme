@@ -16,7 +16,7 @@ Template Name: Support Page
       </div>
       <div id='comingSoonModal' class='reveal-modal hide'>
         <h1 id='modalHead'>Capital Campaign</h1>
-        <h2 id='modalSubhead'>launching september 2013</h2>
+        <h2 id='modalSubhead'>launching fall 2013</h2>
       </div>
     </div>
     <div class='wrapper'>

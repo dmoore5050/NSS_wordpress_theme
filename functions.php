@@ -109,7 +109,7 @@ function wpt_announcement_posttype() {
         'not_found_in_trash' => __( 'No announcements found in trash' )
       ),
       'public' => true,
-      'supports' => array( 'title', 'editor', 'comments' ),
+      'supports' => array( 'title', 'editor', 'comments', 'custom-fields' ),
       'capability_type' => 'post',
       'rewrite' => array("slug" => "announcements"), // Permalinks format
       'menu_position' => 8,
@@ -138,3 +138,4 @@ function custom_excerpt_length( $length ) {
     return 50;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
