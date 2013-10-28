@@ -54,7 +54,7 @@ $(document).ready(function() {
     <p>Intensive as in full-time, hands-on, writing lots of code, working with other students on projects, being immersed in new and challenging material, fast-moving and rigorous.  That kind of intensive.  Also intellectually stimulating, horizon broadening, energizing and fun.  And by the end, you will be prepared for an entry-level software developer position.</p>
   </section>
   <section class='half'>
-    <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/group.png" alt="first_class" width="460px;" height="230px;"/>
+    <img class="imgBorder img" src="<?php bloginfo('template_url'); ?>/images/cohort2.jpg" alt="first_class" width="430px;" height="280px;"/>
   </section>
 <div style='clear: both;'></div>
 </div>
@@ -79,8 +79,6 @@ $(document).ready(function() {
     <h3 class="emphasisTitle modules">Web Developer Bootcamp</h3>
     <h3 class="emphasisTitle modules">Two hands-on courses, Six months, Full-time</h3>
   </div>
-<a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>"><button class="button orange applyBtn btnPlace">Apply Now</button></a>
-  <div>
   <section class='firstHalf'>
     <div class="moduleBorder">
       <h3 class="smallHeadline">Course 1:</h3>

@@ -105,6 +105,13 @@ body {
   padding: 0;
 }
 
+.smallerHeadline {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #7898a4;
+}
+
 .smallDiff {
   margin-bottom: 10px;
   font-family: ‘Merriweather’, Georgia, serif;
@@ -273,6 +280,10 @@ nav a {
   float: left;
 }
 
+#headNav ul li:last-child {
+background-image: url("images/ribbon.png");
+} 
+
 #menu-top_nav {
   padding: 0px;
 }
@@ -384,4 +395,9 @@ li.current_page_item a {
 .applyBtn a {
   color: white!important;
   text-decoration: none;
+}
+
+.moduleBorder {
+  border-bottom: 2px solid #52b3c5;
+  height: 20px;
 }
