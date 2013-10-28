@@ -63,8 +63,11 @@
 <div id="actionCall">
   <div class="containAction">
     <span class="ticker"><?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(649);} ?></span>
-    <!-- <a href=""><button id="applyBtn" class="button orange">Apply Soon</button></a> -->
+    <div id="applyBtn">
+      <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'apply' ) ) ); ?>" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
+    </div>
   </div>
+  
 </div>
 <div class="containInfo clearfix">
   <div class="weDoFloat" class="clearfix">

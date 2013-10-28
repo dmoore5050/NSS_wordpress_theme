@@ -252,18 +252,21 @@ blockquote {
   width: 600px;
   margin: 0 auto;
   font-style: italic;
-  margin-top: -4px;
+  margin-top: 10px;
   text-align: center;
 }
 
-.containAction p {
-  font-size: 17px;
-  display: inline-block;
+.ticker { 
+  position: relative;
+  right: 24%;
+  font-size: 120%;
+  text-align: left;
 }
 
 #applyBtn {
-  margin-left: 15px;
-  margin-top: 10px;
+  position: relative;
+  left: 35%;
+  bottom: 40px;
 }
 
 #applyBtn a {
