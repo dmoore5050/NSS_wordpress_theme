@@ -152,7 +152,7 @@ $(document).ready(function() {
   </div>
   <div class='twoThird'>
     <div class="marginPtag">
-      <p>There are two ways to pay for your training at NSS: our standard tuition or by qualifying as Nashville Tech Apprentice.  Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition.  
+      <p>There are two ways to pay for your training at NSS: our standard tuition or by qualifying as a Nashville Tech Apprentice.  Out of a total of 24 seats in each cohort at NSS, our goal is to have 12 be Nashville Tech Apprentices and the remainder paying standard tuition.  
       </p>
     </div>
   </div>
