@@ -58,6 +58,47 @@
   text-align: justify;
 }
 
+.bodyText span {
+  font-size: 80%;
+  color: #f47c2f;
+  cursor: pointer;
+  position: relative;
+}
+
+#supportAbout, #sustainable, #helpUs{
+  display: none;
+  margin-top: -20px;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #f47c2f;
+  position: relative;
+  bottom: 30px;
+}
+
+#arrow1 {
+ left: 550px;
+}
+
+#arrow2 {
+  left: 160px;
+}
+
+#arrow3 {
+  left: 122px;
+}
+
+.arrow-down {
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 .smallAside {
   background: white;
   width: 183px;
