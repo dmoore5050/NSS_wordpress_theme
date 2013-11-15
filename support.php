@@ -56,40 +56,30 @@ Template Name: Support Page
     });
 
     $('#more1').click(function(){
-      if($(this).html() == "more"){
-        $('#supportAbout').slideDown();
-        $('.arrow-right').css({"transform" : "rotate(90deg)"});
-        $(this).html("less");
-      } else {
-          $('#supportAbout').slideUp();
-          $('.arrow-right').css({"transform" : "rotate(0deg)"});
-          $(this).html("more");
-        }
+      expand(this, 0);
     })
 
     $('#more2').click(function(){
-      if($(this).html() == "more"){
-        $('#sustainable').slideDown();
-        $('.arrow-right').css({"transform" : "rotate(90deg)"});
-        $(this).html("less");
-      } else {
-          $('#sustainable').slideUp();
-          $('.arrow-right').css({"transform" : "rotate(0deg)"});
-          $(this).html("more");
-        }
+      expand(this, 1);
     })
 
     $('#more3').click(function(){
-      if($(this).html() == "more"){
-        $('#helpUs').slideDown();
-        $('.arrow-right').css({"transform" : "rotate(90deg)"});
-        $(this).html("less");
-      } else {
-          $('#helpUs').slideUp();
-          $('.arrow-right').css({"transform" : "rotate(0deg)"});
-          $(this).html("more");
-        }
+      expand(this, 2);
     })
+
+    function expand(moreId, index){
+      $moreId = $(moreId);
+      $divId = $moreId.parent().siblings(".hidden").eq(index);
+      if($moreId.html() == "more"){
+        $divId.slideDown();
+        $divId.prevAll('.arrow-right').eq(0).css({"transform" : "rotate(90deg)"});
+        $moreId.html("less");
+      } else {
+          $divId.slideUp();
+          $divId.prevAll('.arrow-right').css({"transform" : "rotate(0deg)"});
+          $moreId.html("more");
+        }
+    }
 
   })
 </script>
@@ -131,7 +121,7 @@ Template Name: Support Page
             We've all shared the frustration of spending months trying to fill software 
             developer positions.&nbsp;&nbsp;<span id="more1">more<div id="arrow1" class="arrow-right"></div></span>
           </p>
-          <div id="supportAbout">
+          <div id="supportAbout" class="hidden">
           <p class='bodyText'>
             In 2012 a group of Nashville technologists got together to try to find a way to address this problem.  We believed that Nashville had plenty of people with the latent talent to become tech professionals.  We knew that it didn't take a four year computer science degree to become a productive professional software developer because many of us didn't have such a degree.  We believed that we could partner with Nashville area technology employers to create a curriculum that would create the skills they needed in an entry-level software developer.
           </p>
@@ -177,7 +167,7 @@ Template Name: Support Page
         of our program when they go to work as professional 
         developers or in other technology jobs. &nbsp;&nbsp;<span id="more2">more<div id="arrow2" class="arrow-right"></div></span>
       </p>
-      <div id="sustainable">
+      <div id="sustainable" class="hidden">
         <p class='bodyText'>
           <img class='bodyImage right' src='<?php bloginfo('template_url'); ?>/images/BenWhiteBoard.jpg' alt='An instructor instructing at Nashville Software School' width='400px;'/>
           This approach aligns our incentives with those of our students. We are incented to only admit those who we truly believe have the motivation and aptitude to succeed as professional developers. We are incented to ensure that they are learning both the foundational knowledge required of all professional developers but that they are also learning tools and technologies that are widely used. We are also incented to ensure our students become deeply connected with the Nashville tech community where they aspire to work.
@@ -196,7 +186,7 @@ Template Name: Support Page
           That means funding a small permanent support staff to support student recruiting and student placement.
           &nbsp;&nbsp;<span id="more3">more<div id="arrow3" class="arrow-right"></div></span>
         </p>
-        <div id="helpUs">
+        <div id="helpUs" class="hidden">
         <p class='bodyText'>
           <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='Eliza teaching' width='320px;' height='295px;'/>
           All of that requires help from the community.  Our investment in our prior student cohort will return to us over the next nine months but in the meantime we must be able to continue to train students and grow the program.  Your contributions to this campaign will allow that to happen.

@@ -65,7 +65,7 @@
   position: relative;
 }
 
-#supportAbout, #sustainable, #helpUs{
+#supportAbout, #sustainable, #helpUs, .hidden{
   display: none;
   margin-top: -20px;
 }
