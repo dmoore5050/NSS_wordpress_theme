@@ -257,15 +257,13 @@ blockquote {
 }
 
 .ticker { 
-  position: relative;
-  right: 24%;
   font-size: 120%;
   text-align: left;
 }
 
 #applyBtn {
   position: relative;
-  left: 35%;
+  left: 37%;
   bottom: 30px;
 }
 

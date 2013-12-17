@@ -18,7 +18,7 @@ Template Name: Apply Now Page
       <p>
         <ul class="listStyle">
           <li>Review the qualifications for our course below.</li>
-          <li>Decide which start date(s) you are applying for - you're welcome to apply for more than one.</li>
+          <!-- <li>Decide which start date(s) you are applying for - you're welcome to apply for more than one.</li> -->
           <li>Decide which tuition plan you are applying for - see either the <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'program' ) ) ); ?>">Program</a> page or the bottom of this page for more details.</li>
           <li>Click the apply button, fill out the form, and click submit.</li>
           <li>Wait for us to review your application.  If we like what we see, we'll follow-up to schedule either a video interview or an in-person interview.
@@ -30,16 +30,7 @@ Template Name: Apply Now Page
 </div>
   <div class="attnHeader">
     <div class="contentWrap">
-      <?php $wp_query = new WP_Query("post_type=announcement&tag=active&post_status=publish&posts_per_page=1");?>
-      <?php if(have_posts()) : while(have_posts()) : the_post(); ?>
-        <h3 class="attnPara"><?php the_subtitle(); ?> </h3>
-        <h3 class="subAttnPara"> <?php echo get_the_content(); ?> </h3>
-      <?php endwhile; ?>
-      <?php else : ?>
-          <p class="no-posts"><?php _e('Sorry, no posts matched your criteria', 'example'); ?></p>
-      <?php endif; ?>
-      <?php wp_reset_query();?>
-
+      <h3 class="subAttnPara ticker"><?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(649);} ?></h3>
       <h3 class="subAttnPara">Don't miss this opportunity to start your career as a software developer!</h3>
       <a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
     </div>
@@ -52,11 +43,6 @@ Template Name: Apply Now Page
   <div class='third'>
     <h5 class="smallHeadline">Schedule</h5>
     <p>Meets: Monday-Friday 8:30am-4:00pm</p>
-    <h5 class="smallHeadline cohortTitle">Cohort 4</h5>
-    <p><span class="smallerHeadline">Web Dev class:</span><br>
-      January 6, 2014 - March 28, 2014</p>
-    <p><span class="smallerHeadline">Software Dev class:</span><br>
-      April 7, 2014 - June 27, 2014</p>
     <h5 class="smallHeadline cohortTitle">Cohort 5</h5>
     <p><span class="smallerHeadline">Web Dev class:</span><br>
       April 7, 2014 - June 27, 2014</p>
@@ -96,7 +82,7 @@ Template Name: Apply Now Page
       <li>Students whose tuition is being reimbursed by an employer. </li>
     </ul> 
   </p>
-  <p><span>Tuition:</span> Full tuition for our January and April 2014 Bootcamps is $10,500.  However, if you accept a position through our job placement program, we will refund $3,000 of your tuition. Grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
+  <p><span>Tuition:</span> Full tuition for our April 2014 Bootcamp is $10,500.  However, if you accept a position through our job placement program, we will refund $3,000 of your tuition. Grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
   <h5 class="smallHeadline">Nashville Tech Apprentice Program</h5>
   <p>A Nashville Software School Tech Apprenticeship allows you to defer most of the cost of your training until you graduate and go to work as a software developer.  You will pay us $1,000 in tuition on acceptance to the program and then nothing else until after graduation.  After graduation, if you accept a position through our placement program from one of our partner companies, the rest your tuition will be reimbursed by your employer.  If you choose to go to work for someone other than one of our partners, we'll work with you to either negotiate payment from your new employer and/or work out a payment plan by which you can reimburse the school.</p>
   <p>A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.  We also will make a limited number of cost-of-living stipends available on a needs-driven basis to Apprentices during the second 3 months of the Bootcamp.</p>

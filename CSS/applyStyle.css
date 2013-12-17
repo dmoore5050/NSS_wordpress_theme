@@ -90,3 +90,8 @@ float: left;
 #separator {
 	border-top: 2px solid #52b3c5;
 }
+
+.ticker { 
+  font-size: 120%;
+  margin-top: 20px;
+}
