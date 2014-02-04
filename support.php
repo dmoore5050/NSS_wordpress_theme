@@ -40,20 +40,16 @@ Template Name: Support Page
       return false;
     });
 
-    $('.openForm').click(function(){
-      var value = $(this).attr('data-amount');
-      var recur = $(this).attr('data-recur');
-      var frequency = $(this).attr('data-frequency');
-      var duration = $(this).attr('data-duration');
-      $('#amount').val(value);
-      $('#t3').val(recur);
-      $('#p3').val(frequency);
-      $('#srt').val(duration);
-    });
-
-    $('#formSubmit').click(function(){
-      $('#formModal').trigger('reveal:close');
-    });
+    // $('.openForm').click(function(){
+    //   var value = $(this).attr('data-amount');
+    //   var recur = $(this).attr('data-recur');
+    //   var frequency = $(this).attr('data-frequency');
+    //   var duration = $(this).attr('data-duration');
+    //   $('#amount').val(value);
+    //   $('#t3').val(recur);
+    //   $('#p3').val(frequency);
+    //   $('#srt').val(duration);
+    // });
 
     $('#more1').click(function(){
       expand(this, 0);
@@ -212,7 +208,7 @@ Template Name: Support Page
         <br>
 
         <div class='pledgeButtonWrapper'>
-          <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button class='pledgeButton button orange'>Pledge Support</button></a>
+          <a href='https://nss.kindful.com'><button class='pledgeButton button orange'>Pledge Support</button></a>
         </div>
         <div class='linkWrapper'>
           <a href='#'><span class='blue'>-</span> Back to Top <span class='blue'>-</span></a>
@@ -255,26 +251,22 @@ Template Name: Support Page
           <p class='progressSubMessage'>supporters</p>
           <br>
           <!-- Begin Countdown Timer. Remove following section to remove timer. -->
-          <?php echo do_shortcode ("[countdown date=2013/11/30]
-          <h2 class='progressBangHeader'>[dtimer]</h2>
-          <p class='progressSubMessage'>days to go</p>[after]Campaign ended!
-          [/countdown]"); ?>
+          <?php // echo do_shortcode ("[countdown date=2013/11/30]
+          //<h2 class='progressBangHeader'>[dtimer]</h2>
+          //<p class='progressSubMessage'>days to go</p>[after]Campaign ended!
+          //[/countdown]"); ?>
           <br>
           <!-- End Countdown Timer -->
           <div class='pledgeButtonWrapper formButtonWrapper'>
-            <a href='#' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'><button id='10' class='pledgeButton button orange openForm'>Pledge Support</button></a>
+            <a href='https://nss.kindful.com'><button id='10' class='pledgeButton button orange'>Pledge Support</button></a>
             <p id='donationFinePrint'>All donations to this campaign will become immediately available to Nashville Software School.</p>
             <br>
-          </div>
-          <div id='formModal' class='reveal-modal hide' >
-            <h3 class="formTitle top"><span class='bigAndBlue'>Support</span> Nashville Software School</h3>
-            <?php echo do_shortcode ('[donateextra]'); ?>
           </div>
         </section>
         <section>
           <ul id='donationTiers'>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='25' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=411&campaign_ID=1056&item_ID=trainee%20developer&item_title=Trainee%20Developer&price=25&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>25</h3>
                 <h3 class='tierTitle'>Trainee Developer</h3>
                 <hr class='tierRule'>
@@ -283,7 +275,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='50' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=junior%20developer&item_title=Junior%20Developer&price=50&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>50</h3>
                 <h3 class='tierTitle'>Junior Developer</h3>
                 <hr class='tierRule'>
@@ -292,7 +284,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='75' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=web%20designer&item_title=Web%20Designer&price=75&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>75</h3>
                 <h3 class='tierTitle'>Web Designer</h3>
                 <hr class='tierRule'>
@@ -301,7 +293,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='100' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=developer&item_title=Developer&price=100&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount' style='display: inline-block;'><span class='greyText'>$</span>100</h3>
                 <h3 class='tierTitle'>Developer</h3>
                 <hr class='tierRule'>
@@ -310,7 +302,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='10' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=developer%20recurring&item_title=Developer:%20Recurring&price=10&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>10<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Developer<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
@@ -319,7 +311,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='250' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=senior%20developer&item_title=Senior%20Developer&price=250&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>250</h3>
                 <h3 class='tierTitle'>Senior Developer</h3>
                 <hr class='tierRule'>
@@ -329,7 +321,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='25' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=senior%20developer%20recurring&item_title=Senior%20Developer:%20Recurring&price=25&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>25<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Senior Developer<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
@@ -338,7 +330,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='500' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=lead%20developer&item_title=Lead%20Developer&price=500&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>500</h3>
                 <h3 class='tierTitle'> Lead Developer</h3>
                 <hr class='tierRule'>
@@ -349,7 +341,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='45' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=lead%20developer%20recurring&item_title=Lead%20Developer:%20Recurring&price=45&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>45<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Lead Developer<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
@@ -358,7 +350,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='1000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=principle%20engineer&item_title=Principle%20Engineer&price=1,000&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>1,000</h3>
                 <h3 class='tierTitle'>Principal Engineer</h3>
                 <hr class='tierRule'>
@@ -369,7 +361,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='90' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=principle%20engineer%20recurring&item_title=Principle%20Engineer:%20Recurring&price=90&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>90<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Principal Engineer<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
@@ -378,7 +370,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='2500' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=product%20architect&item_title=Product%20Architect&price=2,500&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>2,500</h3>
                 <h3 class='tierTitle'>Product Architect</h3>
                 <hr class='tierRule'>
@@ -389,7 +381,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='225' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=product%20architect%20recuring&item_title=Product%20Architect:%20Recurring&price=225&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>225<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Product Architect<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
@@ -398,7 +390,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='5000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=development%20manager&item_title=Development%20Manager&price=5,000&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>5,000</h3>
                 <h3 class='tierTitle'>Development Manager</h3>
                 <hr class='tierRule'>
@@ -409,7 +401,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='475' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=development%20manager%20recurring&item_title=Development%20Manager:%20Recurring&price=450&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>475<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Development Manager<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
@@ -418,7 +410,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='10000' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=cto&item_title=Chief%20Technology%20Officer&price=10,000&success_URL=http://nashvillesoftwareschool.com&schedule=0&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>10,000</h3>
                 <h3 class='tierTitle'>Chief Technology Officer</h3>
                 <hr class='tierRule'>
@@ -429,7 +421,7 @@ Template Name: Support Page
               </a>
             </li>
             <li class='tier'>
-              <a href='#' class='openForm' data-amount='950' data-recur='M' data-frequency='1' data-duration='12' data-reveal-id='formModal' data-animation='fade' data-animationspeed='300'>
+              <a href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=cto%20recurring&item_title=Chief%20Technology%20Officer:%20Recurring&price=950&success_URL=http://nashvillesoftwareschool.com&schedule=1&email=joeshepmedia@gmail.com'>
                 <h3 class='tierAmount'><span class='greyText'>$</span>950<span class='months greyText'>/mo for</span> 12 <span class='months greyText'>mos</span></h3>
                 <h3 class='tierTitle'>Chief Technology Officer<br><span class='recurring'>Recurring</span></h3>
                 <hr class='tierRule'>
