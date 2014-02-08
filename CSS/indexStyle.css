@@ -187,8 +187,9 @@ blockquote {
 }
 
 .newsBox {
-  width: 44.2%;;
-  float: left;
+  width: 44.2%;
+  display: inline-block;
+  vertical-align: top;
   padding-right: 40px;
   margin-bottom: 15px;
 }
