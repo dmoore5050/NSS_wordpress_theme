@@ -16,11 +16,20 @@ Template Name: Contact Page
 	<div class="contactWrap clearfix">
 		<div id="col1">
 			<div class="contactBorder">
-				<h3 class="smallHeadline">OUR LOCATION</h3>
+				<h3 class="smallHeadline">OUR MAILING ADDRESS</h3>
 				<address>
-					<p>Nashville Business Incubation Center (NBIC)<br/>
-					315 Tenth Avenue North<br/>
-					Nashville, TN</p>
+					<p>Nashville Software School<br/>
+					P.O. Box 178161 <br/>
+					Nashville, TN 37217<br/>
+					</p>
+				</address>
+				<h3 class="smallHeadline">CLASSROOMS LOCATION</h3>
+				<address>
+					<p>
+					283 Plus Park Blvd <br/>
+					Nashville, TN 37217<br/>
+					</p>
+					<em>Please contact us before visiting</em>
 				</address>
 			</div>
 		</div>
