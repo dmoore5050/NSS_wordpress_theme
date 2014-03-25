@@ -129,7 +129,7 @@ Template Name: About Page
           </div>
           <p>We give our students a running start on their career but they have the responsibility to keep going.  One of the challenges of being a software professional is the constantly changing nature of technology.  There's always something new to learn.  There's always a new career frontier that needs to be conquered.  There are many career paths that can be taken from a solid foundation of software professional skills but each path has its own specialized knowledge requirements.</p>
           <p>To help prepare our students for the requirement to constantly continue to learn, we believe we must teach our students how to learn.  They must understand their own personal learning style, learn the types of educational material will be most helpful to them as they must learn new technologies in the future and feel comfortable with constantly pursuing new knowledge.</p>
-          <p>Our Evening Program (coming in 2013) is intended to support the continuing education needs of the entire Nashville software community.  It provides an alternative to our full-time Bootcamp for those who seek to enter into a career in software development.  It also provides a way for practicing software professionals to learn new technologies and expand their skill set.</p>
+          <p>Our Evening Program (coming in mid-2014) is intended to support the continuing education needs of the entire Nashville software community.  It provides an alternative to our full-time Bootcamp for those who seek to enter into a career in software development.  It also provides a way for practicing software professionals to learn new technologies and expand their skill set.</p>
         </div>
       </div>
     </div>

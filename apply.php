@@ -30,7 +30,7 @@ Template Name: Apply Now Page
 </div>
   <div class="attnHeader">
     <div class="contentWrap">
-      <h3 class="subAttnPara ticker"><?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(649);} ?></h3>
+      <h3 class="subAttnPara ticker"><?php if(function_exists('ditty_news_ticker')){ditty_news_ticker(652);} ?></h3>
       <h3 class="subAttnPara">Don't miss this opportunity to start your career as a software developer!</h3>
       <a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
     </div>
@@ -43,13 +43,13 @@ Template Name: Apply Now Page
   <div class='third'>
     <h5 class="smallHeadline">Schedule</h5>
     <p>Meets: Monday-Friday 8:30am-4:00pm</p>
-    <h5 class="smallHeadline cohortTitle">Cohort 5</h5>
+    <h5 class="smallHeadline cohortTitle">Cohort 6</h5>
     <p><span class="smallerHeadline">Web Dev class:</span><br>
-      April 7, 2014 - June 27, 2014</p>
-    <p><span class="smallerHeadline">Software Dev class:</span><br>
       July 7, 2014 - September 26, 2014</p>
+    <p><span class="smallerHeadline">Software Dev class:</span><br>
+      October 6, 2014 - TBD</p>
     <h5 class="smallHeadline">Location:</h5>
-    <p>To Be Determined</p>
+    <p>NSS Classroom space, Nashville</p>
   </div>
   <div class='twoThird' style="padding-bottom: 40px;">
     <h5 class="smallHeadline">Qualifications</h5>
@@ -82,7 +82,7 @@ Template Name: Apply Now Page
       <li>Students whose tuition is being reimbursed by an employer. </li>
     </ul> 
   </p>
-  <p><span>Tuition:</span> Full tuition for our April 2014 Bootcamp is $10,500.  However, if you accept a position through our job placement program, we will refund $3,000 of your tuition. Grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
+  <p><span>Tuition:</span> Full tuition for our July 2014 Bootcamp is $10,500.  However, if you accept a position through our job placement program, we will refund $3,000 of your tuition. Grants and scholarships are also available for students from underrepresented groups like women and minorities.</p>
   <h5 class="smallHeadline">Nashville Tech Apprentice Program</h5>
   <p>A Nashville Software School Tech Apprenticeship allows you to defer most of the cost of your training until you graduate and go to work as a software developer.  You will pay us $1,000 in tuition on acceptance to the program and then nothing else until after graduation.  After graduation, if you accept a position through our placement program from one of our partner companies, the rest your tuition will be reimbursed by your employer.  If you choose to go to work for someone other than one of our partners, we'll work with you to either negotiate payment from your new employer and/or work out a payment plan by which you can reimburse the school.</p>
   <p>A limited number of grants and scholarships are also available for students from underrepresented groups like women and minorities.  We also will make a limited number of cost-of-living stipends available on a needs-driven basis to Apprentices during the second 3 months of the Bootcamp.</p>
@@ -98,4 +98,5 @@ Template Name: Apply Now Page
 <div class="contentWrap centerText">
   <a href="http://tfaforms.com/244179" height="800" width="600" frameborder="0"><button class="button orange applyBtn">Apply Now</button></a>
 </div><br>
+
 <?php get_footer(); ?>
