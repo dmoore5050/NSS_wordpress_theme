@@ -46,7 +46,7 @@
 
       <div id="header_left">
         <div id="header_logo">
-          <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'home' ) ) ); ?>">
+          <a href="<?php bloginfo('url'); ?>">
             <img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="NSS" />
           </a>
         </div>
