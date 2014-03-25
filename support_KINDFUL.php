@@ -49,34 +49,7 @@ Template Name: Support Page
       var itemId = itemTitle.toLowerCase();
 
       window.location.href='https://nss.kindful.com/widget?source_ID=1&order_ID=1&campaign_ID=1056&item_ID=' + itemId + '&item_title=' + itemTitle + '&price=' + price + '&success_URL=http://nashvillesoftwareschool.com&schedule=' + schedule + '&email=joeshepmedia@gmail.com';
-      debugger;
     });
-
-    $('#more1').click(function(){
-      expand(this, 0);
-    })
-
-    $('#more2').click(function(){
-      expand(this, 1);
-    })
-
-    $('#more3').click(function(){
-      expand(this, 2);
-    })
-
-    function expand(moreId, index){
-      $moreId = $(moreId);
-      $divId = $moreId.parent().siblings(".hidden").eq(index);
-      if($moreId.html() == "more"){
-        $divId.slideDown();
-        $divId.prevAll('.arrow-right').eq(0).css({"transform" : "rotate(90deg)"});
-        $moreId.html("less");
-      } else {
-          $divId.slideUp();
-          $divId.prevAll('.arrow-right').css({"transform" : "rotate(0deg)"});
-          $moreId.html("more");
-        }
-    }
 
   })
 </script>
@@ -116,9 +89,9 @@ Template Name: Support Page
             has a painful shortage of these critical resources.  We've all seen the quarterly surveys from 
             the Nashville Technology Council that show a consistent 800 to 1100 open tech jobs in Nashville.  
             We've all shared the frustration of spending months trying to fill software 
-            developer positions.&nbsp;&nbsp;<span id="more1">more<div id="arrow1" class="arrow-right"></div></span>
+            developer positions.
           </p>
-          <div id="supportAbout" class="hidden">
+          <div id="supportAbout">
           <p class='bodyText'>
             In 2012 a group of Nashville technologists got together to try to find a way to address this problem.  We believed that Nashville had plenty of people with the latent talent to become tech professionals.  We knew that it didn't take a four year computer science degree to become a productive professional software developer because many of us didn't have such a degree.  We believed that we could partner with Nashville area technology employers to create a curriculum that would create the skills they needed in an entry-level software developer.
           </p>
@@ -162,9 +135,9 @@ Template Name: Support Page
         created significant barriers to a tech career for many of the great students that 
         have graduated from our program, we recoup our investment in our students at the end 
         of our program when they go to work as professional 
-        developers or in other technology jobs. &nbsp;&nbsp;<span id="more2">more<div id="arrow2" class="arrow-right"></div></span>
+        developers or in other technology jobs. 
       </p>
-      <div id="sustainable" class="hidden">
+      <div id="sustainable">
         <p class='bodyText'>
           <img class='bodyImage right' src='<?php bloginfo('template_url'); ?>/images/BenWhiteBoard.jpg' alt='An instructor instructing at Nashville Software School' width='400px;'/>
           This approach aligns our incentives with those of our students. We are incented to only admit those who we truly believe have the motivation and aptitude to succeed as professional developers. We are incented to ensure that they are learning both the foundational knowledge required of all professional developers but that they are also learning tools and technologies that are widely used. We are also incented to ensure our students become deeply connected with the Nashville tech community where they aspire to work.
@@ -181,9 +154,8 @@ Template Name: Support Page
           During this training of this cohort we must shift from a completely bootstrapped mode of operation to a more sustainable model.  
           That means building our working capital reserves to create sufficient operating cushion to bring on our first full-time, permanent instructor.  That means engaging additional teaching assistants to work with students in the classroom.  
           That means funding a small permanent support staff to support student recruiting and student placement.
-          &nbsp;&nbsp;<span id="more3">more<div id="arrow3" class="arrow-right"></div></span>
         </p>
-        <div id="helpUs" class="hidden">
+        <div id="helpUs">
         <p class='bodyText'>
           <img class='bodyImage' src='<?php bloginfo('template_url'); ?>/images/Eliza_Teaching.jpg' alt='Eliza teaching' width='320px;' height='295px;'/>
           All of that requires help from the community.  Our investment in our prior student cohort will return to us over the next nine months but in the meantime we must be able to continue to train students and grow the program.  Your contributions to this campaign will allow that to happen.
